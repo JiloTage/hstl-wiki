@@ -7,7 +7,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["robert-w-chambers", "hastur", "carcosa", "yellow-sign", "cthulhu-mythos", "hp-lovecraft", "mimetic-hazard"],
-      "linked_from": ["robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror", "devils-dictionary", "pallid-mask", "scp-foundation"],
+      "linked_from": ["robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror", "devils-dictionary", "pallid-mask", "scp-foundation", "metafiction"],
       "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。",
       "expansion_status": "done",
       "origin": "root"
@@ -19,7 +19,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "hastur", "carcosa", "yellow-sign", "cthulhu-mythos", "hp-lovecraft", "weird-fiction", "fin-de-siecle"],
-      "linked_from": ["the-king-in-yellow", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "true-detective", "cosmic-horror", "devils-dictionary", "pallid-mask"],
+      "linked_from": ["the-king-in-yellow", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "true-detective", "cosmic-horror", "devils-dictionary", "pallid-mask", "metafiction"],
       "summary": "ロバート・ウィリアム・チェンバーズ（1865-1933）は、アメリカの画家・小説家。初期の怪奇短編集『黄衣の王』（1895年）でウィアード・フィクション史に不朽の足跡を残したが、その後は大衆ロマンス小説の量産作家として知られた。",
       "expansion_status": "complete",
       "origin": "the-king-in-yellow"
@@ -67,7 +67,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "mimetic-hazard", "cthulhu-mythos", "hp-lovecraft", "pallid-mask", "necronomicon"],
-      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "pallid-mask", "scp-foundation"],
+      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "pallid-mask", "scp-foundation", "metafiction"],
       "summary": "『黄衣の王』の戯曲と不可分に結びついた紋章的記号。その正確な形状は描写されないが、目撃した者を戯曲の影響下に引き込み、精神を不可逆的に変容させるとされる。情報そのものが災厄となる「認知汚染」の原型的モチーフとして、文学・ゲーム・現代ポップカルチャーに広く浸透している。",
       "expansion_status": "complete",
       "origin": "the-king-in-yellow"
@@ -91,7 +91,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "yellow-sign", "robert-w-chambers", "hastur", "carcosa", "hp-lovecraft", "cthulhu-mythos", "necronomicon", "scp-foundation", "infohazard"],
-      "linked_from": ["the-king-in-yellow", "yellow-sign", "necronomicon", "cosmic-horror", "scp-foundation"],
+      "linked_from": ["the-king-in-yellow", "yellow-sign", "necronomicon", "cosmic-horror", "scp-foundation", "metafiction"],
       "summary": "ミーム汚染（memetic hazard / cognitohazard）とは、特定の情報・記号・概念に接触すること自体が認知的・心理的な危害を引き起こすという概念。怪奇文学における「読むだけで狂気に陥る書物」から、現代の情報セキュリティにおける「情報ハザード」まで、フィクションと現実を横断する射程を持つ。",
       "expansion_status": "complete",
       "origin": "yellow-sign"
@@ -127,7 +127,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "hp-lovecraft", "cthulhu-mythos", "yellow-sign", "hastur", "mimetic-hazard", "great-old-ones", "arkham", "forbidden-books"],
-      "linked_from": ["yellow-sign", "cthulhu-mythos", "mimetic-hazard", "hp-lovecraft", "scp-foundation"],
+      "linked_from": ["yellow-sign", "cthulhu-mythos", "mimetic-hazard", "hp-lovecraft", "scp-foundation", "metafiction"],
       "summary": "H・P・ラヴクラフトが創造した架空の魔道書。「狂えるアラブ人」アブドゥル・アルハズレッドが著したとされ、クトゥルフ神話作品群において禁断の知識の象徴として機能する。チェンバーズの『黄衣の王』と構造的に共鳴する「読むこと自体が危険な書物」の頂点。",
       "expansion_status": "complete",
       "origin": "yellow-sign"
@@ -223,12 +223,48 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["mimetic-hazard", "cthulhu-mythos", "hp-lovecraft", "the-king-in-yellow", "yellow-sign", "cosmic-horror", "necronomicon", "collaborative-fiction"],
-      "linked_from": ["mimetic-hazard"],
+      "linked_from": ["mimetic-hazard", "metafiction"],
       "summary": "SCPファウンデーション（SCP Foundation）は、2007年に英語圏のインターネット掲示板から生まれた共同創作型ホラーフィクション・プロジェクト。超常的存在やオブジェクトを収容する架空の秘密組織を舞台に、疑似科学的報告書の形式でコズミック・ホラーの伝統をインターネット時代に再構築した。",
       "expansion_status": "complete",
       "origin": "mimetic-hazard"
+    },
+    "call-of-cthulhu-trpg": {
+      "id": "call-of-cthulhu-trpg",
+      "title": "クトゥルフの呼び声TRPG",
+      "filename": "articles/call-of-cthulhu-trpg.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["cthulhu-mythos", "hp-lovecraft", "hastur", "the-king-in-yellow", "yellow-sign", "august-derleth", "necronomicon", "carcosa", "sanity-mechanics"],
+      "linked_from": ["cthulhu-mythos"],
+      "summary": "『クトゥルフの呼び声』（Call of Cthulhu）は、1981年にケイオシアム社から発売されたテーブルトークRPG。サンディ・ピーターセンがデザインし、正気度（SAN値）システムの導入によりホラーTRPGというジャンルを確立した。日本では独自の受容と発展を遂げ、クトゥルフ神話の最大の伝播媒体となっている。",
+      "expansion_status": "complete",
+      "origin": "cthulhu-mythos"
+    },
+    "metafiction": {
+      "id": "metafiction",
+      "title": "メタフィクション",
+      "filename": "articles/metafiction.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["the-king-in-yellow", "robert-w-chambers", "necronomicon", "yellow-sign", "mimetic-hazard", "scp-foundation", "house-of-leaves"],
+      "linked_from": [],
+      "summary": "メタフィクション（metafiction）とは、フィクションでありながら自らのフィクション性を意識的に露呈・探求する文学的手法および作品群の総称。「読むこと」と「書くこと」の行為そのものを物語の主題に据え、虚構と現実の境界を攪乱する。",
+      "expansion_status": "complete",
+      "origin": "robert-w-chambers"
+    },
+    "new-weird": {
+      "id": "new-weird",
+      "title": "ニュー・ウィアード",
+      "filename": "articles/new-weird.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["weird-fiction", "cosmic-horror", "hp-lovecraft", "cthulhu-mythos", "gothic-fiction", "the-king-in-yellow", "china-mieville", "jeff-vandermeer"],
+      "linked_from": ["weird-fiction", "cosmic-horror"],
+      "summary": "ニュー・ウィアード（New Weird）は、2000年代に顕在化したウィアード・フィクションの現代的再興運動。SF、ファンタジー、ホラーのジャンル境界を意図的に溶解させ、ラヴクラフト的コズミック・ホラーの遺産を政治的・美学的に批判的継承する。チャイナ・ミエヴィル、ジェフ・ヴァンダミア、M・ジョン・ハリソンらを代表的作家とする21世紀文学の重要潮流。",
+      "expansion_status": "complete",
+      "origin": "weird-fiction"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 19
+  "total_count": 22
 }

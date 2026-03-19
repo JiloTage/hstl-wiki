@@ -18,7 +18,10 @@
     {"id": "gothic-fiction", "title": "ゴシック小説", "url": "articles/gothic-fiction.html", "summary": "ゴシック小説（Gothic Fiction）は、18世紀後半の英国に端を発する文学ジャンル。ウォルポール『オトラント城奇譚』（1764年）を嚆矢として、ラドクリフ、ルイス、シェリー、ストーカーらが発展させ、ポーやル・ファニュを経てウィアード・フィクションやコズミック・ホラーへと分岐した。", "is_root": false},
     {"id": "scp-foundation", "title": "SCPファウンデーション", "url": "articles/scp-foundation.html", "summary": "SCPファウンデーション（SCP Foundation）は、2007年に英語圏のインターネット掲示板から生まれた共同創作型ホラーフィクション・プロジェクト。超常的存在やオブジェクトを収容する架空の秘密組織を舞台に、疑似科学的報告書の形式でコズミック・ホラーの伝統をインターネット時代に再構築した。", "is_root": false},
     {"id": "august-derleth", "title": "オーガスト・ダーレス", "url": "articles/august-derleth.html", "summary": "オーガスト・ウィリアム・ダーレス（1909-1971）は、アメリカの作家・編集者・出版人。ラヴクラフトの弟子としてアーカム・ハウス出版社を設立し、クトゥルフ神話の保存と体系化の両面で決定的な役割を果たした。", "is_root": false},
-    {"id": "pallid-mask", "title": "蒼白の仮面", "url": "articles/pallid-mask.html", "summary": "「蒼白の仮面」（The Pallid Mask）は、チェンバーズの戯曲『黄衣の王』に登場する象徴的モチーフ。仮面舞踏会における「仮面などつけてはおらぬ」の台詞が体現する存在論的恐怖は、外見と本質の不可分性をめぐるコズミック・ホラーの核心を衝くものである。", "is_root": false}
+    {"id": "pallid-mask", "title": "蒼白の仮面", "url": "articles/pallid-mask.html", "summary": "「蒼白の仮面」（The Pallid Mask）は、チェンバーズの戯曲『黄衣の王』に登場する象徴的モチーフ。仮面舞踏会における「仮面などつけてはおらぬ」の台詞が体現する存在論的恐怖は、外見と本質の不可分性をめぐるコズミック・ホラーの核心を衝くものである。", "is_root": false},
+    {"id": "call-of-cthulhu-trpg", "title": "クトゥルフの呼び声TRPG", "url": "articles/call-of-cthulhu-trpg.html", "summary": "1981年にケイオシアム社から発売されたテーブルトークRPG。サンディ・ピーターセンがデザインし、正気度（SAN値）システムの導入によりホラーTRPGというジャンルを確立した。日本では独自の受容と発展を遂げ、クトゥルフ神話の最大の伝播媒体となっている。", "is_root": false},
+    {"id": "metafiction", "title": "メタフィクション", "url": "articles/metafiction.html", "summary": "フィクションでありながら自らのフィクション性を意識的に露呈・探求する文学的手法および作品群の総称。チェンバーズの『黄衣の王』における「読むと狂気に陥る戯曲」は、メタフィクションとホラーが交差する原型的事例である。", "is_root": false},
+    {"id": "new-weird", "title": "ニュー・ウィアード", "url": "articles/new-weird.html", "summary": "ニュー・ウィアード（New Weird）は、2000年代に顕在化したウィアード・フィクションの現代的再興運動。SF、ファンタジー、ホラーのジャンル境界を意図的に溶解させ、ラヴクラフト的コズミック・ホラーの遺産を政治的・美学的に批判的継承する21世紀文学の重要潮流。", "is_root": false}
   ],
   "links": [
     {"source": "the-king-in-yellow", "target": "robert-w-chambers"},
@@ -165,6 +168,29 @@
     {"source": "scp-foundation", "target": "yellow-sign"},
     {"source": "scp-foundation", "target": "cosmic-horror"},
     {"source": "scp-foundation", "target": "necronomicon"},
-    {"source": "mimetic-hazard", "target": "scp-foundation"}
+    {"source": "mimetic-hazard", "target": "scp-foundation"},
+    {"source": "call-of-cthulhu-trpg", "target": "cthulhu-mythos"},
+    {"source": "call-of-cthulhu-trpg", "target": "hp-lovecraft"},
+    {"source": "call-of-cthulhu-trpg", "target": "hastur"},
+    {"source": "call-of-cthulhu-trpg", "target": "the-king-in-yellow"},
+    {"source": "call-of-cthulhu-trpg", "target": "yellow-sign"},
+    {"source": "call-of-cthulhu-trpg", "target": "august-derleth"},
+    {"source": "call-of-cthulhu-trpg", "target": "necronomicon"},
+    {"source": "call-of-cthulhu-trpg", "target": "carcosa"},
+    {"source": "cthulhu-mythos", "target": "call-of-cthulhu-trpg"},
+    {"source": "metafiction", "target": "the-king-in-yellow"},
+    {"source": "metafiction", "target": "robert-w-chambers"},
+    {"source": "metafiction", "target": "necronomicon"},
+    {"source": "metafiction", "target": "yellow-sign"},
+    {"source": "metafiction", "target": "mimetic-hazard"},
+    {"source": "metafiction", "target": "scp-foundation"},
+    {"source": "new-weird", "target": "weird-fiction"},
+    {"source": "new-weird", "target": "cosmic-horror"},
+    {"source": "new-weird", "target": "hp-lovecraft"},
+    {"source": "new-weird", "target": "cthulhu-mythos"},
+    {"source": "new-weird", "target": "gothic-fiction"},
+    {"source": "new-weird", "target": "the-king-in-yellow"},
+    {"source": "weird-fiction", "target": "new-weird"},
+    {"source": "cosmic-horror", "target": "new-weird"}
   ]
 }
