@@ -1182,8 +1182,44 @@
       "summary": "既存の物語作品の世界観を借用しファンが独自に創作する二次的フィクションの総称。共同創作の一形態であり「作者の死」を実践的に体現する文化現象。",
       "expansion_status": "pending",
       "origin": "collaborative-fiction"
+    },
+    "symbolism": {
+      "id": "symbolism",
+      "title": "象徴主義",
+      "filename": "articles/symbolism.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["fin-de-siecle","the-king-in-yellow","robert-w-chambers","weird-fiction","gothic-fiction","cosmic-horror","hp-lovecraft","oscar-wilde","pallid-mask","metafiction","existential-horror","carcosa","cosmicism","cthulhu-mythos"],
+      "linked_from": ["fin-de-siecle"],
+      "summary": "象徴主義（Symbolisme）とは、1880年代のフランスに端を発する芸術・文学運動。暗示・象徴・音楽性によって超越的実在を喚起し、世紀末芸術の中核的潮流として『黄衣の王』からコズミック・ホラーまで怪奇文学の深層に影響を刻んだ。",
+      "expansion_status": "pending",
+      "origin": "fin-de-siecle"
+    },
+    "oscar-wilde": {
+      "id": "oscar-wilde",
+      "title": "オスカー・ワイルド",
+      "filename": "articles/oscar-wilde.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["fin-de-siecle","the-king-in-yellow","robert-w-chambers","gothic-fiction","pallid-mask","carcosa","cosmic-horror","metafiction","death-of-the-author","forbidden-books","house-of-leaves","necronomicon","scp-foundation","mimetic-hazard","infohazard"],
+      "linked_from": ["fin-de-siecle"],
+      "summary": "オスカー・ワイルド（1854-1900）は世紀末の唯美主義を体現した劇作家。『ドリアン・グレイの肖像』の「黄色い書物」はチェンバーズ『黄衣の王』の直接的先行形態。仮面と逆説の思想家。",
+      "expansion_status": "pending",
+      "origin": "fin-de-siecle"
+    },
+    "frankenstein": {
+      "id": "frankenstein",
+      "title": "フランケンシュタイン",
+      "filename": "articles/frankenstein.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["gothic-fiction","cosmic-horror","hp-lovecraft","weird-fiction","existential-horror","the-king-in-yellow","metafiction","forbidden-books","cosmicism","death-of-the-author","house-of-leaves","mimetic-hazard"],
+      "linked_from": ["gothic-fiction"],
+      "summary": "メアリー・シェリーのゴシック小説にしてSF文学の嚆矢（1818年）。禁断の知識の代償と被造物の実存的苦悩を描き、コズミック・ホラーやウィアード・フィクションの先駆的要素を内包する。",
+      "expansion_status": "pending",
+      "origin": "gothic-fiction"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 43
+  "total_count": 46
 }
