@@ -33,7 +33,9 @@
         "scp-foundation",
         "metafiction",
         "great-old-ones",
-        "forbidden-books"
+        "forbidden-books",
+        "fictional-cities",
+        "southern-gothic"
       ],
       "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。",
       "expansion_status": "done",
@@ -71,7 +73,8 @@
         "pallid-mask",
         "metafiction",
         "great-old-ones",
-        "forbidden-books"
+        "forbidden-books",
+        "fictional-cities"
       ],
       "summary": "ロバート・ウィリアム・チェンバーズ（1865-1933）は、アメリカの画家・小説家。初期の怪奇短編集『黄衣の王』（1895年）でウィアード・フィクション史に不朽の足跡を残したが、その後は大衆ロマンス小説の量産作家として知られた。",
       "expansion_status": "complete",
@@ -141,7 +144,8 @@
         "mimetic-hazard",
         "true-detective",
         "cosmic-horror",
-        "pallid-mask"
+        "pallid-mask",
+        "southern-gothic"
       ],
       "summary": "アメリカ怪奇文学に繰り返し登場する架空の都市。アンブローズ・ビアスが創造し、ロバート・W・チェンバーズが『黄衣の王』で神秘的な異界として発展させ、クトゥルフ神話やHBOドラマ『トゥルー・ディテクティブ』にまで影響を及ぼした。",
       "expansion_status": "complete",
@@ -170,7 +174,9 @@
         "cthulhu-mythos",
         "cosmic-horror",
         "devils-dictionary",
-        "great-old-ones"
+        "great-old-ones",
+        "fictional-cities",
+        "southern-gothic"
       ],
       "summary": "アンブローズ・グウィネット・ビアス（1842-1914?）は、アメリカの作家・ジャーナリスト。南北戦争の従軍体験に基づく戦争文学、『悪魔の辞典』、怪奇短編群で知られる。『カルコサの住人』と『羊飼いハイタ』で創造した「カルコサ」と「ハスター」の名は、チェンバーズを経てクトゥルフ神話の基盤となった。1913年メキシコで消息を絶った。",
       "expansion_status": "complete",
@@ -304,7 +310,9 @@
         "cosmic-horror",
         "scp-foundation",
         "forbidden-books",
-        "great-old-ones"
+        "great-old-ones",
+        "fictional-cities",
+        "southern-gothic"
       ],
       "summary": "ハワード・フィリップス・ラヴクラフト（1890-1937）は、アメリカの怪奇小説家。コズミック・ホラーの概念を確立し、クトゥルフ神話体系を創造した。20世紀怪奇文学最大の巨人。",
       "expansion_status": "complete",
@@ -394,10 +402,12 @@
         "carcosa",
         "hp-lovecraft",
         "cthulhu-mythos",
-        "cosmic-horror"
+        "cosmic-horror",
+        "southern-gothic"
       ],
       "linked_from": [
-        "carcosa"
+        "carcosa",
+        "southern-gothic"
       ],
       "summary": "HBOが2014年から放送するアンソロジー形式の犯罪ドラマシリーズ。第1シーズンはロバート・W・チェンバーズ『黄衣の王』の世界観をルイジアナ州の連続殺人事件に移植し、文学的ホラーとテレビドラマの融合として高い評価を受けた。チェンバーズ再評価の契機ともなった画期的作品。",
       "expansion_status": "complete",
@@ -430,7 +440,8 @@
         "gothic-fiction",
         "pallid-mask",
         "scp-foundation",
-        "great-old-ones"
+        "great-old-ones",
+        "southern-gothic"
       ],
       "summary": "コズミック・ホラー（Cosmic Horror）は、広大な宇宙における人間の存在論的矮小さと無意味さに起因する恐怖を核とする文学・芸術の様式。ラヴクラフトが理論化した宇宙的無関心主義を思想的基盤とし、ウィアード・フィクションの中核的サブジャンルとして文学・映画・ゲームに広く浸透している。",
       "expansion_status": "complete",
@@ -499,7 +510,9 @@
       ],
       "linked_from": [
         "weird-fiction",
-        "cosmic-horror"
+        "cosmic-horror",
+        "southern-gothic",
+        "fictional-cities"
       ],
       "summary": "ゴシック小説（Gothic Fiction）は、18世紀後半の英国に端を発する文学ジャンル。ウォルポール『オトラント城奇譚』（1764年）を嚆矢として、ラドクリフ、ルイス、シェリー、ストーカーらが発展させ、ポーやル・ファニュを経てウィアード・フィクションやコズミック・ホラーへと分岐した。",
       "expansion_status": "complete",
@@ -731,8 +744,75 @@
       "summary": "禁断の書物（Forbidden Books）とは、読むこと自体が危険であるとされる書物の総称。現実世界の禁書目録からウィアード・フィクションの架空書物まで、「読んではならない」という禁忌の文学的系譜を辿り、ミーム汚染・メタフィクションとの接点を論じる。",
       "expansion_status": "complete",
       "origin": "necronomicon"
+    },
+    "fictional-cities": {
+      "id": "fictional-cities",
+      "title": "架空都市の系譜",
+      "filename": "articles/fictional-cities.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "carcosa",
+        "arkham",
+        "hp-lovecraft",
+        "the-king-in-yellow",
+        "robert-w-chambers",
+        "ambrose-bierce",
+        "gothic-fiction"
+      ],
+      "linked_from": [
+        "carcosa",
+        "arkham"
+      ],
+      "summary": "文学における架空都市の概念を古代のユートピアから現代のホラー・SFまで通史的に俯瞰する。カルコサ、アーカム、ゴッサムなど、各ジャンルの代表的架空都市がいかなる文学的機能を担い、「異界」と「日常の裂け目」という二つの原型を形成してきたかを論じる。",
+      "expansion_status": "complete",
+      "origin": "carcosa"
+    },
+    "existential-horror": {
+      "id": "existential-horror",
+      "title": "実存的恐怖",
+      "filename": "articles/existential-horror.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "cosmic-horror",
+        "hp-lovecraft",
+        "weird-fiction",
+        "the-king-in-yellow",
+        "gothic-fiction",
+        "metafiction"
+      ],
+      "linked_from": [
+        "cosmic-horror"
+      ],
+      "summary": "実存的恐怖（Existential Horror）とは、存在そのものへの根源的な不安——自己の存在の偶然性、意味の不在、死の不可避性、自由の重荷——を恐怖の核とする文学・芸術の様式。実存主義哲学の問題系をホラーの文脈に移植し、カフカ、カミュ、ベケットの系譜を持つ。コズミック・ホラーとは宇宙的虚無と実存的虚無の交差点において深く共鳴する。",
+      "expansion_status": "complete",
+      "origin": "cosmic-horror"
+    },
+    "southern-gothic": {
+      "id": "southern-gothic",
+      "title": "サザン・ゴシック",
+      "filename": "articles/southern-gothic.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "gothic-fiction",
+        "true-detective",
+        "cosmic-horror",
+        "hp-lovecraft",
+        "the-king-in-yellow",
+        "carcosa",
+        "ambrose-bierce"
+      ],
+      "linked_from": [
+        "gothic-fiction",
+        "true-detective"
+      ],
+      "summary": "サザン・ゴシック（Southern Gothic）は、アメリカ南部の歴史的・社会的特殊性——奴隷制度、南北戦争の敗北、人種差別——を恐怖の源泉とする文学的サブジャンル。フォークナー、オコナー、マッカラーズらが確立し、『トゥルー・ディテクティブ』ではコズミック・ホラーと融合して新たな表現を獲得した。",
+      "expansion_status": "complete",
+      "origin": "gothic-fiction"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 25
+  "total_count": 28
 }

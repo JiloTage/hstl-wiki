@@ -174,6 +174,27 @@
       "url": "articles/great-old-ones.html",
       "summary": "旧支配者（Great Old Ones）は、クトゥルフ神話において太古の地球に君臨し、現在は眠りや封印の状態にあるとされる超自然的存在群の総称。ラヴクラフトの原典における個別の存在描写から、ダーレスによる元素体系への体系化、TRPGにおけるゲームデザインへの応用まで、多層的な変容を重ねてきた。",
       "is_root": false
+    },
+    {
+      "id": "fictional-cities",
+      "title": "架空都市の系譜",
+      "url": "articles/fictional-cities.html",
+      "summary": "文学における架空都市の概念を古代のユートピアから現代のホラー・SFまで通史的に俯瞰する。カルコサ、アーカム、ゴッサムなど、各ジャンルの代表的架空都市の文学的機能を論じる。",
+      "is_root": false
+    },
+    {
+      "id": "existential-horror",
+      "title": "実存的恐怖",
+      "url": "articles/existential-horror.html",
+      "summary": "存在そのものへの根源的な不安を恐怖の核とする文学・芸術の様式。実存主義哲学とホラーの交差点。",
+      "is_root": false
+    },
+    {
+      "id": "southern-gothic",
+      "title": "サザン・ゴシック",
+      "url": "articles/southern-gothic.html",
+      "summary": "サザン・ゴシック（Southern Gothic）は、アメリカ南部の歴史的・社会的特殊性を恐怖の源泉とする文学的サブジャンル。フォークナー、オコナー、マッカラーズらが確立し、トゥルー・ディテクティブではコズミック・ホラーと融合した。",
+      "is_root": false
     }
   ],
   "links": [
@@ -933,18 +954,157 @@
       "source": "necronomicon",
       "target": "forbidden-books"
     },
-    {"source": "great-old-ones", "target": "cthulhu-mythos"},
-    {"source": "great-old-ones", "target": "hp-lovecraft"},
-    {"source": "great-old-ones", "target": "hastur"},
-    {"source": "great-old-ones", "target": "august-derleth"},
-    {"source": "great-old-ones", "target": "necronomicon"},
-    {"source": "great-old-ones", "target": "the-king-in-yellow"},
-    {"source": "great-old-ones", "target": "call-of-cthulhu-trpg"},
-    {"source": "great-old-ones", "target": "cosmic-horror"},
-    {"source": "great-old-ones", "target": "ambrose-bierce"},
-    {"source": "great-old-ones", "target": "robert-w-chambers"},
-    {"source": "cthulhu-mythos", "target": "great-old-ones"},
-    {"source": "necronomicon", "target": "great-old-ones"},
-    {"source": "august-derleth", "target": "great-old-ones"}
+    {
+      "source": "great-old-ones",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "hastur"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "august-derleth"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "necronomicon"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "call-of-cthulhu-trpg"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "great-old-ones"
+    },
+    {
+      "source": "necronomicon",
+      "target": "great-old-ones"
+    },
+    {
+      "source": "august-derleth",
+      "target": "great-old-ones"
+    },
+    {
+      "source": "fictional-cities",
+      "target": "carcosa"
+    },
+    {
+      "source": "fictional-cities",
+      "target": "arkham"
+    },
+    {
+      "source": "fictional-cities",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "fictional-cities",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "fictional-cities",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "fictional-cities",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "fictional-cities",
+      "target": "gothic-fiction"
+    },
+    {
+      "source": "carcosa",
+      "target": "fictional-cities"
+    },
+    {
+      "source": "arkham",
+      "target": "fictional-cities"
+    },
+    {
+      "source": "existential-horror",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "existential-horror",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "existential-horror",
+      "target": "weird-fiction"
+    },
+    {
+      "source": "existential-horror",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "existential-horror",
+      "target": "gothic-fiction"
+    },
+    {
+      "source": "existential-horror",
+      "target": "metafiction"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "existential-horror"
+    },
+    {
+      "source": "southern-gothic",
+      "target": "gothic-fiction"
+    },
+    {
+      "source": "southern-gothic",
+      "target": "true-detective"
+    },
+    {
+      "source": "southern-gothic",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "southern-gothic",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "southern-gothic",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "southern-gothic",
+      "target": "carcosa"
+    },
+    {
+      "source": "southern-gothic",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "gothic-fiction",
+      "target": "southern-gothic"
+    },
+    {
+      "source": "true-detective",
+      "target": "southern-gothic"
+    }
   ]
 }
