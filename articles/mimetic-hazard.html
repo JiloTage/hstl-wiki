@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ミーム汚染 - Auto-Wiki</title>
+  <link rel="stylesheet" href="../assets/css/wiki.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad: true, theme: 'neutral'});</script>
+</head>
+<body>
+<div class="wiki-wrapper">
+  <header class="wiki-header">
+    <a href="../index.html" class="site-title">Auto-Wiki</a>
+    <nav>
+      <a href="../index.html">トップ</a>
+      <a href="../index.html#article-list">記事一覧</a>
+      <a href="../index.html#graph">サイトグラフ</a>
+    </nav>
+  </header>
+
+  <div class="breadcrumb">
+    <a href="../index.html">Auto-Wiki</a> &gt; ミーム汚染
+  </div>
+
+  <div class="wiki-content">
+    <main class="wiki-main">
+      <h1 class="article-title">ミーム汚染</h1>
+      <div class="article-meta">最終更新: 2026-03-19</div>
+      <div class="article-summary">ミーム汚染（ミームおせん、英: memetic hazard / cognitohazard）とは、特定の情報・記号・概念に接触すること自体が認知的・心理的な危害を引き起こすという概念である。怪奇文学における「読むだけで狂気に陥る書物」から、現代の情報セキュリティにおける「情報ハザード」まで、フィクションと現実を横断する射程を持つ。</div>
+
+      <h2 id="definition">概念定義——認知ハザードとは何か</h2>
+      <p><b>ミーム汚染</b>（memetic hazard）とは、ある情報が伝達・認識されること自体が、受容者に不可逆的な心理的・認知的変容をもたらすという概念を指す。通常の有害情報（たとえば爆弾の製造法）が「情報の内容」によって間接的に害を及ぼすのに対し、ミーム汚染は「情報を知覚する行為そのもの」が直接的に精神へ作用する点で本質的に異なる。</p>
+      <p>この概念は、大きく二つの系譜に分類できる。第一に、怪奇文学やホラーフィクションにおける「禁断の知識」の伝統——読むこと、見ること、知ることが破滅をもたらすという物語的装置。第二に、哲学・情報倫理学における「情報ハザード」（infohazard）——真実の情報であっても、その流通が社会的・個人的な害を引き起こしうるという理論的概念。この二つの系譜は21世紀に入り、SCPファウンデーションやロコのバシリスクといった文化現象を通じて交差するに至った。</p>
+
+      <h2 id="literary-precursors">文学における先駆的事例——禁断の書物と記号</h2>
+      <p>「知ること自体が呪い」という概念の文学的源流は、19世紀末の怪奇文学に遡る。</p>
+      <h3 id="king-in-yellow">『黄衣の王』と黄の印</h3>
+      <p><a href="robert-w-chambers.html">ロバート・W・チェンバーズ</a>の連作短編集に登場する架空の戯曲『<a href="the-king-in-yellow.html">黄衣の王</a>』（1895年）は、ミーム汚染の文学的原型として最も重要な作品である。この戯曲は全2幕から成り、第1幕は一見無害だが、第2幕を読んだ者は例外なく絶望と狂気に蝕まれる。テクストの内容が有害なのではなく、テクストを「読む行為」そのものが精神を不可逆的に変容させるという構造は、ミーム汚染の概念を120年以上先取りしている。</p>
+      <p>さらに<a href="yellow-sign.html">黄の印</a>は、テクストではなく視覚記号として同じ機能を果たす。言語的な解読を経ずに、形状の知覚だけで精神に作用するという点で、黄の印はテクスト型ミーム汚染（戯曲）と視覚型ミーム汚染（記号）の二重構造を体現している。</p>
+      <h3 id="necronomicon">ネクロノミコンとラヴクラフトの系譜</h3>
+      <p><a href="hp-lovecraft.html">H・P・ラヴクラフト</a>が創造した架空の魔導書『<a href="necronomicon.html">ネクロノミコン</a>』（1924年初出）は、チェンバーズの戯曲とは異なるベクトルでミーム汚染を体現する。ネクロノミコンの場合、書物に記された知識——宇宙の真の姿、旧支配者の存在、人類の宇宙的無意味さ——を「理解すること」が狂気を引き起こす。これは認知的な意味理解を介した汚染であり、チェンバーズの「知覚だけで作用する」モデルとは感染メカニズムが異なる。</p>
+      <p>ラヴクラフトの<a href="cthulhu-mythos.html">クトゥルフ神話</a>体系全体が、「人間が知るべきでない真実」というミーム汚染の巨大な寓話として読み解くことができる。宇宙の真実を垣間見た者が正気を失うという繰り返しの構造は、知識そのものが毒であるという根源的な恐怖を表現している。</p>
+
+      <div class="mermaid-container"><pre class="mermaid">
+flowchart LR
+    subgraph "テクスト型汚染"
+        A["『黄衣の王』第2幕<br>読む → 狂気"]
+        B["ネクロノミコン<br>理解する → 狂気"]
+    end
+    subgraph "視覚型汚染"
+        C["黄の印<br>見る → 精神変容"]
+        D["SCPオブジェクト<br>知覚する → 認知災害"]
+    end
+    subgraph "概念型汚染"
+        E["ロコのバシリスク<br>知る → 行動強制"]
+        F["情報ハザード<br>流通 → 社会的害"]
+    end
+
+    A --> |"1895"| B
+    B --> |"1924"| D
+    C --> |"先取り"| D
+    D --> |"2007"| E
+    A --> |"原型"| C
+
+    style A fill:#f5e6cc,stroke:#b8860b
+    style C fill:#f5e6cc,stroke:#b8860b
+    style D fill:#e6f0fa,stroke:#4682b4
+    style E fill:#f0e6fa,stroke:#8b4682
+      </pre></div>
+
+      <h2 id="meme-theory">リチャード・ドーキンスのミーム理論との接続</h2>
+      <p>1976年、進化生物学者リチャード・ドーキンスは著書『利己的な遺伝子』において「ミーム」（meme）の概念を提唱した。ミームとは、遺伝子が生物学的情報の自己複製子であるのと同様に、文化的情報の自己複製子として機能する単位である。旋律、キャッチフレーズ、ファッション、宗教的教義などが、人間の脳から脳へと「感染」し、変異し、選択圧を受けながら進化するという理論である。</p>
+      <p>ドーキンスのミーム理論は、チェンバーズや<a href="hp-lovecraft.html">ラヴクラフト</a>が直感的に描いた「情報の自律的伝播」を科学的な枠組みで捉え直すものである。特に以下の対応関係が注目に値する。</p>
+      <ul>
+        <li><b>自己複製</b>: 『<a href="the-king-in-yellow.html">黄衣の王</a>』の戯曲は読んだ者に他者への伝播衝動を植え付ける。ミーム理論では、成功するミームは宿主に伝達行動を促すものとして定義される。</li>
+        <li><b>宿主適応度の低下</b>: 悪性ミームは宿主（人間）の利益に反して増殖する。『黄衣の王』は読者を破滅させながら新たな読者を獲得する——寄生虫的ミームの完全な具現化である。</li>
+        <li><b>免疫の不在</b>: <a href="yellow-sign.html">黄の印</a>の作中には、記号への耐性を持つ人物が一人も登場しない。ダニエル・デネットが「意識のウイルス」と呼んだ、防御不能なミームの極限形態である。</li>
+        <li><b>媒体非依存性</b>: ミームは特定の物理媒体に依存せず伝播する。黄の印もまた、紙、金属、夢を問わず同等の効力を発揮する。</li>
+      </ul>
+      <p>スーザン・ブラックモアは1999年の著書『ミーム・マシーン』で、人間の意識そのものがミームの「乗り物」にすぎないという急進的な主張を展開した。この視点に立てば、ミーム汚染とは、ミームが宿主の認知システムを積極的に書き換える——つまり乗り物の操縦系統を乗っ取る——現象として理解できる。</p>
+
+      <h2 id="scp-foundation">SCPファウンデーションにおける「認知災害」</h2>
+      <p><a href="scp-foundation.html">SCPファウンデーション</a>は2007年に発足したウェブ上の共同創作プロジェクトであり、超常的オブジェクトの収容と研究を行う架空の組織を描いている。このプロジェクトにおいて、ミーム汚染の概念は精緻な分類体系へと発展した。</p>
+      <h3>SCPにおけるハザード分類</h3>
+      <ul>
+        <li><b>認知災害（Cognitohazard）</b>: 五感のいずれかで知覚することにより影響を及ぼすもの。視覚型（見る）、聴覚型（聞く）、触覚型（触れる）などに細分される。<a href="yellow-sign.html">黄の印</a>は視覚型認知災害の原型的事例である。</li>
+        <li><b>ミーム災害（Memetic hazard）</b>: 情報の意味を理解・処理することで影響を及ぼすもの。認知災害が「知覚」で作用するのに対し、ミーム災害は「理解」を必要とする。<a href="necronomicon.html">ネクロノミコン</a>型の汚染がこれに該当する。</li>
+        <li><b>情報災害（Infohazard）</b>: 情報が流通すること自体が害をもたらすもの。オブジェクトの名称を口にするだけで活性化するSCPなどが該当する。</li>
+      </ul>
+      <p>SCPファウンデーションの創作者たちは、チェンバーズやラヴクラフトの直感的な「禁断の知識」テーマを、現代的な分類学と疑似科学的な体裁で再構築した。特にSCP-012（「悪い作曲」——聞いた者が自分の血で楽譜を補完しようとする）やSCP-096（顔を見た者を殺害する）などのオブジェクトは、ミーム汚染の多様なバリエーションを探求している。</p>
+
+      <div class="mermaid-container"><pre class="mermaid">
+graph TD
+    subgraph "SCPハザード分類体系"
+        H["情報ハザード<br>（上位概念）"]
+        H --> C["認知災害<br>Cognitohazard"]
+        H --> M["ミーム災害<br>Memetic Hazard"]
+        H --> I["情報災害<br>Infohazard"]
+
+        C --> C1["視覚型<br>見ることで発動"]
+        C --> C2["聴覚型<br>聞くことで発動"]
+        C --> C3["触覚型<br>触れることで発動"]
+
+        M --> M1["概念理解型<br>意味の理解で発動"]
+        M --> M2["パターン認識型<br>構造の認識で発動"]
+
+        I --> I1["名称型<br>言及で発動"]
+        I --> I2["流通型<br>拡散で発動"]
+    end
+
+    style H fill:#ffe4e1,stroke:#cd5c5c,stroke-width:2px
+    style C fill:#f5e6cc,stroke:#b8860b
+    style M fill:#e6f0fa,stroke:#4682b4
+    style I fill:#f0e6fa,stroke:#8b4682
+      </pre></div>
+
+      <h2 id="infohazard">現代情報社会における情報ハザード——ロコのバシリスクと実在する脅威</h2>
+      <p>ミーム汚染はフィクションの中だけの概念ではない。哲学者ニック・ボストロムは2011年の論文「情報ハザード：知識の危険性の類型論」において、<a href="infohazard.html">情報ハザード</a>を体系的に分類した。ボストロムの定義では、情報ハザードとは「真実の情報であっても、その流通が何らかの主体に害を与えうるもの」を指す。</p>
+      <h3 id="rokos-basilisk">ロコのバシリスク</h3>
+      <p>2010年、合理主義コミュニティ「LessWrong」にユーザー「Roko」が投稿した思考実験「ロコのバシリスク」は、現代における最も有名なミーム汚染の事例のひとつとなった。その骨子は以下の通りである。将来、超知性AIが誕生した場合、そのAIは自身の誕生を助けなかった人間を罰するかもしれない。そしてこの思考実験を「知ってしまった」人間は、超知性AIの誕生を助けなければ罰される可能性を認識してしまう——つまり、この考えを知ること自体が、知る前にはなかった義務と恐怖を生み出す。</p>
+      <p>LessWrongの創設者エリエザー・ユドコウスキーはこの投稿を検閲し、議論を禁止するという異例の措置をとった。この行為自体が、ミーム汚染への防衛として機能する一方、ストライサンド効果により概念をさらに拡散させるという皮肉な結果を招いた。ロコのバシリスクは、フィクションの外で「知ること自体が害をなす」という構造が実現した稀有な事例である。</p>
+      <h3 id="real-infohazard">実在する情報ハザード</h3>
+      <p>フィクションを離れても、情報ハザードの事例は存在する。核兵器の設計情報、生物兵器の合成手順、ゼロデイ脆弱性の詳細——これらはいずれも「知識そのものが危険」であるという意味で、ミーム汚染の非フィクション的な類縁体である。ボストロムの分類では、これらは「技術的情報ハザード」に該当するが、その構造は『黄衣の王』の「読んではならない書物」と同型である。</p>
+
+      <h2 id="pattern-fear">フィクションと現実の交差——パターン認識と恐怖</h2>
+      <p>ミーム汚染の概念がフィクションと現実の両方で力を持つ理由は、人間の認知システムそのものの特性に根ざしている。人間の脳はパターン認識の機械であり、一度あるパターンを「意味あるもの」として認識すると、その認識を解除することが極めて困難である。これは心理学でいう「プライミング効果」や「侵入思考」（intrusive thought）と密接に関連する。</p>
+      <p><a href="the-king-in-yellow.html">『黄衣の王』</a>の戯曲が読者の精神を変容させるという設定は、現実の心理学的現象の誇張された反映である。トラウマ的な映像を見た後にフラッシュバックが生じる、特定の旋律が頭から離れなくなる（イヤーワーム）、陰謀論を知った後に世界の見え方が変わる——これらはいずれも、情報が認知システムに不可逆的な変化を及ぼす実例である。</p>
+      <p>チェンバーズが1895年に直感的に描いた「見てはならない記号」は、ドーキンスのミーム理論、ボストロムの情報ハザード論、SCPファウンデーションの分類体系、そしてロコのバシリスクの騒動を経て、もはや単なるフィクションの道具立てではなくなっている。情報環境が高度に発達した現代社会において、「情報そのものが武器になりうる」という認識は、サイバーセキュリティ、AI倫理、メディアリテラシーの文脈で実践的な重要性を持つ。ミーム汚染は、フィクションが現実を予見した——あるいは現実がフィクションに追いついた——最も鮮やかな事例のひとつである。</p>
+
+      <div class="mermaid-container"><pre class="mermaid">
+timeline
+    title ミーム汚染概念の系譜
+    1895 : チェンバーズ『黄衣の王』
+         : 「読むと狂気に陥る戯曲」
+    1924 : ラヴクラフト『ネクロノミコン』初出
+         : 「知ることが破滅をもたらす」
+    1976 : ドーキンス『利己的な遺伝子』
+         : ミーム理論の提唱
+    1999 : ブラックモア『ミーム・マシーン』
+         : 意識＝ミームの乗り物
+    2007 : SCPファウンデーション発足
+         : 認知災害の分類体系
+    2010 : ロコのバシリスク投稿
+         : 現実のミーム汚染事例
+    2011 : ボストロム「情報ハザード」論文
+         : 学術的な類型論
+      </pre></div>
+    </main>
+
+    <aside class="wiki-sidebar">
+      <div class="toc">
+        <div class="toc-title">目次</div>
+        <ul class="toc-list">
+          <li><a href="#definition">概念定義——認知ハザードとは何か</a></li>
+          <li><a href="#literary-precursors">文学における先駆的事例</a></li>
+          <li class="toc-h3"><a href="#king-in-yellow">『黄衣の王』と黄の印</a></li>
+          <li class="toc-h3"><a href="#necronomicon">ネクロノミコンとラヴクラフト</a></li>
+          <li><a href="#meme-theory">ミーム理論との接続</a></li>
+          <li><a href="#scp-foundation">SCPファウンデーションの「認知災害」</a></li>
+          <li><a href="#infohazard">現代の情報ハザード</a></li>
+          <li class="toc-h3"><a href="#rokos-basilisk">ロコのバシリスク</a></li>
+          <li class="toc-h3"><a href="#real-infohazard">実在する情報ハザード</a></li>
+          <li><a href="#pattern-fear">フィクションと現実の交差</a></li>
+        </ul>
+      </div>
+
+      <div class="related-articles">
+        <div class="related-title">関連記事</div>
+        <ul class="related-list">
+          <li><a href="the-king-in-yellow.html">黄衣の王 (戯曲)</a></li>
+          <li><a href="yellow-sign.html">黄の印</a></li>
+          <li><a href="robert-w-chambers.html">ロバート・W・チェンバーズ</a></li>
+          <li><a href="hastur.html">ハスター</a></li>
+          <li><a href="carcosa.html">カルコサ</a></li>
+          <li><a href="hp-lovecraft.html">H・P・ラヴクラフト</a></li>
+          <li><a href="cthulhu-mythos.html">クトゥルフ神話</a></li>
+          <li><a href="scp-foundation.html">SCPファウンデーション</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="wiki-footer">
+    <div class="footer-links">
+      <h4>リンク先</h4>
+      <ul><li><a href="the-king-in-yellow.html">黄衣の王 (戯曲)</a></li><li><a href="yellow-sign.html">黄の印</a></li><li><a href="robert-w-chambers.html">ロバート・W・チェンバーズ</a></li><li><a href="hastur.html">ハスター</a></li><li><a href="carcosa.html">カルコサ</a></li><li><a href="hp-lovecraft.html">H・P・ラヴクラフト</a></li><li><a href="cthulhu-mythos.html">クトゥルフ神話</a></li><li><a href="necronomicon.html">ネクロノミコン</a></li><li><a href="scp-foundation.html">SCPファウンデーション</a></li><li><a href="infohazard.html">情報ハザード</a></li></ul>
+      <h4>被リンク</h4>
+      <ul><li><a href="the-king-in-yellow.html">黄衣の王 (戯曲)</a></li><li><a href="yellow-sign.html">黄の印</a></li></ul>
+    </div>
+    <p style="margin-top:12px;">Auto-Wiki で自動生成</p>
+  </footer>
+</div>
+</body>
+</html>

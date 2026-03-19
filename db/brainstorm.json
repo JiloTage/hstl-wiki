@@ -1,30 +1,6 @@
 {
   "queue": [
     {
-      "proposed_slug": "hp-lovecraft",
-      "proposed_title": "H・P・ラヴクラフト",
-      "source_id": "the-king-in-yellow",
-      "rationale": "チェンバーズを高く評価し、ハスターやカルコサを自作に取り入れた作家。コズミック・ホラーの確立者。全記事から参照されている最重要未作成記事。",
-      "interestingness_score": 0.95,
-      "status": "queued"
-    },
-    {
-      "proposed_slug": "cthulhu-mythos",
-      "proposed_title": "クトゥルフ神話",
-      "source_id": "the-king-in-yellow",
-      "rationale": "ラヴクラフトとその後継者たちが構築した共有神話体系。全記事から参照されている。",
-      "interestingness_score": 0.92,
-      "status": "queued"
-    },
-    {
-      "proposed_slug": "mimetic-hazard",
-      "proposed_title": "ミーム汚染",
-      "source_id": "yellow-sign",
-      "rationale": "黄の印が体現する「情報そのものが災厄となる」概念。SCPファウンデーションや情報セキュリティ分野での展開を含む。",
-      "interestingness_score": 0.90,
-      "status": "queued"
-    },
-    {
       "proposed_slug": "necronomicon",
       "proposed_title": "ネクロノミコン",
       "source_id": "yellow-sign",
@@ -52,7 +28,7 @@
       "proposed_slug": "fin-de-siecle",
       "proposed_title": "世紀末芸術",
       "source_id": "robert-w-chambers",
-      "rationale": "チェンバーズのパリ修業時代に直接影響を与えた芸術運動。象徴主義・退廃主義を包含。",
+      "rationale": "チェンバーズのパリ修業時代に影響を与えた芸術運動。",
       "interestingness_score": 0.85,
       "status": "queued"
     },
@@ -60,7 +36,7 @@
       "proposed_slug": "devils-dictionary",
       "proposed_title": "悪魔の辞典",
       "source_id": "ambrose-bierce",
-      "rationale": "ビアスの代表作。辞書形式を借りた社会批評としてアメリカ風刺文学の最高傑作。",
+      "rationale": "ビアスの代表作。辞書形式の社会批評。",
       "interestingness_score": 0.85,
       "status": "queued"
     },
@@ -68,7 +44,7 @@
       "proposed_slug": "gothic-fiction",
       "proposed_title": "ゴシック小説",
       "source_id": "weird-fiction",
-      "rationale": "ウィアード・フィクションの直接的源流。18世紀末〜19世紀の恐怖文学の基盤。",
+      "rationale": "ウィアード・フィクションの直接的源流。",
       "interestingness_score": 0.85,
       "status": "queued"
     },
@@ -76,7 +52,15 @@
       "proposed_slug": "pallid-mask",
       "proposed_title": "蒼白の仮面",
       "source_id": "yellow-sign",
-      "rationale": "戯曲における最も有名なモチーフ。存在論的恐怖の象徴。",
+      "rationale": "戯曲における最も有名なモチーフ。",
+      "interestingness_score": 0.85,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "scp-foundation",
+      "proposed_title": "SCPファウンデーション",
+      "source_id": "mimetic-hazard",
+      "rationale": "ミーム汚染・認知災害概念を体系化した共同創作プロジェクト。",
       "interestingness_score": 0.85,
       "status": "queued"
     },
@@ -84,7 +68,15 @@
       "proposed_slug": "august-derleth",
       "proposed_title": "オーガスト・ダーレス",
       "source_id": "hastur",
-      "rationale": "ラヴクラフト死後にアーカム・ハウスを設立し、クトゥルフ神話の体系化に決定的な役割を果たした。",
+      "rationale": "ラヴクラフト死後にクトゥルフ神話を体系化した人物。",
+      "interestingness_score": 0.82,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "call-of-cthulhu-trpg",
+      "proposed_title": "クトゥルフの呼び声TRPG",
+      "source_id": "cthulhu-mythos",
+      "rationale": "クトゥルフ神話をTRPGに展開した定番作品。",
       "interestingness_score": 0.82,
       "status": "queued"
     },
@@ -100,15 +92,23 @@
       "proposed_slug": "new-weird",
       "proposed_title": "ニュー・ウィアード",
       "source_id": "weird-fiction",
-      "rationale": "21世紀におけるウィアード・フィクションの再興運動。ミエヴィル、ヴァンダミアらによるジャンルの更新。",
+      "rationale": "21世紀のウィアード・フィクション再興運動。",
       "interestingness_score": 0.82,
       "status": "queued"
     },
     {
       "proposed_slug": "great-old-ones",
       "proposed_title": "旧支配者",
-      "source_id": "hastur",
-      "rationale": "ダーレスの元素体系でハスターが位置づけられた神格カテゴリ。",
+      "source_id": "cthulhu-mythos",
+      "rationale": "クトゥルフ神話の神格カテゴリ。",
+      "interestingness_score": 0.80,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "arkham",
+      "proposed_title": "アーカム",
+      "source_id": "hp-lovecraft",
+      "rationale": "ラヴクラフトが創造した架空の町。ミスカトニック大学の所在地。",
       "interestingness_score": 0.80,
       "status": "queued"
     },
@@ -116,7 +116,7 @@
       "proposed_slug": "fictional-cities",
       "proposed_title": "架空都市の系譜",
       "source_id": "carcosa",
-      "rationale": "カルコサ、アーカム、ゴッサムなど文学における架空都市の系譜。",
+      "rationale": "文学における架空都市の系譜。",
       "interestingness_score": 0.80,
       "status": "queued"
     },
@@ -127,6 +127,14 @@
       "rationale": "ビアスの従軍体験がアメリカ文学のリアリズムを形成した系譜。",
       "interestingness_score": 0.80,
       "status": "queued"
+    },
+    {
+      "proposed_slug": "infohazard",
+      "proposed_title": "情報ハザード",
+      "source_id": "mimetic-hazard",
+      "rationale": "ニック・ボストロムが提唱した概念。知ること自体が危険な情報の分類。",
+      "interestingness_score": 0.78,
+      "status": "queued"
     }
   ],
   "history": [
@@ -135,6 +143,9 @@
     {"proposed_slug": "carcosa", "status": "completed"},
     {"proposed_slug": "weird-fiction", "status": "completed"},
     {"proposed_slug": "ambrose-bierce", "status": "completed"},
-    {"proposed_slug": "yellow-sign", "status": "completed"}
+    {"proposed_slug": "yellow-sign", "status": "completed"},
+    {"proposed_slug": "hp-lovecraft", "status": "completed"},
+    {"proposed_slug": "cthulhu-mythos", "status": "completed"},
+    {"proposed_slug": "mimetic-hazard", "status": "completed"}
   ]
 }
