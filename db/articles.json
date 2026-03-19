@@ -1,5 +1,18 @@
 {
-  "articles": {},
-  "root_id": null,
-  "total_count": 0
+  "articles": {
+    "the-king-in-yellow": {
+      "id": "the-king-in-yellow",
+      "title": "黄衣の王 (戯曲)",
+      "filename": "articles/the-king-in-yellow.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["robert-w-chambers", "hastur", "carcosa", "yellow-sign", "cthulhu-mythos", "hp-lovecraft", "mimetic-hazard"],
+      "linked_from": [],
+      "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。",
+      "expansion_status": "pending",
+      "origin": "root"
+    }
+  },
+  "root_id": "the-king-in-yellow",
+  "total_count": 1
 }

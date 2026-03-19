@@ -1,4 +1,61 @@
 {
-  "queue": [],
+  "queue": [
+    {
+      "proposed_slug": "robert-w-chambers",
+      "proposed_title": "ロバート・W・チェンバーズ",
+      "source_id": "the-king-in-yellow",
+      "rationale": "『黄衣の王』の著者。画家から作家へ転身した異色の経歴と、初期怪奇作品の傑出した質が後期大衆小説との落差として語られる興味深い人物。",
+      "interestingness_score": 0.95,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "hastur",
+      "proposed_title": "ハスター",
+      "source_id": "the-king-in-yellow",
+      "rationale": "ビアスからチェンバーズ、ラヴクラフト、ダーレスへと変遷する過程で、牧歌的な神格から宇宙的恐怖の存在へと変貌した。その意味の変遷が神話体系の形成過程を映す。",
+      "interestingness_score": 0.92,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "carcosa",
+      "proposed_title": "カルコサ",
+      "source_id": "the-king-in-yellow",
+      "rationale": "ビアスが生み出しチェンバーズが拡張した架空都市。黒い星と双子の太陽に照らされる廃墟の都は、現実と幻想の境界が溶解する場所として機能する。",
+      "interestingness_score": 0.90,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "yellow-sign",
+      "proposed_title": "黄の印",
+      "source_id": "the-king-in-yellow",
+      "rationale": "戯曲と結びついた紋章記号であり、認知するだけで精神を侵食する「情報災害」の原型。現代のミーム理論との接点が豊か。",
+      "interestingness_score": 0.88,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "cthulhu-mythos",
+      "proposed_title": "クトゥルフ神話",
+      "source_id": "the-king-in-yellow",
+      "rationale": "ラヴクラフトとその後継者たちが構築した共有神話体系。チェンバーズの要素がいかに取り込まれ変容したかを追うことで、集合的創作の力学が見える。",
+      "interestingness_score": 0.85,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "hp-lovecraft",
+      "proposed_title": "H・P・ラヴクラフト",
+      "source_id": "the-king-in-yellow",
+      "rationale": "チェンバーズを高く評価し、ハスターやカルコサを自作に取り入れた作家。コズミック・ホラーの確立者としての役割と、チェンバーズからの影響関係が重要。",
+      "interestingness_score": 0.87,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "mimetic-hazard",
+      "proposed_title": "ミーム汚染",
+      "source_id": "the-king-in-yellow",
+      "rationale": "黄の印や戯曲の「読むだけで感染する」設定は、現代のミーム理論・情報災害概念を1世紀先取りしている。フィクションと認知科学の交差点。",
+      "interestingness_score": 0.82,
+      "status": "queued"
+    }
+  ],
   "history": []
 }

@@ -1,4 +1,6 @@
 {
-  "nodes": [],
+  "nodes": [
+    {"id": "the-king-in-yellow", "title": "黄衣の王 (戯曲)", "url": "articles/the-king-in-yellow.html", "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。", "is_root": true}
+  ],
   "links": []
 }
