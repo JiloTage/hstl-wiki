@@ -237,6 +237,27 @@
       "url": "articles/nyarlathotep.html",
       "summary": "クトゥルフ神話において「這い寄る混沌」の異名を持ち、千の化身を通じて人間社会に直接介入する唯一の宇宙的存在。外なる神々の使者として知性と悪意をもって人間を破滅に導く。",
       "is_root": false
+    },
+    {
+      "id": "outer-gods",
+      "title": "外なる神々",
+      "url": "articles/outer-gods.html",
+      "summary": "クトゥルフ神話体系において旧支配者よりもさらに上位に位置する宇宙的存在群の総称。アザトース、ヨグ=ソトース、ナイアーラトテップ、シュブ=ニグラスを主要な構成員とする。",
+      "is_root": false
+    },
+    {
+      "id": "collaborative-fiction",
+      "title": "共同創作",
+      "url": "articles/collaborative-fiction.html",
+      "summary": "複数の作者が共有の世界観・設定を用いてフィクション作品を共同で創造する文学的実践の総称。クトゥルフ神話からSCPファウンデーション、TRPGまで多様な形態を発展させてきた。",
+      "is_root": false
+    },
+    {
+      "id": "sanity-mechanics",
+      "title": "正気度システム",
+      "url": "articles/sanity-mechanics.html",
+      "summary": "クトゥルフの呼び声TRPGにおいて導入された、キャラクターの精神的健全さを数値化するゲームメカニクス。SAN値の概念はTRPG史上最も影響力のあるメカニクスのひとつ。",
+      "is_root": false
     }
   ],
   "links": [
@@ -1351,6 +1372,55 @@
     {
       "source": "great-old-ones",
       "target": "nyarlathotep"
-    }
+    },
+    {"source": "outer-gods", "target": "great-old-ones"},
+    {"source": "outer-gods", "target": "cthulhu-mythos"},
+    {"source": "outer-gods", "target": "hp-lovecraft"},
+    {"source": "outer-gods", "target": "nyarlathotep"},
+    {"source": "outer-gods", "target": "august-derleth"},
+    {"source": "outer-gods", "target": "necronomicon"},
+    {"source": "outer-gods", "target": "cosmic-horror"},
+    {"source": "outer-gods", "target": "call-of-cthulhu-trpg"},
+    {"source": "outer-gods", "target": "hastur"},
+    {"source": "outer-gods", "target": "the-king-in-yellow"},
+    {"source": "outer-gods", "target": "weird-fiction"},
+    {"source": "outer-gods", "target": "forbidden-books"},
+    {"source": "outer-gods", "target": "miskatonic-university"},
+    {"source": "outer-gods", "target": "existential-horror"},
+    {"source": "great-old-ones", "target": "outer-gods"},
+    {"source": "collaborative-fiction", "target": "scp-foundation"},
+    {"source": "collaborative-fiction", "target": "cthulhu-mythos"},
+    {"source": "collaborative-fiction", "target": "hp-lovecraft"},
+    {"source": "collaborative-fiction", "target": "call-of-cthulhu-trpg"},
+    {"source": "collaborative-fiction", "target": "metafiction"},
+    {"source": "collaborative-fiction", "target": "mimetic-hazard"},
+    {"source": "collaborative-fiction", "target": "the-king-in-yellow"},
+    {"source": "collaborative-fiction", "target": "august-derleth"},
+    {"source": "collaborative-fiction", "target": "ambrose-bierce"},
+    {"source": "collaborative-fiction", "target": "robert-w-chambers"},
+    {"source": "collaborative-fiction", "target": "carcosa"},
+    {"source": "collaborative-fiction", "target": "hastur"},
+    {"source": "collaborative-fiction", "target": "yellow-sign"},
+    {"source": "collaborative-fiction", "target": "arkham-house"},
+    {"source": "collaborative-fiction", "target": "infohazard"},
+    {"source": "collaborative-fiction", "target": "house-of-leaves"},
+    {"source": "collaborative-fiction", "target": "new-weird"},
+    {"source": "collaborative-fiction", "target": "cosmic-horror"},
+    {"source": "collaborative-fiction", "target": "great-old-ones"},
+    {"source": "scp-foundation", "target": "collaborative-fiction"},
+    {"source": "sanity-mechanics", "target": "call-of-cthulhu-trpg"},
+    {"source": "sanity-mechanics", "target": "hp-lovecraft"},
+    {"source": "sanity-mechanics", "target": "cthulhu-mythos"},
+    {"source": "sanity-mechanics", "target": "cosmic-horror"},
+    {"source": "sanity-mechanics", "target": "great-old-ones"},
+    {"source": "sanity-mechanics", "target": "nyarlathotep"},
+    {"source": "sanity-mechanics", "target": "necronomicon"},
+    {"source": "sanity-mechanics", "target": "the-king-in-yellow"},
+    {"source": "sanity-mechanics", "target": "yellow-sign"},
+    {"source": "sanity-mechanics", "target": "mimetic-hazard"},
+    {"source": "sanity-mechanics", "target": "infohazard"},
+    {"source": "sanity-mechanics", "target": "existential-horror"},
+    {"source": "sanity-mechanics", "target": "scp-foundation"},
+    {"source": "call-of-cthulhu-trpg", "target": "sanity-mechanics"}
   ]
 }

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>正気度システム - Auto-Wiki</title>
+  <link rel="stylesheet" href="../assets/css/wiki.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad: true, theme: 'neutral'});</script>
+</head>
+<body>
+<div class="wiki-wrapper">
+  <header class="wiki-header">
+    <a href="../index.html" class="site-title">Auto-Wiki</a>
+    <nav>
+      <a href="../index.html">トップ</a>
+      <a href="../index.html#article-list">記事一覧</a>
+      <a href="../index.html#graph">サイトグラフ</a>
+    </nav>
+  </header>
+
+  <div class="breadcrumb">
+    <a href="../index.html">Auto-Wiki</a> &gt; 正気度システム
+  </div>
+
+  <div class="wiki-content">
+    <main class="wiki-main">
+      <h1 class="article-title">正気度システム</h1>
+      <div class="article-meta">最終更新: 2026-03-19</div>
+      <div class="article-summary">正気度システム（Sanity System）とは、<a href="call-of-cthulhu-trpg.html">クトゥルフの呼び声TRPG</a>において導入された、キャラクターの精神的健全さを数値化し管理するゲームメカニクス。「知識の獲得が精神の崩壊と不可分である」という<a href="cosmic-horror.html">コズミック・ホラー</a>の核心的テーマをルールとして具現化した。SAN値（Sanity Points）の概念はTRPG史上最も影響力のあるメカニクスのひとつであり、ビデオゲーム・ボードゲーム・ナラティブゲームへと広範に伝播し、「恐怖の数値化」という独自のデザイン領域を開拓した。</div>
+
+      <h2 id="origin">起源——ラヴクラフト文学からの抽出</h2>
+      <p>正気度システムの思想的根源は、<a href="hp-lovecraft.html">H・P・ラヴクラフト</a>の文学作品に遍在する「知ることの恐怖」というモチーフにある。ラヴクラフト作品の語り手たちは、<a href="great-old-ones.html">旧支配者</a>の存在や宇宙の真実に触れることで精神を崩壊させ、しばしば自ら「この知識を得なければよかった」と述懐する。『クトゥルフの呼び声』（1928年）の冒頭に記された「人の心の平安にとって、互いに無関係な知識の断片がそれぞれ独立して存在し続けることほど慈悲深いことはない」という一文は、正気度システムの設計思想を端的に予告するものであった。</p>
+      <p><a href="necronomicon.html">ネクロノミコン</a>をはじめとする禁断の書物を読んだ者が発狂するという設定、<a href="the-king-in-yellow.html">『黄衣の王』</a>の戯曲を読了した者が狂気に陥るというモチーフ——これらはいずれも「情報への接触が精神を不可逆的に変容させる」という構造を共有している。ゲームデザイナーのサンディ・ピーターセンは、この文学的テーマを抽出し、パーセンタイルダイスによる判定システムに変換するという離れ業を成し遂げた。1981年の<a href="call-of-cthulhu-trpg.html">CoC</a>初版において導入されたSAN値は、ラヴクラフト文学の本質を単なるフレーバーテキストではなく、プレイヤーの意思決定に直接影響するゲームメカニクスとして結実させたのである。</p>
+      <p>重要なのは、<a href="mimetic-hazard.html">ミーム汚染</a>という概念——すなわち情報そのものが精神的危害をもたらすという発想——が、正気度システムによって初めて「遊べる」形式を獲得したという点である。<a href="yellow-sign.html">黄の印</a>を目撃した者が狂気に陥る過程を、プレイヤーはダイスロールとSAN値の減少として追体験する。これは<a href="infohazard.html">情報ハザード</a>のゲーム的シミュレーションにほかならない。</p>
+
+      <h2 id="mechanics">メカニクスの構造——SAN値の設計原理</h2>
+      <p><a href="call-of-cthulhu-trpg.html">クトゥルフの呼び声TRPG</a>におけるSAN値は、以下の構造を持つ。探索者（プレイヤーキャラクター）のSAN値はPOW（精神力）×5で初期値が決定され、最大値は99からクトゥルフ神話技能の値を引いたものとなる。この「神話技能が上がるほどSAN値の上限が下がる」という逆相関の設計が、システムの核心をなしている。</p>
+      <p>SAN値の喪失は主に二つの経路で発生する。第一は<b>神話的遭遇</b>——<a href="great-old-ones.html">旧支配者</a>や<a href="nyarlathotep.html">ナイアーラトテップ</a>の化身の目撃、異形の怪物との遭遇など。第二は<b>禁断の知識の獲得</b>——<a href="necronomicon.html">ネクロノミコン</a>や<a href="the-king-in-yellow.html">『黄衣の王』</a>の戯曲の読解、呪文の習得など。いずれの場合もd100（パーセンタイルダイス）によるSANチェックが行われ、成功すれば喪失は軽微に、失敗すれば大きなSAN値の喪失が発生する。</p>
+      <p>第7版（2014年）では、このシステムはさらに精緻化された。「プッシュ・ロール」（振り直し）の導入により、プレイヤーは失敗した判定をやり直せるが、代償としてさらに大きなリスクを負う。また、狂気の段階が「一時的狂気」（急激なSAN喪失）、「不定の狂気」（一定期間内の大量喪失）、「永久的狂気」（SAN値ゼロ）の三段階に整理され、それぞれに異なる症状テーブルが用意された。</p>
+
+      <div class="mermaid-container"><pre class="mermaid">
+flowchart LR
+    subgraph 知識と正気のトレードオフ
+        A["探索者の初期状態<br>SAN = POW×5<br>神話技能 = 0%"]
+        B["禁書読解<br>呪文習得"]
+        C["神話技能 上昇<br>+5〜+15%"]
+        D["SAN上限 低下<br>最大SAN = 99 - 神話技能"]
+        E["神話的存在の目撃"]
+        F["SANチェック<br>d100 ≤ 現在SAN"]
+        G["成功: 0〜少量喪失"]
+        H["失敗: 1d6〜1d100喪失"]
+        I["一時的狂気<br>5+SAN喪失/1ラウンド"]
+        J["不定の狂気<br>20%以上喪失/1時間"]
+        K["永久的狂気<br>SAN = 0"]
+    end
+
+    A --> B
+    A --> E
+    B --> C
+    C --> D
+    D -->|"上限が下がり続ける"| K
+    E --> F
+    F -->|成功| G
+    F -->|失敗| H
+    H --> I
+    H --> J
+    J --> K
+
+    style A fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style K fill:#ffcdd2,stroke:#c62828,stroke-width:2px
+    style C fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style D fill:#ffe0b2,stroke:#ef6c00
+    style I fill:#fff9c4,stroke:#f9a825
+    style J fill:#ffe0b2,stroke:#ef6c00
+      </pre></div>
+
+      <h2 id="philosophy">設計哲学——「敗北のゲーム」と恐怖の構造化</h2>
+      <p>正気度システムの根底にある設計哲学は、従来のRPGとは根本的に異なるものであった。ダンジョンズ＆ドラゴンズに代表される「ヒロイック・ファンタジー」型TRPGでは、キャラクターは経験を積むほど強くなり、困難を克服する力を獲得する。しかし<a href="call-of-cthulhu-trpg.html">CoC</a>では、探索を進めるほどキャラクターは弱体化する。知識を得るほど正気を失い、真実に近づくほど破滅に近づく。これは<a href="cosmic-horror.html">コズミック・ホラー</a>の核心——宇宙における人間の根源的な無力さ——をゲームルールとして体現したものである。</p>
+      <p>この「敗北のゲーム」という設計は、<a href="existential-horror.html">実存的恐怖</a>とも深く共鳴する。探索者は自らの行為の帰結を予見しつつも、好奇心や使命感から調査を続行せざるを得ない。プレイヤーは「この本を読むべきか？」「この扉を開くべきか？」という選択を迫られ、知識と安全のトレードオフを体験する。これこそがSAN値システムの真の革新性であった——恐怖を「描写」するのではなく、プレイヤーの意思決定の中に「構造化」したのである。</p>
+      <p><a href="cthulhu-mythos.html">クトゥルフ神話</a>の体系において、旧支配者の目撃がもたらすSAN喪失量はその存在の「宇宙的重要度」に比例して設計されている。下級の奉仕種族（深きもの、ミ=ゴなど）は比較的軽微な喪失で済むが、<a href="great-old-ones.html">旧支配者</a>クラスの存在——例えばクトゥルフ本体の目撃は1d10/1d100という壊滅的なSAN喪失をもたらす。<a href="nyarlathotep.html">ナイアーラトテップ</a>の化身はそれぞれ異なるSAN喪失値を持ち、その多様性は千の仮面を持つこの神格の本質を反映している。</p>
+
+      <h2 id="evolution">版による進化——初版から第7版まで</h2>
+      <p>正気度システムは、<a href="call-of-cthulhu-trpg.html">CoC</a>の40年以上にわたる版の変遷を通じて、継続的に洗練されてきた。</p>
+      <p><b>初版〜第5版（1981-1998）</b>：SAN値の基本構造は初版でほぼ完成しており、POW×5の初期値、d100によるSANチェック、一時的狂気と永久的狂気の二段階という骨格が確立された。この時期のシステムは比較的シンプルであり、狂気の症状はキーパー（ゲームマスター）の裁量に大きく依存していた。</p>
+      <p><b>第6版（2004）</b>：不定の狂気の概念が正式に導入され、三段階の狂気体系が確立された。SAN値の回復ルールも整備され、精神科治療やシナリオの成功による回復メカニクスが明文化された。日本では2004年のエンターブレイン版がこの時期にあたり、日本のTRPGブームの基盤となった。</p>
+      <p><b>第7版（2014〜）</b>：最も大きな改革が行われた。「プッシュ・ロール」の導入により、失敗した判定をリスクと引き換えに振り直せるようになった。ボーナスダイス/ペナルティダイスの導入で状況修正が直感的になった。狂気の症状テーブルが大幅に拡充され、「恐怖症」「マニア」「自己治療」など具体的な精神疾患の表現が充実した。また、「バックストーリー」システムとの連動により、探索者の個人的な絆や信念がSAN値の回復に関わるようになり、精神的健全さの社会的・人間的側面が強調された。</p>
+
+      <div class="mermaid-container"><pre class="mermaid">
+timeline
+    title 正気度システムの進化
+    1981 : 初版発売
+         : SAN値の基本構造確立
+         : POW×5 / d100判定
+    1992 : 第5版
+         : 基本システム安定期
+         : サプリメント群の充実
+    2004 : 第6版
+         : 不定の狂気の正式導入
+         : 三段階狂気体系
+         : 日本語版リニューアル
+    2014 : 第7版
+         : プッシュ・ロール導入
+         : ボーナス/ペナルティダイス
+         : バックストーリー連動
+    2019 : 新クトゥルフ神話TRPG
+         : 日本語版第7版
+         : 日本市場の爆発的拡大
+      </pre></div>
+
+      <h2 id="influence">後続作品への影響——恐怖の数値化の系譜</h2>
+      <p>正気度システムは、ゲームデザインにおける「精神状態のメカニクス化」という分野を切り開き、後続の無数の作品に影響を与えた。</p>
+      <p><b>TRPG領域</b>では、『トレイル・オブ・クトゥルー』（Trail of Cthulhu, 2008年）がGUMSHOEシステムの下でスタビリティ（安定性）とサニティ（正気度）を分離し、短期的な精神的動揺と長期的な正気の崩壊を区別するという精緻化を行った。日本発の『インセイン』（2013年）は、正気度の概念を「秘密」の共有と裏切りのメカニクスに変換し、プレイヤー間の疑心暗鬼を正気度の喪失と結びつけた。『Unknown Armies』（1998年）のマッドネス・メーターは、恐怖の種類を5つの軸（暴力、非自然、無力感、孤立、自己認識）に分類し、各軸ごとに耐性と傷が蓄積するという、SAN値の多次元的拡張を試みた。</p>
+      <p><b>ビデオゲーム領域</b>では、『Eternal Darkness: Sanity's Requiem』（2002年、ゲームキューブ）が正気度システムをビデオゲームに移植した画期的作品である。正気度が低下するとゲーム画面が歪み、偽のエラーメッセージが表示され、セーブデータの消去を装うなど、プレイヤー自身の現実認識を攪乱するメタ的な演出を行った。『Amnesia: The Dark Descent』（2010年）は暗闘の中で正気度が低下し、幻覚や操作不能に陥るサバイバルホラーの定番メカニクスを確立した。『Bloodborne』（2015年）の「啓蒙（Insight）」システムは、SAN値の逆転的変奏であり、啓蒙値が上がるほど世界の隠された真実が見えるようになるが、同時に敵の攻撃パターンが変化し難易度が上昇する——知識と危険のトレードオフを異なる形で再現したものである。</p>
+      <p><b>ボードゲーム領域</b>では、『アーカムホラー』（1987年/2005年）シリーズ、『エルドリッチホラー』（2013年）、『マンション・オブ・マッドネス』（2011年）など、<a href="cthulhu-mythos.html">クトゥルフ神話</a>を題材としたボードゲーム群がSAN値の概念を継承し、カード引きやダイスロールによる狂気イベントとして実装している。『Darkest Dungeon』（2016年）はストレス・システムという変奏を導入し、ストレスの蓄積がキャラクターの性格特性を変化させるという、より動的な精神状態モデルを実現した。</p>
+
+      <h2 id="cultural">文化的意義——「SAN値が下がる」という日常語</h2>
+      <p>正気度システムの文化的影響は、ゲームデザインの領域をはるかに超えて拡散した。特に日本においては、「SAN値」「SAN値チェック」「SAN値が下がる」といったゲーム用語が、<a href="call-of-cthulhu-trpg.html">CoC</a>の文脈を離れてインターネットスラングとして定着している。「SAN値が下がる」は「精神的にきつい状況に直面する」という意味の比喩表現として広く通用し、SNSや日常会話においても使用される。</p>
+      <p>この現象は、正気度システムが単なるゲームルールを超え、「理解しがたいものに直面した人間の精神的反応」を表現するための共有語彙を提供したことを意味する。<a href="cosmic-horror.html">コズミック・ホラー</a>の核心的テーマ——人間の認知能力の限界と、その限界を超えた存在に触れることの代償——が、ゲームメカニクスを経由して大衆文化のコモンセンスへと浸透したのである。</p>
+      <p><a href="scp-foundation.html">SCPファウンデーション</a>における認知災害（cognitohazard）の分類体系もまた、正気度システムの文化的子孫である。SCPオブジェクトの危険度分類において「情報への接触が精神的変容をもたらす」という構造は、SAN値チェックのナラティブ的変奏にほかならない。<a href="mimetic-hazard.html">ミーム汚染</a>や<a href="infohazard.html">情報ハザード</a>の概念が現代の情報倫理やAI安全性の議論において真剣に参照される背景には、正気度システムを通じて大衆化した「知識が害をもたらしうる」という直観がある。</p>
+      <p>正気度システムは、<a href="hp-lovecraft.html">ラヴクラフト</a>が文学作品の中で提示した哲学的命題を、半世紀近くにわたってゲームプレイの中で反復的に体験させ続けることで、<a href="cthulhu-mythos.html">クトゥルフ神話</a>の最も本質的なメッセージを文化的常識の水準にまで浸透させた。これは、ゲームメカニクスが文学的テーマの最も効果的な伝達媒体となりうることを示す、稀有な事例である。</p>
+
+    </main>
+
+    <aside class="wiki-sidebar">
+      <div class="toc">
+        <div class="toc-title">目次</div>
+        <ul class="toc-list">
+          <li><a href="#origin">起源——ラヴクラフト文学からの抽出</a></li>
+          <li><a href="#mechanics">メカニクスの構造——SAN値の設計原理</a></li>
+          <li><a href="#philosophy">設計哲学——「敗北のゲーム」と恐怖の構造化</a></li>
+          <li><a href="#evolution">版による進化——初版から第7版まで</a></li>
+          <li><a href="#influence">後続作品への影響</a></li>
+          <li><a href="#cultural">文化的意義——「SAN値が下がる」という日常語</a></li>
+        </ul>
+      </div>
+
+      <div class="related-articles">
+        <div class="related-title">関連記事</div>
+        <ul class="related-list">
+          <li><a href="call-of-cthulhu-trpg.html">クトゥルフの呼び声TRPG</a></li>
+          <li><a href="cthulhu-mythos.html">クトゥルフ神話</a></li>
+          <li><a href="hp-lovecraft.html">H・P・ラヴクラフト</a></li>
+          <li><a href="cosmic-horror.html">コズミック・ホラー</a></li>
+          <li><a href="necronomicon.html">ネクロノミコン</a></li>
+          <li><a href="great-old-ones.html">旧支配者</a></li>
+          <li><a href="mimetic-hazard.html">ミーム汚染</a></li>
+          <li><a href="existential-horror.html">実存的恐怖</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="wiki-footer">
+    <div class="footer-links">
+      <h4>リンク先</h4>
+      <ul><li><a href="call-of-cthulhu-trpg.html">クトゥルフの呼び声TRPG</a></li><li><a href="hp-lovecraft.html">H・P・ラヴクラフト</a></li><li><a href="cthulhu-mythos.html">クトゥルフ神話</a></li><li><a href="cosmic-horror.html">コズミック・ホラー</a></li><li><a href="great-old-ones.html">旧支配者</a></li><li><a href="nyarlathotep.html">ナイアーラトテップ</a></li><li><a href="necronomicon.html">ネクロノミコン</a></li><li><a href="the-king-in-yellow.html">黄衣の王 (戯曲)</a></li><li><a href="yellow-sign.html">黄の印</a></li><li><a href="mimetic-hazard.html">ミーム汚染</a></li><li><a href="infohazard.html">情報ハザード</a></li><li><a href="existential-horror.html">実存的恐怖</a></li><li><a href="scp-foundation.html">SCPファウンデーション</a></li></ul>
+      <h4>被リンク</h4>
+      <ul><li><a href="call-of-cthulhu-trpg.html">クトゥルフの呼び声TRPG</a></li></ul>
+    </div>
+    <p style="margin-top:12px;">Auto-Wiki で自動生成</p>
+  </footer>
+</div>
+</body>
+</html>

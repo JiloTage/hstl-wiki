@@ -965,13 +965,106 @@
       ],
       "linked_from": [
         "great-old-ones",
-        "cthulhu-mythos"
+        "cthulhu-mythos",
+        "outer-gods",
+        "sanity-mechanics"
       ],
       "summary": "ナイアーラトテップ（Nyarlathotep）は、クトゥルフ神話において「這い寄る混沌」の異名を持ち、千の化身を通じて人間社会に直接介入する唯一の宇宙的存在。ラヴクラフトが1920年の散文詩で創造し、外なる神々の使者として知性と悪意をもって人間を破滅に導く。TRPGにおいてはNPC化可能な唯一の神格として最も汎用性の高い存在である。",
       "expansion_status": "complete",
       "origin": "great-old-ones"
+    },
+    "outer-gods": {
+      "id": "outer-gods",
+      "title": "外なる神々",
+      "filename": "articles/outer-gods.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "great-old-ones",
+        "cthulhu-mythos",
+        "hp-lovecraft",
+        "nyarlathotep",
+        "august-derleth",
+        "necronomicon",
+        "cosmic-horror",
+        "call-of-cthulhu-trpg",
+        "hastur",
+        "the-king-in-yellow",
+        "weird-fiction",
+        "forbidden-books",
+        "miskatonic-university",
+        "existential-horror"
+      ],
+      "linked_from": [
+        "great-old-ones"
+      ],
+      "summary": "外なる神々（Outer Gods）は、クトゥルフ神話体系において旧支配者よりもさらに上位に位置するとされる宇宙的存在群の総称。アザトース、ヨグ=ソトース、ナイアーラトテップ、シュブ=ニグラスを主要な構成員とし、宇宙の構造そのものに関わる超越的な力として描かれる。",
+      "expansion_status": "pending",
+      "origin": "great-old-ones"
+    },
+    "collaborative-fiction": {
+      "id": "collaborative-fiction",
+      "title": "共同創作",
+      "filename": "articles/collaborative-fiction.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "scp-foundation",
+        "cthulhu-mythos",
+        "hp-lovecraft",
+        "call-of-cthulhu-trpg",
+        "metafiction",
+        "mimetic-hazard",
+        "the-king-in-yellow",
+        "august-derleth",
+        "ambrose-bierce",
+        "robert-w-chambers",
+        "carcosa",
+        "hastur",
+        "yellow-sign",
+        "arkham-house",
+        "infohazard",
+        "house-of-leaves",
+        "new-weird",
+        "cosmic-horror",
+        "great-old-ones"
+      ],
+      "linked_from": [
+        "scp-foundation"
+      ],
+      "summary": "共同創作（Collaborative Fiction）とは、複数の作者が共有の世界観・設定を用いてフィクション作品を共同で創造する文学的実践の総称。クトゥルフ神話の書簡ネットワーク、SCPファウンデーションのWiki型オープン創作、TRPGの即興的物語生成など、メディアの進化に伴い多様な形態を発展させてきた。",
+      "expansion_status": "pending",
+      "origin": "scp-foundation"
+    },
+    "sanity-mechanics": {
+      "id": "sanity-mechanics",
+      "title": "正気度システム",
+      "filename": "articles/sanity-mechanics.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "call-of-cthulhu-trpg",
+        "hp-lovecraft",
+        "cthulhu-mythos",
+        "cosmic-horror",
+        "great-old-ones",
+        "nyarlathotep",
+        "necronomicon",
+        "the-king-in-yellow",
+        "yellow-sign",
+        "mimetic-hazard",
+        "infohazard",
+        "existential-horror",
+        "scp-foundation"
+      ],
+      "linked_from": [
+        "call-of-cthulhu-trpg"
+      ],
+      "summary": "正気度システム（Sanity System）とは、クトゥルフの呼び声TRPGにおいて導入された、キャラクターの精神的健全さを数値化し管理するゲームメカニクス。SAN値の概念はTRPG史上最も影響力のあるメカニクスのひとつとなった。",
+      "expansion_status": "pending",
+      "origin": "call-of-cthulhu-trpg"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 34
+  "total_count": 37
 }
