@@ -1146,8 +1146,44 @@
       "summary": "ロラン・バルトが1967年に発表した批評的宣言。テクストの意味を作者の意図に還元する近代的読解を否定し、意味の生成を読者に委ねるこの理論は、メタフィクション、共同創作、SCPの匿名的創作文化に至るまで決定的な影響を与えた。",
       "expansion_status": "pending",
       "origin": "collaborative-fiction"
+    },
+    "cosmicism": {
+      "id": "cosmicism",
+      "title": "宇宙的無関心主義",
+      "filename": "articles/cosmicism.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["hp-lovecraft","cosmic-horror","outer-gods","great-old-ones","cthulhu-mythos","azathoth","yog-sothoth","nyarlathotep","miskatonic-university","necronomicon","weird-fiction","the-king-in-yellow","hastur","ambrose-bierce","gothic-fiction","august-derleth","arkham-house","call-of-cthulhu-trpg","sanity-mechanics","new-weird","existential-horror","scp-foundation","mimetic-hazard","infohazard","forbidden-books"],
+      "linked_from": ["outer-gods","cosmic-horror"],
+      "summary": "宇宙的無関心主義（Cosmicism）とは、ラヴクラフトの文学と思想を貫く哲学的立場。宇宙は人間に対して根本的に無関心であるという認識を核とし、コズミック・ホラーの思想的基盤として機能する。",
+      "expansion_status": "pending",
+      "origin": "outer-gods"
+    },
+    "horror-game-design": {
+      "id": "horror-game-design",
+      "title": "ホラーゲームデザイン論",
+      "filename": "articles/horror-game-design.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["sanity-mechanics","call-of-cthulhu-trpg","cosmic-horror","hp-lovecraft","existential-horror","infohazard","necronomicon","cthulhu-mythos","mimetic-hazard","great-old-ones","nyarlathotep","the-king-in-yellow","yellow-sign","scp-foundation","carcosa"],
+      "linked_from": ["sanity-mechanics"],
+      "summary": "デジタル・アナログゲームにおいて「恐怖」をプレイヤー体験の核に据えるための設計理論。正気度システムを起点にコズミック・ホラーをインタラクティブメディアに翻訳する設計原理を体系的に論じる。",
+      "expansion_status": "pending",
+      "origin": "sanity-mechanics"
+    },
+    "fan-fiction": {
+      "id": "fan-fiction",
+      "title": "ファン・フィクション",
+      "filename": "articles/fan-fiction.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["collaborative-fiction","cthulhu-mythos","scp-foundation","call-of-cthulhu-trpg","death-of-the-author","metafiction","hp-lovecraft","arkham-house","august-derleth","the-king-in-yellow","ambrose-bierce","robert-w-chambers","carcosa","hastur","yellow-sign","house-of-leaves","mimetic-hazard","infohazard","cosmic-horror"],
+      "linked_from": ["collaborative-fiction"],
+      "summary": "既存の物語作品の世界観を借用しファンが独自に創作する二次的フィクションの総称。共同創作の一形態であり「作者の死」を実践的に体現する文化現象。",
+      "expansion_status": "pending",
+      "origin": "collaborative-fiction"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 40
+  "total_count": 43
 }

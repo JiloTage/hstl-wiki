@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ホラーゲームデザイン論 - Auto-Wiki</title>
+  <link rel="stylesheet" href="../assets/css/wiki.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad: true, theme: 'neutral'});</script>
+</head>
+<body>
+<div class="wiki-wrapper">
+  <header class="wiki-header">
+    <a href="../index.html" class="site-title">Auto-Wiki</a>
+    <nav>
+      <a href="../index.html">トップ</a>
+      <a href="../index.html#article-list">記事一覧</a>
+      <a href="../index.html#graph">サイトグラフ</a>
+    </nav>
+  </header>
+
+  <div class="breadcrumb">
+    <a href="../index.html">Auto-Wiki</a> &gt; ホラーゲームデザイン論
+  </div>
+
+  <div class="wiki-content">
+    <main class="wiki-main">
+      <h1 class="article-title">ホラーゲームデザイン論</h1>
+      <div class="article-meta">最終更新: 2026-03-19</div>
+      <div class="article-summary">ホラーゲームデザイン論とは、デジタルゲームおよびアナログゲームにおいて「恐怖」をプレイヤー体験の核に据えるための設計理論・手法の総称。<a href="call-of-cthulhu-trpg.html">クトゥルフの呼び声TRPG</a>が確立した<a href="sanity-mechanics.html">正気度システム</a>を起点として、<a href="cosmic-horror.html">コズミック・ホラー</a>の文学的伝統をインタラクティブメディアに翻訳するための設計原理が蓄積されてきた。本稿では、恐怖の類型化、情報制御、精神状態メカニクス、ナラティブ構造、サウンドデザイン、そしてプレイヤー心理の操作という六つの軸からホラーゲームデザインの体系を論じる。</div>
+
+      <h2 id="taxonomy">恐怖の類型とゲームデザインへの写像</h2>
+      <p>ホラーゲームデザインの出発点は、「恐怖」という感情を構造的に分解し、それぞれの類型に対応するゲームメカニクスを設計することにある。恐怖は単一の感情ではなく、複数の質的に異なる心理状態の複合体であり、優れたホラーゲームはこれらを意図的に配合する。</p>
+      <p><b>コズミック・ホラー（宇宙的恐怖）</b>——<a href="cosmic-horror.html">コズミック・ホラー</a>の核心は、人間の認知能力では理解不可能な存在や現象との遭遇にある。<a href="hp-lovecraft.html">ラヴクラフト</a>が文学で確立したこのテーマは、ゲームにおいては「理解を拒む情報設計」として実装される。『Bloodborne』の啓蒙システムは、知識の獲得が世界の認識を不可逆的に変容させるという設計で、<a href="sanity-mechanics.html">正気度システム</a>のSAN値と神話技能の逆相関構造を視覚的に翻訳したものである。</p>
+      <p><b>実存的恐怖</b>——<a href="existential-horror.html">実存的恐怖</a>は、存在そのものの偶然性や意味の不在に由来する。『SOMA』（2015年）は意識の連続性と自己同一性への問いをゲームプレイの中核に据え、プレイヤーに「自分とは何か」を突きつけた。この種の恐怖は、選択肢の設計——どちらを選んでも救いがない二択——によって構造化される。</p>
+      <p><b>情報的恐怖</b>——<a href="infohazard.html">情報ハザード</a>の概念をゲームデザインに移植したもの。「知ってしまったことが恐怖の源泉となる」構造であり、<a href="necronomicon.html">ネクロノミコン</a>的な「読むこと自体が危険な知識」のゲーム的実装である。『Doki Doki Literature Club!』（2017年）はゲームファイルの直接操作という形式で、プレイヤーの現実とゲーム世界の境界を攪乱した。</p>
+      <p><b>身体的恐怖</b>——痛み、暴力、身体変容への原初的な恐怖。サバイバルホラーの伝統的な領域であり、限られたリソース（弾薬、回復アイテム）の管理がこの恐怖を増幅する。『バイオハザード』シリーズ（1996年〜）が確立した「戦闘可能だが脆弱」という設計は、完全な無力感と万能感の間の最も恐怖を増幅する均衡点を見出した。</p>
+
+      <div class="mermaid-container"><pre class="mermaid">
+graph TD
+    subgraph 恐怖の類型とゲームメカニクスの対応
+        CH["コズミック・ホラー<br>宇宙的恐怖"]
+        EH["実存的恐怖<br>存在論的不安"]
+        IH["情報的恐怖<br>知識の呪い"]
+        BH["身体的恐怖<br>物理的脅威"]
+        PH["心理的恐怖<br>認知の歪み"]
+
+        M1["正気度メカニクス<br>認知変容システム"]
+        M2["分岐ナラティブ<br>救済なき選択肢"]
+        M3["メタゲーム要素<br>第四の壁破壊"]
+        M4["リソース管理<br>サバイバルシステム"]
+        M5["環境ストーリーテリング<br>知覚操作"]
+
+        CH --> M1
+        EH --> M2
+        IH --> M3
+        BH --> M4
+        PH --> M5
+
+        G1["Bloodborne / CoC TRPG"]
+        G2["SOMA / Silent Hill 2"]
+        G3["DDLC / Eternal Darkness"]
+        G4["バイオハザード / Dead Space"]
+        G5["P.T. / Amnesia"]
+
+        M1 --> G1
+        M2 --> G2
+        M3 --> G3
+        M4 --> G4
+        M5 --> G5
+    end
+
+    style CH fill:#e8eaf6,stroke:#283593,stroke-width:2px
+    style EH fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    style IH fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    style BH fill:#ffebee,stroke:#c62828,stroke-width:2px
+    style PH fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px
+      </pre></div>
+
+      <h2 id="information-control">情報制御——「見せない」デザインの技法</h2>
+      <p>ホラーゲームデザインにおいて最も根源的な設計原理は、情報の制御である。恐怖は「未知」から生まれ、「既知」によって減衰する。<a href="hp-lovecraft.html">ラヴクラフト</a>が「人間の最も古く最も強い感情は恐怖であり、最も古く最も強い恐怖は未知への恐怖である」と述べたこの洞察は、ホラーゲームデザインの第一原理として機能する。</p>
+      <p><b>視覚的情報制限</b>——カメラアングル、照明、視野角の制御により、プレイヤーの知覚を意図的に制限する。初代『バイオハザード』（1996年）の固定カメラアングルは、プレイヤーの視野を物理的に制約することで「見えない角」を生み出した。『Amnesia: The Dark Descent』（2010年）は暗闇をゲームメカニクスとして昇華させ、光源管理と<a href="sanity-mechanics.html">正気度</a>の連動を実現した。暗闇に留まりすぎるとSanityが低下し幻覚が発生するが、光を灯せば敵に発見される——このジレンマが恐怖の持続を保証する。</p>
+      <p><b>聴覚的情報の非対称性</b>——プレイヤーに視覚的情報を与えずに聴覚的手がかりだけを提供することで、想像力による恐怖の増幅を誘発する。『Dead Space』（2008年）のサウンドデザインは、空間音響を駆使して「何かが近くにいる」という認知を視覚に先行させた。<a href="the-king-in-yellow.html">『黄衣の王』</a>の戯曲が「読む」という行為を通じて精神を汚染するように、ホラーゲームにおける音響は「聴く」という受動的行為を恐怖の媒介に転換する。</p>
+      <p><b>ナラティブ的情報制御</b>——物語情報の断片的な開示により、プレイヤーの想像力を恐怖の生成装置として利用する。散逸した日記、音声ログ、環境テキストによる断片的ナラティブは、<a href="cthulhu-mythos.html">クトゥルフ神話</a>における禁書の読解体験をゲーム空間に移植したものである。プレイヤーは断片を自ら組み立て、その過程で想像力が最も恐ろしい解釈を生成する。『Silent Hill 2』（2001年）のナラティブ設計は、この原理の最高到達点のひとつとされる。</p>
+
+      <h2 id="sanity-in-games">精神状態メカニクス——SAN値からストレスシステムへ</h2>
+      <p><a href="sanity-mechanics.html">正気度システム</a>は、<a href="call-of-cthulhu-trpg.html">クトゥルフの呼び声TRPG</a>がゲームデザイン史にもたらした最大の遺産である。「恐怖を数値化する」というこのアイデアは、その後のホラーゲーム全体のデザインパラダイムを決定づけた。</p>
+      <p><b>TRPGにおける正気度</b>——CoCの<a href="sanity-mechanics.html">SAN値システム</a>は、知識の獲得と精神の崩壊を数学的に逆相関させた。神話技能が上昇するほどSAN値の上限が低下するという設計は、「知ることの代償」を最も純粋な形で数値化したものである。<a href="great-old-ones.html">旧支配者</a>や<a href="nyarlathotep.html">ナイアーラトテップ</a>の化身の目撃がもたらすSAN喪失量がその存在の宇宙的重要度に比例するという設計は、<a href="cosmic-horror.html">コズミック・ホラー</a>の形而上学的ヒエラルキーをゲームバランスに直結させた。</p>
+      <p><b>デジタルゲームへの移植</b>——『Eternal Darkness: Sanity's Requiem』（2002年）は、SAN値の低下をゲーム画面の歪曲、偽のシステムエラー、セーブデータ消去の偽装といったメタ的演出に変換した。これは<a href="mimetic-hazard.html">ミーム汚染</a>——情報そのものが精神的危害をもたらすという概念——のゲーム的実装として画期的であった。プレイヤーの現実認識そのものを攻撃対象とすることで、正気度の喪失をフィクション内の出来事からプレイヤー自身の体験へと昇華させたのである。</p>
+      <p><b>ストレスシステムの発展</b>——『Darkest Dungeon』（2016年）は、SAN値を「ストレス」として再解釈し、ストレスの蓄積がキャラクターの性格特性を動的に変化させるシステムを実装した。高ストレス状態では「臆病」「利己的」「虐待的」といったネガティブ特性が発現し、パーティ全体の崩壊を引き起こす。これは<a href="sanity-mechanics.html">正気度システム</a>の「個人の精神崩壊」を「集団の機能不全」に拡張した設計であり、恐怖の社会的側面——信頼の崩壊、協調の不可能性——を構造化した。</p>
+      <p><b>啓蒙システムの逆転</b>——『Bloodborne』（2015年）の「啓蒙（Insight）」は、SAN値のラディカルな転倒である。啓蒙値が上昇するほど世界の隠された層が可視化され、新たな敵や攻撃パターンが出現する。「知ることが世界を変える」のではなく「知ることが世界の本当の姿を見せる」という設計は、<a href="cthulhu-mythos.html">クトゥルフ神話</a>の根本的テーゼ——人間の日常的現実は無知による幸福な幻想に過ぎない——を見事にゲーム化したものである。</p>
+
+      <div class="mermaid-container"><pre class="mermaid">
+flowchart LR
+    subgraph 精神状態メカニクスの進化系譜
+        A["CoC SAN値<br>1981年<br>知識⇄正気のトレードオフ"]
+        B["Eternal Darkness<br>2002年<br>メタ的演出・第四の壁破壊"]
+        C["Amnesia<br>2010年<br>暗闇⇄正気のジレンマ"]
+        D["Bloodborne 啓蒙<br>2015年<br>知識が世界を変容させる"]
+        E["Darkest Dungeon<br>2016年<br>ストレス⇄性格変容"]
+        F["現代ホラーゲーム<br>複合的精神状態モデル"]
+    end
+
+    A -->|"デジタル移植"| B
+    A -->|"サバイバルホラー統合"| C
+    A -->|"逆転的再解釈"| D
+    A -->|"社会的拡張"| E
+    B --> F
+    C --> F
+    D --> F
+    E --> F
+
+    style A fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style F fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style D fill:#fff3e0,stroke:#e65100,stroke-width:2px
+      </pre></div>
+
+      <h2 id="narrative">ナラティブ構造——「敗北のゲーム」の物語設計</h2>
+      <p><a href="sanity-mechanics.html">正気度システム</a>の記事で論じたように、<a href="call-of-cthulhu-trpg.html">CoC</a>の根底にある設計哲学は「敗北のゲーム」——探索を進めるほどキャラクターが弱体化するという構造——である。この逆説的な設計原理は、ホラーゲームのナラティブ構造全体に浸透している。</p>
+      <p><b>不可逆的劣化のナラティブ</b>——従来のゲームが「成長の物語」を語るのに対し、ホラーゲームは「崩壊の物語」を語る。『Silent Hill 2』のジェイムスは、真実に近づくほど自身の罪と向き合わざるを得なくなり、プレイヤーの行動が無意識のうちに結末を決定する。これは<a href="existential-horror.html">実存的恐怖</a>の構造——自由な選択が不可避的に破滅を招くという構造——の忠実な実装である。</p>
+      <p><b>環境ナラティブと<a href="infohazard.html">情報ハザード</a></b>——『Gone Home』（2013年）や『Layers of Fear』（2016年）に代表される「ウォーキングシミュレーター」型ホラーは、空間探索そのものを物語の解読行為に転換した。部屋の配置、残された文書、壁の落書きが語る物語を組み立てる過程は、<a href="necronomicon.html">ネクロノミコン</a>の断片を読み解く<a href="call-of-cthulhu-trpg.html">CoC</a>探索者の体験と構造的に同型である。</p>
+      <p><b>メタナラティブの恐怖</b>——<a href="scp-foundation.html">SCPファウンデーション</a>が確立した「報告書形式による恐怖」は、ゲームにおいてはメタナラティブとして結実する。『Doki Doki Literature Club!』はゲームのコードそのものを物語の一部とし、キャラクターがプレイヤーのゲームファイルを操作するという構造で、<a href="mimetic-hazard.html">ミーム汚染</a>的な恐怖——「あなたが触れているメディアそのものが汚染されている」——を実現した。<a href="yellow-sign.html">黄の印</a>を見た者が狂気に陥るように、ゲームを「プレイする」という行為そのものが汚染源となる。</p>
+
+      <h2 id="sound-space">音響と空間——恐怖の物理的設計</h2>
+      <p>ホラーゲームデザインにおいて、音響と空間の設計は恐怖体験の50%以上を担うとされる。視覚的恐怖が「見えるもの」の操作であるのに対し、音響的恐怖は「見えないもの」の存在を暗示する。</p>
+      <p><b>沈黙の設計</b>——最も効果的なホラーサウンドデザインは、しばしば「音の不在」である。『Silent Hill』シリーズの霧に覆われた街路では、環境音が極端に抑制され、プレイヤーの足音と無線ラジオの静電ノイズだけが聴覚的情報を提供する。この「音の真空」が、突発的な音響イベント（敵の出現、ドアの軋み）の衝撃を指数関数的に増幅する。</p>
+      <p><b>空間の歪曲</b>——ホラーゲームの空間設計は、プレイヤーの空間認識を意図的に攪乱する。『P.T.』（2014年）のL字型廊下は、同じ空間を繰り返し通過するたびに微細な変化が蓄積するという設計で、「馴染みあるものの不気味さ」（フロイトの「不気味なもの」概念）を純粋に空間的手段で実現した。<a href="carcosa.html">カルコサ</a>のように現実の法則が通用しない異界を、建築空間として体験させるのである。</p>
+      <p><b>適応的恐怖システム</b>——『Alien: Isolation』（2014年）のエイリアンAIは、プレイヤーの行動パターンを学習して対応を変化させる適応的脅威システムを実装した。プレイヤーがロッカーに隠れる頻度が高ければ、AIはロッカーの探索頻度を上げる。この設計は、プレイヤーの安全戦略を無効化することで「学習の無効性」——すなわち<a href="cosmic-horror.html">コズミック・ホラー</a>の核心的テーマ「人間の知恵は脅威に対して根本的に無力である」——をメカニクスとして実装したものである。</p>
+
+      <h2 id="player-psychology">プレイヤー心理の操作——恐怖のUXデザイン</h2>
+      <p>ホラーゲームデザインの究極的な対象は、ゲーム内のキャラクターではなく、モニターの前に座るプレイヤー自身の心理である。優れたホラーゲームは、プレイヤーの認知バイアス、学習パターン、感情的反応を体系的に操作する。</p>
+      <p><b>期待と裏切りのリズム設計</b>——恐怖は予測可能になった瞬間に減衰する。ホラーゲームデザインの最も重要な技法のひとつは、プレイヤーの予測を意図的に構築し、次にそれを裏切ることである。「長い廊下の先に何かがいる」というパターンを二度繰り返して学習させた後、三度目には「何もいない」空間を提示する——この「不在の恐怖」は、プレイヤー自身の想像力が生成した期待を兵器化する技法である。</p>
+      <p><b>エージェンシーの剥奪と回復</b>——プレイヤーの操作能力（エージェンシー）を一時的に制限することで無力感を、回復させることで安堵と油断を交互に生み出す。『Outlast』（2013年）の「カメラの暗視モードのバッテリー管理」は、プレイヤーのエージェンシーを電池という消耗品に物質化し、制御可能性の喪失への恐怖を持続的に維持した。</p>
+      <p><b>不確実性の管理</b>——<a href="call-of-cthulhu-trpg.html">CoC</a>における<a href="sanity-mechanics.html">SAN値チェック</a>のダイスロールは、「成功するか失敗するかわからない」という不確実性そのものが恐怖の源泉となることを証明した。デジタルゲームにおいても、乱数による敵配置、手続き生成によるマップ変動、プレイヤーの行動に応じた動的難易度調整は、すべて「次に何が起こるかわからない」という不確実性を維持するための設計手法である。</p>
+      <p><b>共有恐怖とソーシャルホラー</b>——近年のホラーゲームデザインにおける新潮流は、恐怖の社会的共有である。『Phasmophobia』（2020年）の協力型ゴーストハンティングは、チームメンバー間の情報非対称性——一人が幽霊を目撃し他のメンバーには見えない——が恐怖を増幅する。これは<a href="call-of-cthulhu-trpg.html">CoC</a>のテーブルを囲んだ探索者たちが、キーパーから個別に情報を受け取る体験のデジタル的再現であり、<a href="mimetic-hazard.html">ミーム汚染</a>の「知った者と知らない者の非対称性」を協力プレイの文脈で構造化したものである。</p>
+
+    </main>
+
+    <aside class="wiki-sidebar">
+      <div class="toc">
+        <div class="toc-title">目次</div>
+        <ul class="toc-list">
+          <li><a href="#taxonomy">恐怖の類型とゲームデザインへの写像</a></li>
+          <li><a href="#information-control">情報制御——「見せない」デザインの技法</a></li>
+          <li><a href="#sanity-in-games">精神状態メカニクス——SAN値からストレスシステムへ</a></li>
+          <li><a href="#narrative">ナラティブ構造——「敗北のゲーム」の物語設計</a></li>
+          <li><a href="#sound-space">音響と空間——恐怖の物理的設計</a></li>
+          <li><a href="#player-psychology">プレイヤー心理の操作——恐怖のUXデザイン</a></li>
+        </ul>
+      </div>
+
+      <div class="related-articles">
+        <div class="related-title">関連記事</div>
+        <ul class="related-list">
+          <li><a href="sanity-mechanics.html">正気度システム</a></li>
+          <li><a href="call-of-cthulhu-trpg.html">クトゥルフの呼び声TRPG</a></li>
+          <li><a href="cosmic-horror.html">コズミック・ホラー</a></li>
+          <li><a href="existential-horror.html">実存的恐怖</a></li>
+          <li><a href="mimetic-hazard.html">ミーム汚染</a></li>
+          <li><a href="infohazard.html">情報ハザード</a></li>
+          <li><a href="cthulhu-mythos.html">クトゥルフ神話</a></li>
+          <li><a href="hp-lovecraft.html">H・P・ラヴクラフト</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="wiki-footer">
+    <div class="footer-links">
+      <h4>リンク先</h4>
+      <ul><li><a href="sanity-mechanics.html">正気度システム</a></li><li><a href="call-of-cthulhu-trpg.html">クトゥルフの呼び声TRPG</a></li><li><a href="cosmic-horror.html">コズミック・ホラー</a></li><li><a href="hp-lovecraft.html">H・P・ラヴクラフト</a></li><li><a href="existential-horror.html">実存的恐怖</a></li><li><a href="infohazard.html">情報ハザード</a></li><li><a href="necronomicon.html">ネクロノミコン</a></li><li><a href="cthulhu-mythos.html">クトゥルフ神話</a></li><li><a href="mimetic-hazard.html">ミーム汚染</a></li><li><a href="great-old-ones.html">旧支配者</a></li><li><a href="nyarlathotep.html">ナイアーラトテップ</a></li><li><a href="the-king-in-yellow.html">黄衣の王 (戯曲)</a></li><li><a href="yellow-sign.html">黄の印</a></li><li><a href="scp-foundation.html">SCPファウンデーション</a></li><li><a href="carcosa.html">カルコサ</a></li></ul>
+      <h4>被リンク</h4>
+      <ul><li><a href="sanity-mechanics.html">正気度システム</a></li></ul>
+    </div>
+    <p style="margin-top:12px;">Auto-Wiki で自動生成</p>
+  </footer>
+</div>
+</body>
+</html>
