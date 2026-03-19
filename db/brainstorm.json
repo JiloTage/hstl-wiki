@@ -1,61 +1,140 @@
 {
   "queue": [
     {
-      "proposed_slug": "robert-w-chambers",
-      "proposed_title": "ロバート・W・チェンバーズ",
+      "proposed_slug": "hp-lovecraft",
+      "proposed_title": "H・P・ラヴクラフト",
       "source_id": "the-king-in-yellow",
-      "rationale": "『黄衣の王』の著者。画家から作家へ転身した異色の経歴と、初期怪奇作品の傑出した質が後期大衆小説との落差として語られる興味深い人物。",
+      "rationale": "チェンバーズを高く評価し、ハスターやカルコサを自作に取り入れた作家。コズミック・ホラーの確立者。全記事から参照されている最重要未作成記事。",
       "interestingness_score": 0.95,
-      "status": "queued"
-    },
-    {
-      "proposed_slug": "hastur",
-      "proposed_title": "ハスター",
-      "source_id": "the-king-in-yellow",
-      "rationale": "ビアスからチェンバーズ、ラヴクラフト、ダーレスへと変遷する過程で、牧歌的な神格から宇宙的恐怖の存在へと変貌した。その意味の変遷が神話体系の形成過程を映す。",
-      "interestingness_score": 0.92,
-      "status": "queued"
-    },
-    {
-      "proposed_slug": "carcosa",
-      "proposed_title": "カルコサ",
-      "source_id": "the-king-in-yellow",
-      "rationale": "ビアスが生み出しチェンバーズが拡張した架空都市。黒い星と双子の太陽に照らされる廃墟の都は、現実と幻想の境界が溶解する場所として機能する。",
-      "interestingness_score": 0.90,
-      "status": "queued"
-    },
-    {
-      "proposed_slug": "yellow-sign",
-      "proposed_title": "黄の印",
-      "source_id": "the-king-in-yellow",
-      "rationale": "戯曲と結びついた紋章記号であり、認知するだけで精神を侵食する「情報災害」の原型。現代のミーム理論との接点が豊か。",
-      "interestingness_score": 0.88,
       "status": "queued"
     },
     {
       "proposed_slug": "cthulhu-mythos",
       "proposed_title": "クトゥルフ神話",
       "source_id": "the-king-in-yellow",
-      "rationale": "ラヴクラフトとその後継者たちが構築した共有神話体系。チェンバーズの要素がいかに取り込まれ変容したかを追うことで、集合的創作の力学が見える。",
-      "interestingness_score": 0.85,
-      "status": "queued"
-    },
-    {
-      "proposed_slug": "hp-lovecraft",
-      "proposed_title": "H・P・ラヴクラフト",
-      "source_id": "the-king-in-yellow",
-      "rationale": "チェンバーズを高く評価し、ハスターやカルコサを自作に取り入れた作家。コズミック・ホラーの確立者としての役割と、チェンバーズからの影響関係が重要。",
-      "interestingness_score": 0.87,
+      "rationale": "ラヴクラフトとその後継者たちが構築した共有神話体系。全記事から参照されている。",
+      "interestingness_score": 0.92,
       "status": "queued"
     },
     {
       "proposed_slug": "mimetic-hazard",
       "proposed_title": "ミーム汚染",
-      "source_id": "the-king-in-yellow",
-      "rationale": "黄の印や戯曲の「読むだけで感染する」設定は、現代のミーム理論・情報災害概念を1世紀先取りしている。フィクションと認知科学の交差点。",
+      "source_id": "yellow-sign",
+      "rationale": "黄の印が体現する「情報そのものが災厄となる」概念。SCPファウンデーションや情報セキュリティ分野での展開を含む。",
+      "interestingness_score": 0.90,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "necronomicon",
+      "proposed_title": "ネクロノミコン",
+      "source_id": "yellow-sign",
+      "rationale": "ラヴクラフトが創造した架空の魔道書。黄衣の王と並ぶ「読むと狂気に陥る書物」の系譜における最重要作品。",
+      "interestingness_score": 0.88,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "cosmic-horror",
+      "proposed_title": "コズミック・ホラー",
+      "source_id": "weird-fiction",
+      "rationale": "ラヴクラフトが確立した宇宙的恐怖の概念。ウィアード・フィクションの中核的サブジャンル。",
+      "interestingness_score": 0.88,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "true-detective",
+      "proposed_title": "トゥルー・ディテクティブ",
+      "source_id": "carcosa",
+      "rationale": "HBOドラマ第1シーズン（2014年）がチェンバーズのモチーフを現代に移植。",
+      "interestingness_score": 0.85,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "fin-de-siecle",
+      "proposed_title": "世紀末芸術",
+      "source_id": "robert-w-chambers",
+      "rationale": "チェンバーズのパリ修業時代に直接影響を与えた芸術運動。象徴主義・退廃主義を包含。",
+      "interestingness_score": 0.85,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "devils-dictionary",
+      "proposed_title": "悪魔の辞典",
+      "source_id": "ambrose-bierce",
+      "rationale": "ビアスの代表作。辞書形式を借りた社会批評としてアメリカ風刺文学の最高傑作。",
+      "interestingness_score": 0.85,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "gothic-fiction",
+      "proposed_title": "ゴシック小説",
+      "source_id": "weird-fiction",
+      "rationale": "ウィアード・フィクションの直接的源流。18世紀末〜19世紀の恐怖文学の基盤。",
+      "interestingness_score": 0.85,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "pallid-mask",
+      "proposed_title": "蒼白の仮面",
+      "source_id": "yellow-sign",
+      "rationale": "戯曲における最も有名なモチーフ。存在論的恐怖の象徴。",
+      "interestingness_score": 0.85,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "august-derleth",
+      "proposed_title": "オーガスト・ダーレス",
+      "source_id": "hastur",
+      "rationale": "ラヴクラフト死後にアーカム・ハウスを設立し、クトゥルフ神話の体系化に決定的な役割を果たした。",
       "interestingness_score": 0.82,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "metafiction",
+      "proposed_title": "メタフィクション",
+      "source_id": "robert-w-chambers",
+      "rationale": "黄衣の王の「読めない書物」構造はメタフィクションの先駆的事例。",
+      "interestingness_score": 0.82,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "new-weird",
+      "proposed_title": "ニュー・ウィアード",
+      "source_id": "weird-fiction",
+      "rationale": "21世紀におけるウィアード・フィクションの再興運動。ミエヴィル、ヴァンダミアらによるジャンルの更新。",
+      "interestingness_score": 0.82,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "great-old-ones",
+      "proposed_title": "旧支配者",
+      "source_id": "hastur",
+      "rationale": "ダーレスの元素体系でハスターが位置づけられた神格カテゴリ。",
+      "interestingness_score": 0.80,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "fictional-cities",
+      "proposed_title": "架空都市の系譜",
+      "source_id": "carcosa",
+      "rationale": "カルコサ、アーカム、ゴッサムなど文学における架空都市の系譜。",
+      "interestingness_score": 0.80,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "american-civil-war-literature",
+      "proposed_title": "南北戦争文学",
+      "source_id": "ambrose-bierce",
+      "rationale": "ビアスの従軍体験がアメリカ文学のリアリズムを形成した系譜。",
+      "interestingness_score": 0.80,
       "status": "queued"
     }
   ],
-  "history": []
+  "history": [
+    {"proposed_slug": "robert-w-chambers", "status": "completed"},
+    {"proposed_slug": "hastur", "status": "completed"},
+    {"proposed_slug": "carcosa", "status": "completed"},
+    {"proposed_slug": "weird-fiction", "status": "completed"},
+    {"proposed_slug": "ambrose-bierce", "status": "completed"},
+    {"proposed_slug": "yellow-sign", "status": "completed"}
+  ]
 }

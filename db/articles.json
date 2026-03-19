@@ -7,12 +7,84 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["robert-w-chambers", "hastur", "carcosa", "yellow-sign", "cthulhu-mythos", "hp-lovecraft", "mimetic-hazard"],
-      "linked_from": [],
+      "linked_from": ["robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction"],
       "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。",
-      "expansion_status": "pending",
+      "expansion_status": "done",
       "origin": "root"
+    },
+    "robert-w-chambers": {
+      "id": "robert-w-chambers",
+      "title": "ロバート・W・チェンバーズ",
+      "filename": "articles/robert-w-chambers.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["the-king-in-yellow", "hastur", "carcosa", "yellow-sign", "cthulhu-mythos", "hp-lovecraft", "weird-fiction", "fin-de-siecle"],
+      "linked_from": ["the-king-in-yellow", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction"],
+      "summary": "ロバート・ウィリアム・チェンバーズ（1865-1933）は、アメリカの画家・小説家。初期の怪奇短編集『黄衣の王』（1895年）でウィアード・フィクション史に不朽の足跡を残したが、その後は大衆ロマンス小説の量産作家として知られた。",
+      "expansion_status": "complete",
+      "origin": "the-king-in-yellow"
+    },
+    "hastur": {
+      "id": "hastur",
+      "title": "ハスター",
+      "filename": "articles/hastur.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["the-king-in-yellow", "robert-w-chambers", "carcosa", "hp-lovecraft", "cthulhu-mythos", "yellow-sign", "ambrose-bierce", "august-derleth"],
+      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction"],
+      "summary": "アンブローズ・ビアスの短編に端を発し、チェンバーズ、ラヴクラフト、ダーレスらによって変容を重ねた多義的な名称。牧神から宇宙的恐怖の神格へと、一世紀以上にわたり意味を増殖させ続けている。",
+      "expansion_status": "complete",
+      "origin": "the-king-in-yellow"
+    },
+    "carcosa": {
+      "id": "carcosa",
+      "title": "カルコサ",
+      "filename": "articles/carcosa.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "ambrose-bierce", "hp-lovecraft", "cthulhu-mythos", "true-detective", "fictional-cities"],
+      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "ambrose-bierce", "yellow-sign", "weird-fiction"],
+      "summary": "アメリカ怪奇文学に繰り返し登場する架空の都市。アンブローズ・ビアスが創造し、ロバート・W・チェンバーズが『黄衣の王』で神秘的な異界として発展させ、クトゥルフ神話やHBOドラマ『トゥルー・ディテクティブ』にまで影響を及ぼした。",
+      "expansion_status": "complete",
+      "origin": "the-king-in-yellow"
+    },
+    "ambrose-bierce": {
+      "id": "ambrose-bierce",
+      "title": "アンブローズ・ビアス",
+      "filename": "articles/ambrose-bierce.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "hp-lovecraft", "cthulhu-mythos", "devils-dictionary", "american-civil-war-literature"],
+      "linked_from": ["hastur", "carcosa"],
+      "summary": "アンブローズ・グウィネット・ビアス（1842-1914?）は、アメリカの作家・ジャーナリスト。南北戦争の従軍体験に基づく戦争文学、『悪魔の辞典』、怪奇短編群で知られる。『カルコサの住人』と『羊飼いハイタ』で創造した「カルコサ」と「ハスター」の名は、チェンバーズを経てクトゥルフ神話の基盤となった。1913年メキシコで消息を絶った。",
+      "expansion_status": "complete",
+      "origin": "carcosa"
+    },
+    "yellow-sign": {
+      "id": "yellow-sign",
+      "title": "黄の印",
+      "filename": "articles/yellow-sign.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "mimetic-hazard", "cthulhu-mythos", "hp-lovecraft", "pallid-mask", "necronomicon"],
+      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur"],
+      "summary": "『黄衣の王』の戯曲と不可分に結びついた紋章的記号。その正確な形状は描写されないが、目撃した者を戯曲の影響下に引き込み、精神を不可逆的に変容させるとされる。情報そのものが災厄となる「認知汚染」の原型的モチーフとして、文学・ゲーム・現代ポップカルチャーに広く浸透している。",
+      "expansion_status": "complete",
+      "origin": "the-king-in-yellow"
+    },
+    "weird-fiction": {
+      "id": "weird-fiction",
+      "title": "ウィアード・フィクション",
+      "filename": "articles/weird-fiction.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "hp-lovecraft", "cthulhu-mythos", "cosmic-horror", "gothic-fiction", "new-weird"],
+      "linked_from": ["robert-w-chambers"],
+      "summary": "ウィアード・フィクション（Weird Fiction）は、恐怖、畏怖、宇宙的不安を核とする文学ジャンル。ホラー、ファンタジー、SFの境界を横断し、人間の認識を超えた「異質なもの」との遭遇を描く。ゴシック小説から派生し、ラヴクラフトにより理論的に確立された。",
+      "expansion_status": "complete",
+      "origin": "robert-w-chambers"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 1
+  "total_count": 7
 }
