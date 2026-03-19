@@ -1,6 +1,6 @@
 {
-  "last_phase": "phase2_cycle2",
-  "expansion_frontier": ["weird-fiction", "ambrose-bierce", "yellow-sign"],
+  "last_phase": "phase2_cycle3",
+  "expansion_frontier": ["outer-gods", "nyarlathotep"],
   "settings": {
     "max_agents": 3,
     "max_total_articles": 50,

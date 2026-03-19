@@ -1,196 +1,950 @@
 {
   "nodes": [
-    {"id": "the-king-in-yellow", "title": "黄衣の王 (戯曲)", "url": "articles/the-king-in-yellow.html", "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。", "is_root": true},
-    {"id": "robert-w-chambers", "title": "ロバート・W・チェンバーズ", "url": "articles/robert-w-chambers.html", "summary": "ロバート・ウィリアム・チェンバーズ（1865-1933）は、アメリカの画家・小説家。初期の怪奇短編集『黄衣の王』（1895年）でウィアード・フィクション史に不朽の足跡を残したが、その後は大衆ロマンス小説の量産作家として知られた。", "is_root": false},
-    {"id": "hastur", "title": "ハスター", "url": "articles/hastur.html", "summary": "アンブローズ・ビアスの短編に端を発し、チェンバーズ、ラヴクラフト、ダーレスらによって変容を重ねた多義的な名称。牧神から宇宙的恐怖の神格へと、一世紀以上にわたり意味を増殖させ続けている。", "is_root": false},
-    {"id": "carcosa", "title": "カルコサ", "url": "articles/carcosa.html", "summary": "アメリカ怪奇文学に繰り返し登場する架空の都市。アンブローズ・ビアスが創造し、ロバート・W・チェンバーズが『黄衣の王』で神秘的な異界として発展させ、クトゥルフ神話やHBOドラマ『トゥルー・ディテクティブ』にまで影響を及ぼした。", "is_root": false},
-    {"id": "yellow-sign", "title": "黄の印", "url": "articles/yellow-sign.html", "summary": "『黄衣の王』の戯曲と不可分に結びついた紋章的記号。その正確な形状は描写されないが、目撃した者を戯曲の影響下に引き込み、精神を不可逆的に変容させるとされる。情報そのものが災厄となる「認知汚染」の原型的モチーフとして、文学・ゲーム・現代ポップカルチャーに広く浸透している。", "is_root": false},
-    {"id": "ambrose-bierce", "title": "アンブローズ・ビアス", "url": "articles/ambrose-bierce.html", "summary": "アンブローズ・グウィネット・ビアス（1842-1914?）は、アメリカの作家・ジャーナリスト。南北戦争の従軍体験に基づく戦争文学、『悪魔の辞典』、怪奇短編群で知られる。『カルコサの住人』と『羊飼いハイタ』で創造した「カルコサ」と「ハスター」の名は、チェンバーズを経てクトゥルフ神話の基盤となった。", "is_root": false},
-    {"id": "weird-fiction", "title": "ウィアード・フィクション", "url": "articles/weird-fiction.html", "summary": "ウィアード・フィクション（Weird Fiction）は、恐怖、畏怖、宇宙的不安を核とする文学ジャンル。ホラー、ファンタジー、SFの境界を横断し、人間の認識を超えた「異質なもの」との遭遇を描く。ゴシック小説から派生し、ラヴクラフトにより理論的に確立された。", "is_root": false},
-    {"id": "mimetic-hazard", "title": "ミーム汚染", "url": "articles/mimetic-hazard.html", "summary": "ミーム汚染（memetic hazard / cognitohazard）とは、特定の情報・記号・概念に接触すること自体が認知的・心理的な危害を引き起こすという概念。怪奇文学における「読むだけで狂気に陥る書物」から、現代の情報セキュリティにおける「情報ハザード」まで、フィクションと現実を横断する射程を持つ。", "is_root": false},
-    {"id": "hp-lovecraft", "title": "H・P・ラヴクラフト", "url": "articles/hp-lovecraft.html", "summary": "ハワード・フィリップス・ラヴクラフト（1890-1937）は、アメリカの怪奇小説家・詩人・評論家。コズミック・ホラーの概念を確立し、クトゥルフ神話体系を創造した。ウィアード・フィクションの理論家としても知られ、20世紀怪奇文学最大の巨人である。", "is_root": false},
-    {"id": "cthulhu-mythos", "title": "クトゥルフ神話", "url": "articles/cthulhu-mythos.html", "summary": "H・P・ラヴクラフトの作品群を核として複数の作家が共同で構築した架空の神話体系。ダーレスによる体系化を経て、TRPGやメディア展開を通じて世界的な文化現象となった。チェンバーズのハスターやカルコサを取り込みながら拡張された共有世界。", "is_root": false},
-    {"id": "necronomicon", "title": "ネクロノミコン", "url": "articles/necronomicon.html", "summary": "H・P・ラヴクラフトが創造した架空の魔道書。「狂えるアラブ人」アブドゥル・アルハズレッドが著したとされ、クトゥルフ神話作品群において禁断の知識の象徴として機能する。チェンバーズの『黄衣の王』と構造的に共鳴する「読むこと自体が危険な書物」の頂点。", "is_root": false},
-    {"id": "true-detective", "title": "トゥルー・ディテクティブ", "url": "articles/true-detective.html", "summary": "HBOが2014年から放送するアンソロジー形式の犯罪ドラマシリーズ。第1シーズンはロバート・W・チェンバーズ『黄衣の王』の世界観をルイジアナ州の連続殺人事件に移植し、文学的ホラーとテレビドラマの融合として高い評価を受けた。チェンバーズ再評価の契機ともなった画期的作品。", "is_root": false},
-    {"id": "cosmic-horror", "title": "コズミック・ホラー", "url": "articles/cosmic-horror.html", "summary": "コズミック・ホラー（Cosmic Horror）は、広大な宇宙における人間の存在論的矮小さと無意味さに起因する恐怖を核とする文学・芸術の様式。ラヴクラフトが理論化した宇宙的無関心主義を思想的基盤とし、ウィアード・フィクションの中核的サブジャンルとして文学・映画・ゲームに広く浸透している。", "is_root": false},
-    {"id": "fin-de-siecle", "title": "世紀末芸術", "url": "articles/fin-de-siecle.html", "summary": "世紀末芸術（フィン・ド・シエクル）とは、19世紀末のヨーロッパを中心に花開いた芸術・文学・思想の総称。象徴主義、退廃主義、唯美主義を主要な潮流とし、チェンバーズの『黄衣の王』の退廃的世界観に直接的な影響を与えた。", "is_root": false},
-    {"id": "devils-dictionary", "title": "悪魔の辞典", "url": "articles/devils-dictionary.html", "summary": "『悪魔の辞典』（The Devil's Dictionary, 1906/1911）は、アンブローズ・ビアスが四半世紀にわたり新聞コラムとして連載し書籍化した風刺辞典。辞書形式を借りて人間社会のあらゆる制度・慣習を毒舌で再定義するアメリカ風刺文学の最高傑作のひとつ。", "is_root": false},
-    {"id": "gothic-fiction", "title": "ゴシック小説", "url": "articles/gothic-fiction.html", "summary": "ゴシック小説（Gothic Fiction）は、18世紀後半の英国に端を発する文学ジャンル。ウォルポール『オトラント城奇譚』（1764年）を嚆矢として、ラドクリフ、ルイス、シェリー、ストーカーらが発展させ、ポーやル・ファニュを経てウィアード・フィクションやコズミック・ホラーへと分岐した。", "is_root": false},
-    {"id": "scp-foundation", "title": "SCPファウンデーション", "url": "articles/scp-foundation.html", "summary": "SCPファウンデーション（SCP Foundation）は、2007年に英語圏のインターネット掲示板から生まれた共同創作型ホラーフィクション・プロジェクト。超常的存在やオブジェクトを収容する架空の秘密組織を舞台に、疑似科学的報告書の形式でコズミック・ホラーの伝統をインターネット時代に再構築した。", "is_root": false},
-    {"id": "august-derleth", "title": "オーガスト・ダーレス", "url": "articles/august-derleth.html", "summary": "オーガスト・ウィリアム・ダーレス（1909-1971）は、アメリカの作家・編集者・出版人。ラヴクラフトの弟子としてアーカム・ハウス出版社を設立し、クトゥルフ神話の保存と体系化の両面で決定的な役割を果たした。", "is_root": false},
-    {"id": "pallid-mask", "title": "蒼白の仮面", "url": "articles/pallid-mask.html", "summary": "「蒼白の仮面」（The Pallid Mask）は、チェンバーズの戯曲『黄衣の王』に登場する象徴的モチーフ。仮面舞踏会における「仮面などつけてはおらぬ」の台詞が体現する存在論的恐怖は、外見と本質の不可分性をめぐるコズミック・ホラーの核心を衝くものである。", "is_root": false},
-    {"id": "call-of-cthulhu-trpg", "title": "クトゥルフの呼び声TRPG", "url": "articles/call-of-cthulhu-trpg.html", "summary": "1981年にケイオシアム社から発売されたテーブルトークRPG。サンディ・ピーターセンがデザインし、正気度（SAN値）システムの導入によりホラーTRPGというジャンルを確立した。日本では独自の受容と発展を遂げ、クトゥルフ神話の最大の伝播媒体となっている。", "is_root": false},
-    {"id": "metafiction", "title": "メタフィクション", "url": "articles/metafiction.html", "summary": "フィクションでありながら自らのフィクション性を意識的に露呈・探求する文学的手法および作品群の総称。チェンバーズの『黄衣の王』における「読むと狂気に陥る戯曲」は、メタフィクションとホラーが交差する原型的事例である。", "is_root": false},
-    {"id": "new-weird", "title": "ニュー・ウィアード", "url": "articles/new-weird.html", "summary": "ニュー・ウィアード（New Weird）は、2000年代に顕在化したウィアード・フィクションの現代的再興運動。SF、ファンタジー、ホラーのジャンル境界を意図的に溶解させ、ラヴクラフト的コズミック・ホラーの遺産を政治的・美学的に批判的継承する21世紀文学の重要潮流。", "is_root": false}
+    {
+      "id": "the-king-in-yellow",
+      "title": "黄衣の王 (戯曲)",
+      "url": "articles/the-king-in-yellow.html",
+      "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。",
+      "is_root": true
+    },
+    {
+      "id": "robert-w-chambers",
+      "title": "ロバート・W・チェンバーズ",
+      "url": "articles/robert-w-chambers.html",
+      "summary": "ロバート・ウィリアム・チェンバーズ（1865-1933）は、アメリカの画家・小説家。初期の怪奇短編集『黄衣の王』（1895年）でウィアード・フィクション史に不朽の足跡を残したが、その後は大衆ロマンス小説の量産作家として知られた。",
+      "is_root": false
+    },
+    {
+      "id": "hastur",
+      "title": "ハスター",
+      "url": "articles/hastur.html",
+      "summary": "アンブローズ・ビアスの短編に端を発し、チェンバーズ、ラヴクラフト、ダーレスらによって変容を重ねた多義的な名称。牧神から宇宙的恐怖の神格へと、一世紀以上にわたり意味を増殖させ続けている。",
+      "is_root": false
+    },
+    {
+      "id": "carcosa",
+      "title": "カルコサ",
+      "url": "articles/carcosa.html",
+      "summary": "アメリカ怪奇文学に繰り返し登場する架空の都市。アンブローズ・ビアスが創造し、ロバート・W・チェンバーズが『黄衣の王』で神秘的な異界として発展させ、クトゥルフ神話やHBOドラマ『トゥルー・ディテクティブ』にまで影響を及ぼした。",
+      "is_root": false
+    },
+    {
+      "id": "yellow-sign",
+      "title": "黄の印",
+      "url": "articles/yellow-sign.html",
+      "summary": "『黄衣の王』の戯曲と不可分に結びついた紋章的記号。その正確な形状は描写されないが、目撃した者を戯曲の影響下に引き込み、精神を不可逆的に変容させるとされる。情報そのものが災厄となる「認知汚染」の原型的モチーフとして、文学・ゲーム・現代ポップカルチャーに広く浸透している。",
+      "is_root": false
+    },
+    {
+      "id": "ambrose-bierce",
+      "title": "アンブローズ・ビアス",
+      "url": "articles/ambrose-bierce.html",
+      "summary": "アンブローズ・グウィネット・ビアス（1842-1914?）は、アメリカの作家・ジャーナリスト。南北戦争の従軍体験に基づく戦争文学、『悪魔の辞典』、怪奇短編群で知られる。『カルコサの住人』と『羊飼いハイタ』で創造した「カルコサ」と「ハスター」の名は、チェンバーズを経てクトゥルフ神話の基盤となった。",
+      "is_root": false
+    },
+    {
+      "id": "weird-fiction",
+      "title": "ウィアード・フィクション",
+      "url": "articles/weird-fiction.html",
+      "summary": "ウィアード・フィクション（Weird Fiction）は、恐怖、畏怖、宇宙的不安を核とする文学ジャンル。ホラー、ファンタジー、SFの境界を横断し、人間の認識を超えた「異質なもの」との遭遇を描く。ゴシック小説から派生し、ラヴクラフトにより理論的に確立された。",
+      "is_root": false
+    },
+    {
+      "id": "mimetic-hazard",
+      "title": "ミーム汚染",
+      "url": "articles/mimetic-hazard.html",
+      "summary": "ミーム汚染（memetic hazard / cognitohazard）とは、特定の情報・記号・概念に接触すること自体が認知的・心理的な危害を引き起こすという概念。怪奇文学における「読むだけで狂気に陥る書物」から、現代の情報セキュリティにおける「情報ハザード」まで、フィクションと現実を横断する射程を持つ。",
+      "is_root": false
+    },
+    {
+      "id": "hp-lovecraft",
+      "title": "H・P・ラヴクラフト",
+      "url": "articles/hp-lovecraft.html",
+      "summary": "ハワード・フィリップス・ラヴクラフト（1890-1937）は、アメリカの怪奇小説家・詩人・評論家。コズミック・ホラーの概念を確立し、クトゥルフ神話体系を創造した。ウィアード・フィクションの理論家としても知られ、20世紀怪奇文学最大の巨人である。",
+      "is_root": false
+    },
+    {
+      "id": "cthulhu-mythos",
+      "title": "クトゥルフ神話",
+      "url": "articles/cthulhu-mythos.html",
+      "summary": "H・P・ラヴクラフトの作品群を核として複数の作家が共同で構築した架空の神話体系。ダーレスによる体系化を経て、TRPGやメディア展開を通じて世界的な文化現象となった。チェンバーズのハスターやカルコサを取り込みながら拡張された共有世界。",
+      "is_root": false
+    },
+    {
+      "id": "necronomicon",
+      "title": "ネクロノミコン",
+      "url": "articles/necronomicon.html",
+      "summary": "H・P・ラヴクラフトが創造した架空の魔道書。「狂えるアラブ人」アブドゥル・アルハズレッドが著したとされ、クトゥルフ神話作品群において禁断の知識の象徴として機能する。チェンバーズの『黄衣の王』と構造的に共鳴する「読むこと自体が危険な書物」の頂点。",
+      "is_root": false
+    },
+    {
+      "id": "true-detective",
+      "title": "トゥルー・ディテクティブ",
+      "url": "articles/true-detective.html",
+      "summary": "HBOが2014年から放送するアンソロジー形式の犯罪ドラマシリーズ。第1シーズンはロバート・W・チェンバーズ『黄衣の王』の世界観をルイジアナ州の連続殺人事件に移植し、文学的ホラーとテレビドラマの融合として高い評価を受けた。チェンバーズ再評価の契機ともなった画期的作品。",
+      "is_root": false
+    },
+    {
+      "id": "cosmic-horror",
+      "title": "コズミック・ホラー",
+      "url": "articles/cosmic-horror.html",
+      "summary": "コズミック・ホラー（Cosmic Horror）は、広大な宇宙における人間の存在論的矮小さと無意味さに起因する恐怖を核とする文学・芸術の様式。ラヴクラフトが理論化した宇宙的無関心主義を思想的基盤とし、ウィアード・フィクションの中核的サブジャンルとして文学・映画・ゲームに広く浸透している。",
+      "is_root": false
+    },
+    {
+      "id": "fin-de-siecle",
+      "title": "世紀末芸術",
+      "url": "articles/fin-de-siecle.html",
+      "summary": "世紀末芸術（フィン・ド・シエクル）とは、19世紀末のヨーロッパを中心に花開いた芸術・文学・思想の総称。象徴主義、退廃主義、唯美主義を主要な潮流とし、チェンバーズの『黄衣の王』の退廃的世界観に直接的な影響を与えた。",
+      "is_root": false
+    },
+    {
+      "id": "devils-dictionary",
+      "title": "悪魔の辞典",
+      "url": "articles/devils-dictionary.html",
+      "summary": "『悪魔の辞典』（The Devil's Dictionary, 1906/1911）は、アンブローズ・ビアスが四半世紀にわたり新聞コラムとして連載し書籍化した風刺辞典。辞書形式を借りて人間社会のあらゆる制度・慣習を毒舌で再定義するアメリカ風刺文学の最高傑作のひとつ。",
+      "is_root": false
+    },
+    {
+      "id": "gothic-fiction",
+      "title": "ゴシック小説",
+      "url": "articles/gothic-fiction.html",
+      "summary": "ゴシック小説（Gothic Fiction）は、18世紀後半の英国に端を発する文学ジャンル。ウォルポール『オトラント城奇譚』（1764年）を嚆矢として、ラドクリフ、ルイス、シェリー、ストーカーらが発展させ、ポーやル・ファニュを経てウィアード・フィクションやコズミック・ホラーへと分岐した。",
+      "is_root": false
+    },
+    {
+      "id": "scp-foundation",
+      "title": "SCPファウンデーション",
+      "url": "articles/scp-foundation.html",
+      "summary": "SCPファウンデーション（SCP Foundation）は、2007年に英語圏のインターネット掲示板から生まれた共同創作型ホラーフィクション・プロジェクト。超常的存在やオブジェクトを収容する架空の秘密組織を舞台に、疑似科学的報告書の形式でコズミック・ホラーの伝統をインターネット時代に再構築した。",
+      "is_root": false
+    },
+    {
+      "id": "august-derleth",
+      "title": "オーガスト・ダーレス",
+      "url": "articles/august-derleth.html",
+      "summary": "オーガスト・ウィリアム・ダーレス（1909-1971）は、アメリカの作家・編集者・出版人。ラヴクラフトの弟子としてアーカム・ハウス出版社を設立し、クトゥルフ神話の保存と体系化の両面で決定的な役割を果たした。",
+      "is_root": false
+    },
+    {
+      "id": "pallid-mask",
+      "title": "蒼白の仮面",
+      "url": "articles/pallid-mask.html",
+      "summary": "「蒼白の仮面」（The Pallid Mask）は、チェンバーズの戯曲『黄衣の王』に登場する象徴的モチーフ。仮面舞踏会における「仮面などつけてはおらぬ」の台詞が体現する存在論的恐怖は、外見と本質の不可分性をめぐるコズミック・ホラーの核心を衝くものである。",
+      "is_root": false
+    },
+    {
+      "id": "call-of-cthulhu-trpg",
+      "title": "クトゥルフの呼び声TRPG",
+      "url": "articles/call-of-cthulhu-trpg.html",
+      "summary": "1981年にケイオシアム社から発売されたテーブルトークRPG。サンディ・ピーターセンがデザインし、正気度（SAN値）システムの導入によりホラーTRPGというジャンルを確立した。日本では独自の受容と発展を遂げ、クトゥルフ神話の最大の伝播媒体となっている。",
+      "is_root": false
+    },
+    {
+      "id": "metafiction",
+      "title": "メタフィクション",
+      "url": "articles/metafiction.html",
+      "summary": "フィクションでありながら自らのフィクション性を意識的に露呈・探求する文学的手法および作品群の総称。チェンバーズの『黄衣の王』における「読むと狂気に陥る戯曲」は、メタフィクションとホラーが交差する原型的事例である。",
+      "is_root": false
+    },
+    {
+      "id": "new-weird",
+      "title": "ニュー・ウィアード",
+      "url": "articles/new-weird.html",
+      "summary": "ニュー・ウィアード（New Weird）は、2000年代に顕在化したウィアード・フィクションの現代的再興運動。SF、ファンタジー、ホラーのジャンル境界を意図的に溶解させ、ラヴクラフト的コズミック・ホラーの遺産を政治的・美学的に批判的継承する21世紀文学の重要潮流。",
+      "is_root": false
+    },
+    {
+      "id": "arkham",
+      "title": "アーカム",
+      "url": "articles/arkham.html",
+      "summary": "H・P・ラヴクラフトが創造したマサチューセッツ州の架空の町。ミスカトニック大学を擁し、クトゥルフ神話作品群の中心的舞台として機能する。カルコサの「異界の恐怖」と対極をなす「馴染み深い恐怖」の場。",
+      "is_root": false
+    },
+    {
+      "id": "forbidden-books",
+      "title": "禁断の書物",
+      "url": "articles/forbidden-books.html",
+      "summary": "禁断の書物（Forbidden Books）とは、読むこと自体が危険であるとされる書物の総称。現実世界の禁書目録からウィアード・フィクションの架空書物まで、「読んではならない」という禁忌の文学的系譜を辿り、ミーム汚染・メタフィクションとの接点を論じる。",
+      "is_root": false
+    },
+    {
+      "id": "great-old-ones",
+      "title": "旧支配者",
+      "url": "articles/great-old-ones.html",
+      "summary": "旧支配者（Great Old Ones）は、クトゥルフ神話において太古の地球に君臨し、現在は眠りや封印の状態にあるとされる超自然的存在群の総称。ラヴクラフトの原典における個別の存在描写から、ダーレスによる元素体系への体系化、TRPGにおけるゲームデザインへの応用まで、多層的な変容を重ねてきた。",
+      "is_root": false
+    }
   ],
   "links": [
-    {"source": "the-king-in-yellow", "target": "robert-w-chambers"},
-    {"source": "robert-w-chambers", "target": "the-king-in-yellow"},
-    {"source": "the-king-in-yellow", "target": "hastur"},
-    {"source": "hastur", "target": "the-king-in-yellow"},
-    {"source": "robert-w-chambers", "target": "hastur"},
-    {"source": "hastur", "target": "robert-w-chambers"},
-    {"source": "the-king-in-yellow", "target": "carcosa"},
-    {"source": "carcosa", "target": "the-king-in-yellow"},
-    {"source": "robert-w-chambers", "target": "carcosa"},
-    {"source": "carcosa", "target": "robert-w-chambers"},
-    {"source": "hastur", "target": "carcosa"},
-    {"source": "carcosa", "target": "hastur"},
-    {"source": "the-king-in-yellow", "target": "yellow-sign"},
-    {"source": "yellow-sign", "target": "the-king-in-yellow"},
-    {"source": "robert-w-chambers", "target": "yellow-sign"},
-    {"source": "yellow-sign", "target": "robert-w-chambers"},
-    {"source": "hastur", "target": "yellow-sign"},
-    {"source": "yellow-sign", "target": "hastur"},
-    {"source": "yellow-sign", "target": "carcosa"},
-    {"source": "ambrose-bierce", "target": "the-king-in-yellow"},
-    {"source": "ambrose-bierce", "target": "robert-w-chambers"},
-    {"source": "ambrose-bierce", "target": "hastur"},
-    {"source": "ambrose-bierce", "target": "carcosa"},
-    {"source": "hastur", "target": "ambrose-bierce"},
-    {"source": "carcosa", "target": "ambrose-bierce"},
-    {"source": "robert-w-chambers", "target": "weird-fiction"},
-    {"source": "weird-fiction", "target": "robert-w-chambers"},
-    {"source": "weird-fiction", "target": "the-king-in-yellow"},
-    {"source": "weird-fiction", "target": "hastur"},
-    {"source": "weird-fiction", "target": "carcosa"},
-    {"source": "mimetic-hazard", "target": "the-king-in-yellow"},
-    {"source": "mimetic-hazard", "target": "yellow-sign"},
-    {"source": "mimetic-hazard", "target": "robert-w-chambers"},
-    {"source": "mimetic-hazard", "target": "hastur"},
-    {"source": "mimetic-hazard", "target": "carcosa"},
-    {"source": "the-king-in-yellow", "target": "mimetic-hazard"},
-    {"source": "yellow-sign", "target": "mimetic-hazard"},
-    {"source": "hp-lovecraft", "target": "the-king-in-yellow"},
-    {"source": "hp-lovecraft", "target": "robert-w-chambers"},
-    {"source": "hp-lovecraft", "target": "hastur"},
-    {"source": "hp-lovecraft", "target": "carcosa"},
-    {"source": "hp-lovecraft", "target": "ambrose-bierce"},
-    {"source": "hp-lovecraft", "target": "yellow-sign"},
-    {"source": "hp-lovecraft", "target": "weird-fiction"},
-    {"source": "the-king-in-yellow", "target": "hp-lovecraft"},
-    {"source": "robert-w-chambers", "target": "hp-lovecraft"},
-    {"source": "hastur", "target": "hp-lovecraft"},
-    {"source": "carcosa", "target": "hp-lovecraft"},
-    {"source": "ambrose-bierce", "target": "hp-lovecraft"},
-    {"source": "yellow-sign", "target": "hp-lovecraft"},
-    {"source": "weird-fiction", "target": "hp-lovecraft"},
-    {"source": "cthulhu-mythos", "target": "the-king-in-yellow"},
-    {"source": "cthulhu-mythos", "target": "robert-w-chambers"},
-    {"source": "cthulhu-mythos", "target": "hastur"},
-    {"source": "cthulhu-mythos", "target": "carcosa"},
-    {"source": "cthulhu-mythos", "target": "ambrose-bierce"},
-    {"source": "cthulhu-mythos", "target": "yellow-sign"},
-    {"source": "cthulhu-mythos", "target": "weird-fiction"},
-    {"source": "cthulhu-mythos", "target": "hp-lovecraft"},
-    {"source": "the-king-in-yellow", "target": "cthulhu-mythos"},
-    {"source": "robert-w-chambers", "target": "cthulhu-mythos"},
-    {"source": "hastur", "target": "cthulhu-mythos"},
-    {"source": "carcosa", "target": "cthulhu-mythos"},
-    {"source": "ambrose-bierce", "target": "cthulhu-mythos"},
-    {"source": "yellow-sign", "target": "cthulhu-mythos"},
-    {"source": "weird-fiction", "target": "cthulhu-mythos"},
-    {"source": "mimetic-hazard", "target": "cthulhu-mythos"},
-    {"source": "hp-lovecraft", "target": "cthulhu-mythos"},
-    {"source": "necronomicon", "target": "the-king-in-yellow"},
-    {"source": "necronomicon", "target": "hp-lovecraft"},
-    {"source": "necronomicon", "target": "cthulhu-mythos"},
-    {"source": "necronomicon", "target": "yellow-sign"},
-    {"source": "necronomicon", "target": "hastur"},
-    {"source": "necronomicon", "target": "mimetic-hazard"},
-    {"source": "yellow-sign", "target": "necronomicon"},
-    {"source": "cthulhu-mythos", "target": "necronomicon"},
-    {"source": "mimetic-hazard", "target": "necronomicon"},
-    {"source": "hp-lovecraft", "target": "necronomicon"},
-    {"source": "true-detective", "target": "the-king-in-yellow"},
-    {"source": "true-detective", "target": "robert-w-chambers"},
-    {"source": "true-detective", "target": "hastur"},
-    {"source": "true-detective", "target": "carcosa"},
-    {"source": "true-detective", "target": "hp-lovecraft"},
-    {"source": "true-detective", "target": "cthulhu-mythos"},
-    {"source": "carcosa", "target": "true-detective"},
-    {"source": "cosmic-horror", "target": "the-king-in-yellow"},
-    {"source": "cosmic-horror", "target": "robert-w-chambers"},
-    {"source": "cosmic-horror", "target": "hastur"},
-    {"source": "cosmic-horror", "target": "carcosa"},
-    {"source": "cosmic-horror", "target": "hp-lovecraft"},
-    {"source": "cosmic-horror", "target": "cthulhu-mythos"},
-    {"source": "cosmic-horror", "target": "weird-fiction"},
-    {"source": "cosmic-horror", "target": "ambrose-bierce"},
-    {"source": "cosmic-horror", "target": "mimetic-hazard"},
-    {"source": "weird-fiction", "target": "cosmic-horror"},
-    {"source": "hp-lovecraft", "target": "cosmic-horror"},
-    {"source": "true-detective", "target": "cosmic-horror"},
-    {"source": "fin-de-siecle", "target": "robert-w-chambers"},
-    {"source": "fin-de-siecle", "target": "the-king-in-yellow"},
-    {"source": "fin-de-siecle", "target": "weird-fiction"},
-    {"source": "fin-de-siecle", "target": "gothic-fiction"},
-    {"source": "fin-de-siecle", "target": "cosmic-horror"},
-    {"source": "fin-de-siecle", "target": "hp-lovecraft"},
-    {"source": "fin-de-siecle", "target": "cthulhu-mythos"},
-    {"source": "fin-de-siecle", "target": "carcosa"},
-    {"source": "robert-w-chambers", "target": "fin-de-siecle"},
-    {"source": "devils-dictionary", "target": "ambrose-bierce"},
-    {"source": "devils-dictionary", "target": "robert-w-chambers"},
-    {"source": "devils-dictionary", "target": "the-king-in-yellow"},
-    {"source": "ambrose-bierce", "target": "devils-dictionary"},
-    {"source": "gothic-fiction", "target": "weird-fiction"},
-    {"source": "gothic-fiction", "target": "cosmic-horror"},
-    {"source": "gothic-fiction", "target": "hp-lovecraft"},
-    {"source": "gothic-fiction", "target": "ambrose-bierce"},
-    {"source": "gothic-fiction", "target": "robert-w-chambers"},
-    {"source": "gothic-fiction", "target": "the-king-in-yellow"},
-    {"source": "gothic-fiction", "target": "fin-de-siecle"},
-    {"source": "weird-fiction", "target": "gothic-fiction"},
-    {"source": "cosmic-horror", "target": "gothic-fiction"},
-    {"source": "pallid-mask", "target": "the-king-in-yellow"},
-    {"source": "pallid-mask", "target": "robert-w-chambers"},
-    {"source": "pallid-mask", "target": "yellow-sign"},
-    {"source": "pallid-mask", "target": "hastur"},
-    {"source": "pallid-mask", "target": "carcosa"},
-    {"source": "pallid-mask", "target": "cosmic-horror"},
-    {"source": "yellow-sign", "target": "pallid-mask"},
-    {"source": "the-king-in-yellow", "target": "pallid-mask"},
-    {"source": "august-derleth", "target": "hastur"},
-    {"source": "august-derleth", "target": "cthulhu-mythos"},
-    {"source": "august-derleth", "target": "hp-lovecraft"},
-    {"source": "august-derleth", "target": "the-king-in-yellow"},
-    {"source": "august-derleth", "target": "robert-w-chambers"},
-    {"source": "august-derleth", "target": "necronomicon"},
-    {"source": "august-derleth", "target": "carcosa"},
-    {"source": "hastur", "target": "august-derleth"},
-    {"source": "cthulhu-mythos", "target": "august-derleth"},
-    {"source": "hp-lovecraft", "target": "august-derleth"},
-    {"source": "scp-foundation", "target": "mimetic-hazard"},
-    {"source": "scp-foundation", "target": "cthulhu-mythos"},
-    {"source": "scp-foundation", "target": "hp-lovecraft"},
-    {"source": "scp-foundation", "target": "the-king-in-yellow"},
-    {"source": "scp-foundation", "target": "yellow-sign"},
-    {"source": "scp-foundation", "target": "cosmic-horror"},
-    {"source": "scp-foundation", "target": "necronomicon"},
-    {"source": "mimetic-hazard", "target": "scp-foundation"},
-    {"source": "call-of-cthulhu-trpg", "target": "cthulhu-mythos"},
-    {"source": "call-of-cthulhu-trpg", "target": "hp-lovecraft"},
-    {"source": "call-of-cthulhu-trpg", "target": "hastur"},
-    {"source": "call-of-cthulhu-trpg", "target": "the-king-in-yellow"},
-    {"source": "call-of-cthulhu-trpg", "target": "yellow-sign"},
-    {"source": "call-of-cthulhu-trpg", "target": "august-derleth"},
-    {"source": "call-of-cthulhu-trpg", "target": "necronomicon"},
-    {"source": "call-of-cthulhu-trpg", "target": "carcosa"},
-    {"source": "cthulhu-mythos", "target": "call-of-cthulhu-trpg"},
-    {"source": "metafiction", "target": "the-king-in-yellow"},
-    {"source": "metafiction", "target": "robert-w-chambers"},
-    {"source": "metafiction", "target": "necronomicon"},
-    {"source": "metafiction", "target": "yellow-sign"},
-    {"source": "metafiction", "target": "mimetic-hazard"},
-    {"source": "metafiction", "target": "scp-foundation"},
-    {"source": "new-weird", "target": "weird-fiction"},
-    {"source": "new-weird", "target": "cosmic-horror"},
-    {"source": "new-weird", "target": "hp-lovecraft"},
-    {"source": "new-weird", "target": "cthulhu-mythos"},
-    {"source": "new-weird", "target": "gothic-fiction"},
-    {"source": "new-weird", "target": "the-king-in-yellow"},
-    {"source": "weird-fiction", "target": "new-weird"},
-    {"source": "cosmic-horror", "target": "new-weird"}
+    {
+      "source": "the-king-in-yellow",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "robert-w-chambers",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "the-king-in-yellow",
+      "target": "hastur"
+    },
+    {
+      "source": "hastur",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "robert-w-chambers",
+      "target": "hastur"
+    },
+    {
+      "source": "hastur",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "the-king-in-yellow",
+      "target": "carcosa"
+    },
+    {
+      "source": "carcosa",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "robert-w-chambers",
+      "target": "carcosa"
+    },
+    {
+      "source": "carcosa",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "hastur",
+      "target": "carcosa"
+    },
+    {
+      "source": "carcosa",
+      "target": "hastur"
+    },
+    {
+      "source": "the-king-in-yellow",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "yellow-sign",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "robert-w-chambers",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "yellow-sign",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "hastur",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "yellow-sign",
+      "target": "hastur"
+    },
+    {
+      "source": "yellow-sign",
+      "target": "carcosa"
+    },
+    {
+      "source": "ambrose-bierce",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "ambrose-bierce",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "ambrose-bierce",
+      "target": "hastur"
+    },
+    {
+      "source": "ambrose-bierce",
+      "target": "carcosa"
+    },
+    {
+      "source": "hastur",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "carcosa",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "robert-w-chambers",
+      "target": "weird-fiction"
+    },
+    {
+      "source": "weird-fiction",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "weird-fiction",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "weird-fiction",
+      "target": "hastur"
+    },
+    {
+      "source": "weird-fiction",
+      "target": "carcosa"
+    },
+    {
+      "source": "mimetic-hazard",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "mimetic-hazard",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "mimetic-hazard",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "mimetic-hazard",
+      "target": "hastur"
+    },
+    {
+      "source": "mimetic-hazard",
+      "target": "carcosa"
+    },
+    {
+      "source": "the-king-in-yellow",
+      "target": "mimetic-hazard"
+    },
+    {
+      "source": "yellow-sign",
+      "target": "mimetic-hazard"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "hastur"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "carcosa"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "weird-fiction"
+    },
+    {
+      "source": "the-king-in-yellow",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "robert-w-chambers",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "hastur",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "carcosa",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "ambrose-bierce",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "yellow-sign",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "weird-fiction",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "hastur"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "carcosa"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "weird-fiction"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "the-king-in-yellow",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "robert-w-chambers",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "hastur",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "carcosa",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "ambrose-bierce",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "yellow-sign",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "weird-fiction",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "mimetic-hazard",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "necronomicon",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "necronomicon",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "necronomicon",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "necronomicon",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "necronomicon",
+      "target": "hastur"
+    },
+    {
+      "source": "necronomicon",
+      "target": "mimetic-hazard"
+    },
+    {
+      "source": "yellow-sign",
+      "target": "necronomicon"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "necronomicon"
+    },
+    {
+      "source": "mimetic-hazard",
+      "target": "necronomicon"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "necronomicon"
+    },
+    {
+      "source": "true-detective",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "true-detective",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "true-detective",
+      "target": "hastur"
+    },
+    {
+      "source": "true-detective",
+      "target": "carcosa"
+    },
+    {
+      "source": "true-detective",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "true-detective",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "carcosa",
+      "target": "true-detective"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "hastur"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "carcosa"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "weird-fiction"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "mimetic-hazard"
+    },
+    {
+      "source": "weird-fiction",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "true-detective",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "fin-de-siecle",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "fin-de-siecle",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "fin-de-siecle",
+      "target": "weird-fiction"
+    },
+    {
+      "source": "fin-de-siecle",
+      "target": "gothic-fiction"
+    },
+    {
+      "source": "fin-de-siecle",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "fin-de-siecle",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "fin-de-siecle",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "fin-de-siecle",
+      "target": "carcosa"
+    },
+    {
+      "source": "robert-w-chambers",
+      "target": "fin-de-siecle"
+    },
+    {
+      "source": "devils-dictionary",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "devils-dictionary",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "devils-dictionary",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "ambrose-bierce",
+      "target": "devils-dictionary"
+    },
+    {
+      "source": "gothic-fiction",
+      "target": "weird-fiction"
+    },
+    {
+      "source": "gothic-fiction",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "gothic-fiction",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "gothic-fiction",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "gothic-fiction",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "gothic-fiction",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "gothic-fiction",
+      "target": "fin-de-siecle"
+    },
+    {
+      "source": "weird-fiction",
+      "target": "gothic-fiction"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "gothic-fiction"
+    },
+    {
+      "source": "pallid-mask",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "pallid-mask",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "pallid-mask",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "pallid-mask",
+      "target": "hastur"
+    },
+    {
+      "source": "pallid-mask",
+      "target": "carcosa"
+    },
+    {
+      "source": "pallid-mask",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "yellow-sign",
+      "target": "pallid-mask"
+    },
+    {
+      "source": "the-king-in-yellow",
+      "target": "pallid-mask"
+    },
+    {
+      "source": "august-derleth",
+      "target": "hastur"
+    },
+    {
+      "source": "august-derleth",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "august-derleth",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "august-derleth",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "august-derleth",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "august-derleth",
+      "target": "necronomicon"
+    },
+    {
+      "source": "august-derleth",
+      "target": "carcosa"
+    },
+    {
+      "source": "hastur",
+      "target": "august-derleth"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "august-derleth"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "august-derleth"
+    },
+    {
+      "source": "scp-foundation",
+      "target": "mimetic-hazard"
+    },
+    {
+      "source": "scp-foundation",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "scp-foundation",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "scp-foundation",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "scp-foundation",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "scp-foundation",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "scp-foundation",
+      "target": "necronomicon"
+    },
+    {
+      "source": "mimetic-hazard",
+      "target": "scp-foundation"
+    },
+    {
+      "source": "call-of-cthulhu-trpg",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "call-of-cthulhu-trpg",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "call-of-cthulhu-trpg",
+      "target": "hastur"
+    },
+    {
+      "source": "call-of-cthulhu-trpg",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "call-of-cthulhu-trpg",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "call-of-cthulhu-trpg",
+      "target": "august-derleth"
+    },
+    {
+      "source": "call-of-cthulhu-trpg",
+      "target": "necronomicon"
+    },
+    {
+      "source": "call-of-cthulhu-trpg",
+      "target": "carcosa"
+    },
+    {
+      "source": "cthulhu-mythos",
+      "target": "call-of-cthulhu-trpg"
+    },
+    {
+      "source": "metafiction",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "metafiction",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "metafiction",
+      "target": "necronomicon"
+    },
+    {
+      "source": "metafiction",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "metafiction",
+      "target": "mimetic-hazard"
+    },
+    {
+      "source": "metafiction",
+      "target": "scp-foundation"
+    },
+    {
+      "source": "new-weird",
+      "target": "weird-fiction"
+    },
+    {
+      "source": "new-weird",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "new-weird",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "new-weird",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "new-weird",
+      "target": "gothic-fiction"
+    },
+    {
+      "source": "new-weird",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "weird-fiction",
+      "target": "new-weird"
+    },
+    {
+      "source": "cosmic-horror",
+      "target": "new-weird"
+    },
+    {
+      "source": "arkham",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "arkham",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "arkham",
+      "target": "necronomicon"
+    },
+    {
+      "source": "arkham",
+      "target": "carcosa"
+    },
+    {
+      "source": "arkham",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "arkham",
+      "target": "august-derleth"
+    },
+    {
+      "source": "arkham",
+      "target": "great-old-ones"
+    },
+    {
+      "source": "arkham",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "arkham",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "arkham",
+      "target": "ambrose-bierce"
+    },
+    {
+      "source": "hp-lovecraft",
+      "target": "arkham"
+    },
+    {
+      "source": "necronomicon",
+      "target": "arkham"
+    },
+    {
+      "source": "forbidden-books",
+      "target": "necronomicon"
+    },
+    {
+      "source": "forbidden-books",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "forbidden-books",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "forbidden-books",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "forbidden-books",
+      "target": "robert-w-chambers"
+    },
+    {
+      "source": "forbidden-books",
+      "target": "mimetic-hazard"
+    },
+    {
+      "source": "forbidden-books",
+      "target": "yellow-sign"
+    },
+    {
+      "source": "forbidden-books",
+      "target": "metafiction"
+    },
+    {
+      "source": "necronomicon",
+      "target": "forbidden-books"
+    },
+    {"source": "great-old-ones", "target": "cthulhu-mythos"},
+    {"source": "great-old-ones", "target": "hp-lovecraft"},
+    {"source": "great-old-ones", "target": "hastur"},
+    {"source": "great-old-ones", "target": "august-derleth"},
+    {"source": "great-old-ones", "target": "necronomicon"},
+    {"source": "great-old-ones", "target": "the-king-in-yellow"},
+    {"source": "great-old-ones", "target": "call-of-cthulhu-trpg"},
+    {"source": "great-old-ones", "target": "cosmic-horror"},
+    {"source": "great-old-ones", "target": "ambrose-bierce"},
+    {"source": "great-old-ones", "target": "robert-w-chambers"},
+    {"source": "cthulhu-mythos", "target": "great-old-ones"},
+    {"source": "necronomicon", "target": "great-old-ones"},
+    {"source": "august-derleth", "target": "great-old-ones"}
   ]
 }
