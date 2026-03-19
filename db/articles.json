@@ -35,7 +35,9 @@
         "great-old-ones",
         "forbidden-books",
         "fictional-cities",
-        "southern-gothic"
+        "southern-gothic",
+        "american-civil-war-literature",
+        "house-of-leaves"
       ],
       "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。",
       "expansion_status": "done",
@@ -74,7 +76,8 @@
         "metafiction",
         "great-old-ones",
         "forbidden-books",
-        "fictional-cities"
+        "fictional-cities",
+        "house-of-leaves"
       ],
       "summary": "ロバート・ウィリアム・チェンバーズ（1865-1933）は、アメリカの画家・小説家。初期の怪奇短編集『黄衣の王』（1895年）でウィアード・フィクション史に不朽の足跡を残したが、その後は大衆ロマンス小説の量産作家として知られた。",
       "expansion_status": "complete",
@@ -110,7 +113,8 @@
         "true-detective",
         "cosmic-horror",
         "pallid-mask",
-        "great-old-ones"
+        "great-old-ones",
+        "american-civil-war-literature"
       ],
       "summary": "アンブローズ・ビアスの短編に端を発し、チェンバーズ、ラヴクラフト、ダーレスらによって変容を重ねた多義的な名称。牧神から宇宙的恐怖の神格へと、一世紀以上にわたり意味を増殖させ続けている。",
       "expansion_status": "complete",
@@ -145,7 +149,8 @@
         "true-detective",
         "cosmic-horror",
         "pallid-mask",
-        "southern-gothic"
+        "southern-gothic",
+        "american-civil-war-literature"
       ],
       "summary": "アメリカ怪奇文学に繰り返し登場する架空の都市。アンブローズ・ビアスが創造し、ロバート・W・チェンバーズが『黄衣の王』で神秘的な異界として発展させ、クトゥルフ神話やHBOドラマ『トゥルー・ディテクティブ』にまで影響を及ぼした。",
       "expansion_status": "complete",
@@ -176,7 +181,8 @@
         "devils-dictionary",
         "great-old-ones",
         "fictional-cities",
-        "southern-gothic"
+        "southern-gothic",
+        "american-civil-war-literature"
       ],
       "summary": "アンブローズ・グウィネット・ビアス（1842-1914?）は、アメリカの作家・ジャーナリスト。南北戦争の従軍体験に基づく戦争文学、『悪魔の辞典』、怪奇短編群で知られる。『カルコサの住人』と『羊飼いハイタ』で創造した「カルコサ」と「ハスター」の名は、チェンバーズを経てクトゥルフ神話の基盤となった。1913年メキシコで消息を絶った。",
       "expansion_status": "complete",
@@ -269,7 +275,8 @@
         "cosmic-horror",
         "scp-foundation",
         "metafiction",
-        "forbidden-books"
+        "forbidden-books",
+        "house-of-leaves"
       ],
       "summary": "ミーム汚染（memetic hazard / cognitohazard）とは、特定の情報・記号・概念に接触すること自体が認知的・心理的な危害を引き起こすという概念。怪奇文学における「読むだけで狂気に陥る書物」から、現代の情報セキュリティにおける「情報ハザード」まで、フィクションと現実を横断する射程を持つ。",
       "expansion_status": "complete",
@@ -383,7 +390,8 @@
         "scp-foundation",
         "metafiction",
         "forbidden-books",
-        "great-old-ones"
+        "great-old-ones",
+        "house-of-leaves"
       ],
       "summary": "H・P・ラヴクラフトが創造した架空の魔道書。「狂えるアラブ人」アブドゥル・アルハズレッドが著したとされ、クトゥルフ神話作品群において禁断の知識の象徴として機能する。チェンバーズの『黄衣の王』と構造的に共鳴する「読むこと自体が危険な書物」の頂点。",
       "expansion_status": "complete",
@@ -441,7 +449,8 @@
         "pallid-mask",
         "scp-foundation",
         "great-old-ones",
-        "southern-gothic"
+        "southern-gothic",
+        "house-of-leaves"
       ],
       "summary": "コズミック・ホラー（Cosmic Horror）は、広大な宇宙における人間の存在論的矮小さと無意味さに起因する恐怖を核とする文学・芸術の様式。ラヴクラフトが理論化した宇宙的無関心主義を思想的基盤とし、ウィアード・フィクションの中核的サブジャンルとして文学・映画・ゲームに広く浸透している。",
       "expansion_status": "complete",
@@ -485,7 +494,8 @@
         "american-satire"
       ],
       "linked_from": [
-        "ambrose-bierce"
+        "ambrose-bierce",
+        "american-civil-war-literature"
       ],
       "summary": "『悪魔の辞典』（The Devil's Dictionary, 1906/1911）は、アンブローズ・ビアスが四半世紀にわたり新聞コラムとして連載し書籍化した風刺辞典。辞書形式を借りて人間社会のあらゆる制度・慣習を毒舌で再定義するアメリカ風刺文学の最高傑作のひとつ。",
       "expansion_status": "complete",
@@ -512,7 +522,8 @@
         "weird-fiction",
         "cosmic-horror",
         "southern-gothic",
-        "fictional-cities"
+        "fictional-cities",
+        "american-civil-war-literature"
       ],
       "summary": "ゴシック小説（Gothic Fiction）は、18世紀後半の英国に端を発する文学ジャンル。ウォルポール『オトラント城奇譚』（1764年）を嚆矢として、ラドクリフ、ルイス、シェリー、ストーカーらが発展させ、ポーやル・ファニュを経てウィアード・フィクションやコズミック・ホラーへと分岐した。",
       "expansion_status": "complete",
@@ -633,7 +644,8 @@
         "house-of-leaves"
       ],
       "linked_from": [
-        "forbidden-books"
+        "forbidden-books",
+        "house-of-leaves"
       ],
       "summary": "メタフィクション（metafiction）とは、フィクションでありながら自らのフィクション性を意識的に露呈・探求する文学的手法および作品群の総称。「読むこと」と「書くこと」の行為そのものを物語の主題に据え、虚構と現実の境界を攪乱する。",
       "expansion_status": "complete",
@@ -739,7 +751,8 @@
         "grimoire"
       ],
       "linked_from": [
-        "necronomicon"
+        "necronomicon",
+        "house-of-leaves"
       ],
       "summary": "禁断の書物（Forbidden Books）とは、読むこと自体が危険であるとされる書物の総称。現実世界の禁書目録からウィアード・フィクションの架空書物まで、「読んではならない」という禁忌の文学的系譜を辿り、ミーム汚染・メタフィクションとの接点を論じる。",
       "expansion_status": "complete",
@@ -806,13 +819,80 @@
       ],
       "linked_from": [
         "gothic-fiction",
-        "true-detective"
+        "true-detective",
+        "american-civil-war-literature"
       ],
       "summary": "サザン・ゴシック（Southern Gothic）は、アメリカ南部の歴史的・社会的特殊性——奴隷制度、南北戦争の敗北、人種差別——を恐怖の源泉とする文学的サブジャンル。フォークナー、オコナー、マッカラーズらが確立し、『トゥルー・ディテクティブ』ではコズミック・ホラーと融合して新たな表現を獲得した。",
       "expansion_status": "complete",
       "origin": "gothic-fiction"
+    },
+    "american-civil-war-literature": {
+      "id": "american-civil-war-literature",
+      "title": "南北戦争文学",
+      "filename": "articles/american-civil-war-literature.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "ambrose-bierce",
+        "devils-dictionary",
+        "southern-gothic",
+        "gothic-fiction",
+        "the-king-in-yellow",
+        "hastur",
+        "carcosa"
+      ],
+      "linked_from": [
+        "ambrose-bierce"
+      ],
+      "summary": "南北戦争文学（American Civil War Literature）とは、1861年から1865年にかけてのアメリカ南北戦争を題材とし、あるいはその戦争体験に根ざして生み出された文学作品群の総称。ビアスの冷徹な戦争短編、クレインの心理的リアリズム、ホイットマンの戦争詩など、近代アメリカ文学の基盤を形成した。戦場のトラウマはゴシック文学・怪奇文学への回路を開き、サザン・ゴシックの成立にも深く寄与した。",
+      "expansion_status": "complete",
+      "origin": "ambrose-bierce"
+    },
+    "house-of-leaves": {
+      "id": "house-of-leaves",
+      "title": "紙葉の家",
+      "filename": "articles/house-of-leaves.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "metafiction",
+        "the-king-in-yellow",
+        "forbidden-books",
+        "cosmic-horror",
+        "mimetic-hazard",
+        "necronomicon",
+        "robert-w-chambers"
+      ],
+      "linked_from": [
+        "metafiction"
+      ],
+      "summary": "『紙葉の家』（House of Leaves, 2000年）は、マーク・Z・ダニエレフスキーの長編小説。内部が外部より大きい家を記録したドキュメンタリーについての学術論文を多層的に入れ子にした構造を持ち、タイポグラフィ・空白・脚注の迷宮を駆使したエルゴード文学の極北。チェンバーズの『黄衣の王』が確立した「読むこと自体が呪いとなる書物」の構造をポストモダン的に再構築した。",
+      "expansion_status": "complete",
+      "origin": "metafiction"
+    },
+    "infohazard": {
+      "id": "infohazard",
+      "title": "情報ハザード",
+      "filename": "articles/infohazard.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "mimetic-hazard",
+        "the-king-in-yellow",
+        "yellow-sign",
+        "necronomicon",
+        "scp-foundation",
+        "forbidden-books",
+        "cosmic-horror"
+      ],
+      "linked_from": [
+        "mimetic-hazard"
+      ],
+      "summary": "情報ハザード（Information Hazard）とは、真実の情報であっても、その流通・取得・理解が何らかの主体に害を与えうるという概念。哲学者ニック・ボストロムが2011年に体系化し、データ・ハザード、知識ハザード、認知ハザードなど複数の類型に分類した。フィクションにおける禁断の知識からAI安全性研究まで、現代技術倫理の核心的テーマ。",
+      "expansion_status": "complete",
+      "origin": "mimetic-hazard"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 28
+  "total_count": 31
 }

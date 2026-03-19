@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>情報ハザード - Auto-Wiki</title>
+  <link rel="stylesheet" href="../assets/css/wiki.css">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad: true, theme: 'neutral'});</script>
+</head>
+<body>
+<div class="wiki-wrapper">
+  <header class="wiki-header">
+    <a href="../index.html" class="site-title">Auto-Wiki</a>
+    <nav>
+      <a href="../index.html">トップ</a>
+      <a href="../index.html#article-list">記事一覧</a>
+      <a href="../index.html#graph">サイトグラフ</a>
+    </nav>
+  </header>
+
+  <div class="breadcrumb">
+    <a href="../index.html">Auto-Wiki</a> &gt; 情報ハザード
+  </div>
+
+  <div class="wiki-content">
+    <main class="wiki-main">
+      <h1 class="article-title">情報ハザード</h1>
+      <div class="article-meta">最終更新: 2026-03-19</div>
+      <div class="article-summary">情報ハザード（Information Hazard）とは、真実の情報であっても、その流通・取得・理解が何らかの主体に害を与えうるという概念である。哲学者ニック・ボストロムが2011年の論文で体系化し、データ・ハザード、知識ハザード、認知ハザードなど複数の類型に分類した。フィクションにおける「読むと狂気に陥る書物」の伝統から、ロコのバシリスク論争、AI安全性研究に至るまで、情報そのものの危険性をめぐる議論は現代の技術倫理の核心的テーマとなっている。</div>
+
+      <h2 id="definition">情報ハザードの定義——ニック・ボストロムの概念</h2>
+      <p>情報ハザード（information hazard, infohazard）とは、哲学者<b>ニック・ボストロム</b>が2011年の論文「Information Hazards: A Typology of Potential Harms from Knowledge」において体系化した概念であり、「真実の情報が流通することにより、何らかの主体——個人、集団、組織、社会全体——に害を与える可能性を持つリスク」と定義される。</p>
+      <p>この概念が従来の「有害情報」論と根本的に異なるのは、対象となる情報が<b>虚偽ではなく真実である</b>点にある。偽情報（disinformation）やデマ（misinformation）は情報の虚偽性そのものが問題とされるが、情報ハザードは正確で検証可能な事実が、その正確さゆえに危険となりうるという逆説的な構造を持つ。核兵器の設計原理、病原体の遺伝子配列、暗号システムの脆弱性——これらはいずれも科学的に正確な知識であるが、その拡散が破壊的結果をもたらしうる。</p>
+      <p>ボストロムの議論は、情報倫理の領域に根本的な問いを投げかけた。「知る権利」と「知られることの危険」の間に、どのような均衡点を設定すべきか。学術的な知識の自由な流通は無条件に善であるのか。これらの問いは、怪奇文学が直感的に描いてきた「禁断の知識」テーマの哲学的精緻化であり、<a href="mimetic-hazard.html">ミーム汚染</a>の概念と地続きの問題系を形成している。</p>
+
+      <h2 id="typology">情報ハザードの類型——データ・知識・認知</h2>
+      <p>ボストロムは情報ハザードを複数の類型に分類した。この分類体系は、情報がどの段階で・どのような機序で害を生じるかに基づいている。</p>
+      <h3 id="data-hazard">データ・ハザード</h3>
+      <p><b>データ・ハザード</b>（data hazard）とは、特定のデータの存在・入手可能性そのものが害をもたらすケースである。個人の医療記録、遺伝情報、位置情報などのプライバシーデータが典型例であり、データが正確であるほどリスクは高まる。監視社会（surveillance society）やビッグデータ時代において、データ・ハザードの射程は劇的に拡大している。</p>
+      <h3 id="knowledge-hazard">知識ハザード</h3>
+      <p><b>知識ハザード</b>（knowledge hazard）とは、特定の知識体系やノウハウが害をもたらすケースである。生物兵器の合成手順、コンピュータウイルスの作成方法、爆発物の製造法などがこれに該当する。デュアルユース研究（dual-use research）——平和的応用と軍事的応用の双方が可能な研究——の問題は、知識ハザードの典型的なジレンマである。2011年と2012年に発表されたH5N1インフルエンザウイルスの機能獲得研究は、知識ハザードをめぐる国際的論争を引き起こした。</p>
+      <h3 id="cognitive-hazard">認知ハザード</h3>
+      <p><b>認知ハザード</b>（cognitive hazard）とは、情報の取得・理解が認知過程そのものに悪影響を及ぼすケースである。この類型は<a href="mimetic-hazard.html">ミーム汚染</a>の概念と最も直接的に接続する。ある知識を獲得すること自体が、獲得者の思考パターン、意思決定能力、心理的安定に不可逆的な変化をもたらすという構造は、<a href="the-king-in-yellow.html">『黄衣の王』</a>の戯曲が読者の精神を変容させるという文学的装置の理論的対応物である。</p>
+      <p><a href="scp-foundation.html">SCPファウンデーション</a>における「認知災害」（cognitohazard）の概念は、ボストロムの認知ハザードをフィクションの文脈で精緻化したものと見なすことができる。</p>
+
+      <div class="mermaid-container"><pre class="mermaid">
+graph TD
+    subgraph "ボストロムの情報ハザード類型論"
+        IH["情報ハザード<br>Information Hazard"]
+        IH --> DH["データ・ハザード<br>Data Hazard"]
+        IH --> KH["知識ハザード<br>Knowledge Hazard"]
+        IH --> CH["認知ハザード<br>Cognitive Hazard"]
+        IH --> AH["注意ハザード<br>Attention Hazard"]
+        IH --> NH["規範ハザード<br>Norm Hazard"]
+
+        DH --> D1["個人データ<br>プライバシー侵害"]
+        DH --> D2["位置情報<br>物理的脅威"]
+
+        KH --> K1["兵器設計<br>大量破壊"]
+        KH --> K2["脆弱性情報<br>サイバー攻撃"]
+
+        CH --> C1["ミーム汚染<br>認知変容"]
+        CH --> C2["認知バイアス<br>判断力低下"]
+
+        AH --> A1["ストライサンド効果<br>注意の増幅"]
+
+        NH --> N1["社会規範の侵食<br>信頼の崩壊"]
+    end
+
+    style IH fill:#ffe4e1,stroke:#cd5c5c,stroke-width:2px
+    style DH fill:#e6f0fa,stroke:#4682b4
+    style KH fill:#f5e6cc,stroke:#b8860b
+    style CH fill:#f0e6fa,stroke:#8b4682
+    style AH fill:#e6fae6,stroke:#468246
+    style NH fill:#faf0e6,stroke:#8b6846
+      </pre></div>
+
+      <h2 id="fiction">フィクションにおける情報ハザード——黄衣の王、ネクロノミコン、SCP</h2>
+      <p>情報ハザードの概念がボストロムによって学術的に定式化される遥か以前から、フィクションは「知ること自体が危険」という主題を繰り返し探求してきた。</p>
+      <h3 id="king-in-yellow">『黄衣の王』——テクスト型情報ハザードの原型</h3>
+      <p><a href="the-king-in-yellow.html">ロバート・W・チェンバーズの架空の戯曲『黄衣の王』</a>（1895年）は、情報ハザードの文学的原型として最も重要な作品である。この戯曲は第1幕が一見無害でありながら、第2幕を読んだ者は例外なく絶望と狂気に蝕まれるという構造を持つ。ボストロムの分類に照らせば、これは認知ハザードの純粋形態——情報の内容を理解する行為そのものが精神に不可逆的損傷を与える——の完全な具現化である。</p>
+      <p>さらに<a href="yellow-sign.html">黄の印</a>は、テクストではなく視覚記号として同等の機能を果たす。言語的理解を経由せず、知覚だけで精神に作用するという点で、データ・ハザード（記号の存在そのものが害をなす）と認知ハザード（知覚が認知を変容させる）の中間形態と位置づけられる。</p>
+      <h3 id="necronomicon">ネクロノミコン——知識ハザードとしての魔導書</h3>
+      <p><a href="necronomicon.html">ネクロノミコン</a>は、チェンバーズの戯曲とは異なるベクトルで情報ハザードを体現する。ネクロノミコンに記された知識——旧支配者の存在、宇宙の真の構造、人類の宇宙的無意味さ——を「理解すること」が狂気を引き起こす。これは知識ハザード（禁断の宇宙論的知識）と認知ハザード（理解による精神変容）の複合型である。ラヴクラフトの<a href="cosmic-horror.html">コズミック・ホラー</a>体系全体が、「人間が知るべきでない真実」という巨大な情報ハザードの寓話として読み解ける。</p>
+      <h3 id="scp">SCPファウンデーション——情報ハザードの分類学</h3>
+      <p><a href="scp-foundation.html">SCPファウンデーション</a>の共同創作プロジェクトは、情報ハザードの概念をフィクションの文脈で最も精緻に分類した。認知災害（cognitohazard）、ミーム災害（memetic hazard）、情報災害（infohazard）という三層構造は、ボストロムの類型論と独立に発展しながらも、驚くべき理論的対応を示している。SCPの収容プロトコルにおける「情報へのアクセス制限」は、現実の情報セキュリティにおける「アクセス制御」の直接的な類似物であり、フィクションと現実の情報ハザード対策が構造的に等価であることを示している。</p>
+
+      <h2 id="rokos-basilisk">ロコのバシリスクと現代の情報ハザード論争</h2>
+      <p>2010年、合理主義コミュニティ「LessWrong」にユーザー「Roko」が投稿した思考実験「ロコのバシリスク」は、情報ハザードの概念がフィクションの外で実演された最も有名な事例である。</p>
+      <p>ロコのバシリスクの論理構造は以下の通りである。将来、十分に強力な人工超知能が誕生した場合、そのAIは自身の誕生を積極的に支援しなかった人間を遡及的に罰する合理的な動機を持ちうる。この思考実験を<b>知ってしまった</b>人間は、超知性AIの実現を支援しなければ将来罰される可能性を認識するため、知る前にはなかった実存的脅威と行動義務が発生する。つまり、この概念を知ること自体が害をなす——情報ハザードの完全な実例である。</p>
+      <p>LessWrongの創設者エリエザー・ユドコウスキーは、この投稿を検閲し議論を禁止するという異例の措置をとった。これは情報ハザードへの対処としての「情報のアクセス制限」であり、<a href="scp-foundation.html">SCPファウンデーション</a>の収容プロトコルや、<a href="forbidden-books.html">禁断の書物</a>の歴史における禁書目録と構造的に同型である。しかし皮肉なことに、検閲行為自体がストライサンド効果を引き起こし、概念をさらに広く拡散させた——ボストロムの分類でいう「注意ハザード」の典型例でもある。</p>
+      <p>ロコのバシリスクの哲学的妥当性については多くの批判がある。ティモシー・クイネスの決定理論分析やポール・クリステアーノの反論などが代表的だが、ここで重要なのは論証の妥当性ではなく、「知ること自体が害をなす」という構造が現実の合理主義コミュニティに実際の心理的影響を与えたという事実である。チェンバーズの<a href="the-king-in-yellow.html">『黄衣の王』</a>が描いた「読むと狂気に陥る戯曲」の構造が、120年後に——規模と深刻度は縮小されながらも——現実世界で反復されたのである。</p>
+
+      <div class="mermaid-container"><pre class="mermaid">
+flowchart LR
+    subgraph "フィクション"
+        A["『黄衣の王』1895<br>読む → 狂気"]
+        B["ネクロノミコン 1924<br>理解する → 狂気"]
+        C["SCP 2007<br>知覚/理解 → 災害"]
+    end
+    subgraph "現実"
+        D["核兵器設計情報<br>知識ハザード"]
+        E["ロコのバシリスク 2010<br>知る → 実存的脅威"]
+        F["ボストロム論文 2011<br>学術的体系化"]
+        G["AI安全性研究<br>アラインメント問題"]
+    end
+
+    A --> |"影響"| B
+    B --> |"影響"| C
+    A --> |"構造的同型"| E
+    C --> |"理論的対応"| F
+    E --> |"契機"| F
+    F --> |"拡張"| G
+    D --> |"事例"| F
+
+    style A fill:#f5e6cc,stroke:#b8860b
+    style B fill:#f5e6cc,stroke:#b8860b
+    style C fill:#e6f0fa,stroke:#4682b4
+    style D fill:#ffe4e1,stroke:#cd5c5c
+    style E fill:#f0e6fa,stroke:#8b4682
+    style F fill:#e6fae6,stroke:#468246
+    style G fill:#e6fae6,stroke:#468246
+      </pre></div>
+
+      <h2 id="ai-alignment">AI時代の情報ハザード——アラインメント問題との交差</h2>
+      <p>情報ハザードの議論は、AI安全性研究（AI safety）の領域で新たな緊急性を帯びている。大規模言語モデル（LLM）の急速な発展は、情報ハザードの三つの類型すべてを同時に加速させている。</p>
+      <h3 id="llm-infohazard">LLMと知識ハザードの増幅</h3>
+      <p>大規模言語モデルは、従来であれば専門的な訓練を必要とした危険知識へのアクセス障壁を劇的に引き下げる可能性がある。生物兵器の設計、サイバー攻撃の手法、化学兵器の合成手順——これらの知識ハザードは、かつては専門書や学術論文という「アクセス制御」によって部分的に封じ込められていた。LLMがこれらの知識を平易な言語で提供できるとすれば、知識ハザードの「封じ込め」は原理的に困難になる。</p>
+      <h3 id="alignment">アラインメント問題と情報ハザード</h3>
+      <p>AIアラインメント問題——AIシステムの目標や行動を人間の価値観と整合させる問題——は、情報ハザードと深く交差する。第一に、アラインメント研究の成果そのもが情報ハザードとなりうる。AIの制御を回避する方法や、安全装置を無効化する手法の研究は、防御的な目的で行われるとしても、攻撃者に転用される可能性がある。第二に、高度に能力の高いAIシステムは、人間が「知るべきでない」情報を自律的に生成・流通させる能力を持ちうる。これは<a href="necronomicon.html">ネクロノミコン</a>が自ら読者を見つけて知識を植え付けるという、ラヴクラフトですら想像しなかった事態に相当する。</p>
+      <h3 id="governance">情報ハザード・ガバナンスの課題</h3>
+      <p>AI時代の情報ハザード・ガバナンスは、複数の根本的な緊張関係を孕んでいる。学術研究の自由とデュアルユースリスクの管理、情報の透明性とセキュリティ、オープンソースAIの民主化と悪用防止——これらの二律背反は、ボストロムが提起した「知る権利と知られることの危険」の問いが、AI技術の文脈で具体的かつ切迫した政策課題となったものである。</p>
+      <p>2023年以降、主要AI研究機関は情報ハザードを理由とした選択的開示（selective disclosure）の方針を採用し始めている。モデルの能力評価を公表する一方で、危険な能力の具体的な引き出し方は非公開とするという方針は、SCPファウンデーションの「収容プロトコル」——オブジェクトの存在は記録するが、起動方法は制限する——と構造的に同型である。フィクションが考案した情報管理の枠組みが、現実のAIガバナンスに直接的な示唆を与えているのは、<a href="mimetic-hazard.html">ミーム汚染</a>の系譜における最も鮮やかな越境事例のひとつである。</p>
+    </main>
+
+    <aside class="wiki-sidebar">
+      <div class="toc">
+        <div class="toc-title">目次</div>
+        <ul class="toc-list">
+          <li><a href="#definition">情報ハザードの定義</a></li>
+          <li><a href="#typology">情報ハザードの類型</a></li>
+          <li class="toc-h3"><a href="#data-hazard">データ・ハザード</a></li>
+          <li class="toc-h3"><a href="#knowledge-hazard">知識ハザード</a></li>
+          <li class="toc-h3"><a href="#cognitive-hazard">認知ハザード</a></li>
+          <li><a href="#fiction">フィクションにおける情報ハザード</a></li>
+          <li class="toc-h3"><a href="#king-in-yellow">『黄衣の王』</a></li>
+          <li class="toc-h3"><a href="#necronomicon">ネクロノミコン</a></li>
+          <li class="toc-h3"><a href="#scp">SCPファウンデーション</a></li>
+          <li><a href="#rokos-basilisk">ロコのバシリスクと情報ハザード論争</a></li>
+          <li><a href="#ai-alignment">AI時代の情報ハザード</a></li>
+          <li class="toc-h3"><a href="#llm-infohazard">LLMと知識ハザード</a></li>
+          <li class="toc-h3"><a href="#alignment">アラインメント問題</a></li>
+          <li class="toc-h3"><a href="#governance">ガバナンスの課題</a></li>
+        </ul>
+      </div>
+
+      <div class="related-articles">
+        <div class="related-title">関連記事</div>
+        <ul class="related-list">
+          <li><a href="mimetic-hazard.html">ミーム汚染</a></li>
+          <li><a href="the-king-in-yellow.html">黄衣の王 (戯曲)</a></li>
+          <li><a href="yellow-sign.html">黄の印</a></li>
+          <li><a href="necronomicon.html">ネクロノミコン</a></li>
+          <li><a href="scp-foundation.html">SCPファウンデーション</a></li>
+          <li><a href="forbidden-books.html">禁断の書物</a></li>
+          <li><a href="cosmic-horror.html">コズミック・ホラー</a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="wiki-footer">
+    <div class="footer-links">
+      <h4>リンク先</h4>
+      <ul><li><a href="mimetic-hazard.html">ミーム汚染</a></li><li><a href="the-king-in-yellow.html">黄衣の王 (戯曲)</a></li><li><a href="yellow-sign.html">黄の印</a></li><li><a href="necronomicon.html">ネクロノミコン</a></li><li><a href="scp-foundation.html">SCPファウンデーション</a></li><li><a href="forbidden-books.html">禁断の書物</a></li><li><a href="cosmic-horror.html">コズミック・ホラー</a></li></ul>
+      <h4>被リンク</h4>
+      <ul><li><a href="mimetic-hazard.html">ミーム汚染</a></li></ul>
+    </div>
+    <p style="margin-top:12px;">Auto-Wiki で自動生成</p>
+  </footer>
+</div>
+</body>
+</html>
