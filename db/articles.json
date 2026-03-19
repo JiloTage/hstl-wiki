@@ -7,7 +7,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["robert-w-chambers", "hastur", "carcosa", "yellow-sign", "cthulhu-mythos", "hp-lovecraft", "mimetic-hazard"],
-      "linked_from": ["robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror"],
+      "linked_from": ["robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror", "devils-dictionary", "pallid-mask", "scp-foundation"],
       "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。",
       "expansion_status": "done",
       "origin": "root"
@@ -19,7 +19,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "hastur", "carcosa", "yellow-sign", "cthulhu-mythos", "hp-lovecraft", "weird-fiction", "fin-de-siecle"],
-      "linked_from": ["the-king-in-yellow", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "true-detective", "cosmic-horror"],
+      "linked_from": ["the-king-in-yellow", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "true-detective", "cosmic-horror", "devils-dictionary", "pallid-mask"],
       "summary": "ロバート・ウィリアム・チェンバーズ（1865-1933）は、アメリカの画家・小説家。初期の怪奇短編集『黄衣の王』（1895年）でウィアード・フィクション史に不朽の足跡を残したが、その後は大衆ロマンス小説の量産作家として知られた。",
       "expansion_status": "complete",
       "origin": "the-king-in-yellow"
@@ -31,7 +31,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "robert-w-chambers", "carcosa", "hp-lovecraft", "cthulhu-mythos", "yellow-sign", "ambrose-bierce", "august-derleth"],
-      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror"],
+      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror", "pallid-mask"],
       "summary": "アンブローズ・ビアスの短編に端を発し、チェンバーズ、ラヴクラフト、ダーレスらによって変容を重ねた多義的な名称。牧神から宇宙的恐怖の神格へと、一世紀以上にわたり意味を増殖させ続けている。",
       "expansion_status": "complete",
       "origin": "the-king-in-yellow"
@@ -43,7 +43,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "ambrose-bierce", "hp-lovecraft", "cthulhu-mythos", "true-detective", "fictional-cities"],
-      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "true-detective", "cosmic-horror"],
+      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "true-detective", "cosmic-horror", "pallid-mask"],
       "summary": "アメリカ怪奇文学に繰り返し登場する架空の都市。アンブローズ・ビアスが創造し、ロバート・W・チェンバーズが『黄衣の王』で神秘的な異界として発展させ、クトゥルフ神話やHBOドラマ『トゥルー・ディテクティブ』にまで影響を及ぼした。",
       "expansion_status": "complete",
       "origin": "the-king-in-yellow"
@@ -55,7 +55,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "hp-lovecraft", "cthulhu-mythos", "devils-dictionary", "american-civil-war-literature"],
-      "linked_from": ["hastur", "carcosa", "hp-lovecraft", "cthulhu-mythos", "cosmic-horror"],
+      "linked_from": ["hastur", "carcosa", "hp-lovecraft", "cthulhu-mythos", "cosmic-horror", "devils-dictionary"],
       "summary": "アンブローズ・グウィネット・ビアス（1842-1914?）は、アメリカの作家・ジャーナリスト。南北戦争の従軍体験に基づく戦争文学、『悪魔の辞典』、怪奇短編群で知られる。『カルコサの住人』と『羊飼いハイタ』で創造した「カルコサ」と「ハスター」の名は、チェンバーズを経てクトゥルフ神話の基盤となった。1913年メキシコで消息を絶った。",
       "expansion_status": "complete",
       "origin": "carcosa"
@@ -67,7 +67,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "mimetic-hazard", "cthulhu-mythos", "hp-lovecraft", "pallid-mask", "necronomicon"],
-      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon"],
+      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "hp-lovecraft", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "pallid-mask", "scp-foundation"],
       "summary": "『黄衣の王』の戯曲と不可分に結びついた紋章的記号。その正確な形状は描写されないが、目撃した者を戯曲の影響下に引き込み、精神を不可逆的に変容させるとされる。情報そのものが災厄となる「認知汚染」の原型的モチーフとして、文学・ゲーム・現代ポップカルチャーに広く浸透している。",
       "expansion_status": "complete",
       "origin": "the-king-in-yellow"
@@ -79,7 +79,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "hp-lovecraft", "cthulhu-mythos", "cosmic-horror", "gothic-fiction", "new-weird"],
-      "linked_from": ["robert-w-chambers", "hp-lovecraft", "cthulhu-mythos", "cosmic-horror"],
+      "linked_from": ["robert-w-chambers", "hp-lovecraft", "cthulhu-mythos", "cosmic-horror", "gothic-fiction"],
       "summary": "ウィアード・フィクション（Weird Fiction）は、恐怖、畏怖、宇宙的不安を核とする文学ジャンル。ホラー、ファンタジー、SFの境界を横断し、人間の認識を超えた「異質なもの」との遭遇を描く。ゴシック小説から派生し、ラヴクラフトにより理論的に確立された。",
       "expansion_status": "complete",
       "origin": "robert-w-chambers"
@@ -91,7 +91,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "yellow-sign", "robert-w-chambers", "hastur", "carcosa", "hp-lovecraft", "cthulhu-mythos", "necronomicon", "scp-foundation", "infohazard"],
-      "linked_from": ["the-king-in-yellow", "yellow-sign", "necronomicon", "cosmic-horror"],
+      "linked_from": ["the-king-in-yellow", "yellow-sign", "necronomicon", "cosmic-horror", "scp-foundation"],
       "summary": "ミーム汚染（memetic hazard / cognitohazard）とは、特定の情報・記号・概念に接触すること自体が認知的・心理的な危害を引き起こすという概念。怪奇文学における「読むだけで狂気に陥る書物」から、現代の情報セキュリティにおける「情報ハザード」まで、フィクションと現実を横断する射程を持つ。",
       "expansion_status": "complete",
       "origin": "yellow-sign"
@@ -103,7 +103,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "cthulhu-mythos", "cosmic-horror", "august-derleth", "necronomicon", "arkham"],
-      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror"],
+      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "cthulhu-mythos", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror", "scp-foundation"],
       "summary": "ハワード・フィリップス・ラヴクラフト（1890-1937）は、アメリカの怪奇小説家。コズミック・ホラーの概念を確立し、クトゥルフ神話体系を創造した。20世紀怪奇文学最大の巨人。",
       "expansion_status": "complete",
       "origin": "the-king-in-yellow"
@@ -115,7 +115,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "hp-lovecraft", "august-derleth", "necronomicon", "great-old-ones", "call-of-cthulhu-trpg"],
-      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror"],
+      "linked_from": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "ambrose-bierce", "yellow-sign", "weird-fiction", "mimetic-hazard", "necronomicon", "true-detective", "cosmic-horror", "scp-foundation"],
       "summary": "H・P・ラヴクラフトの作品群を核として複数の作家が共同で構築した架空の神話体系。ダーレスによる体系化を経て、TRPGやメディア展開を通じて世界的な文化現象となった。チェンバーズのハスターやカルコサを取り込みながら拡張された共有世界。",
       "expansion_status": "complete",
       "origin": "hastur"
@@ -127,7 +127,7 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "hp-lovecraft", "cthulhu-mythos", "yellow-sign", "hastur", "mimetic-hazard", "great-old-ones", "arkham", "forbidden-books"],
-      "linked_from": ["yellow-sign", "cthulhu-mythos", "mimetic-hazard", "hp-lovecraft"],
+      "linked_from": ["yellow-sign", "cthulhu-mythos", "mimetic-hazard", "hp-lovecraft", "scp-foundation"],
       "summary": "H・P・ラヴクラフトが創造した架空の魔道書。「狂えるアラブ人」アブドゥル・アルハズレッドが著したとされ、クトゥルフ神話作品群において禁断の知識の象徴として機能する。チェンバーズの『黄衣の王』と構造的に共鳴する「読むこと自体が危険な書物」の頂点。",
       "expansion_status": "complete",
       "origin": "yellow-sign"
@@ -151,12 +151,84 @@
       "created_at": "2026-03-19T00:00:00+09:00",
       "updated_at": "2026-03-19T00:00:00+09:00",
       "links_to": ["the-king-in-yellow", "robert-w-chambers", "hastur", "carcosa", "hp-lovecraft", "cthulhu-mythos", "weird-fiction", "ambrose-bierce", "mimetic-hazard", "gothic-fiction", "new-weird", "existential-horror"],
-      "linked_from": ["weird-fiction", "hp-lovecraft", "true-detective"],
+      "linked_from": ["weird-fiction", "hp-lovecraft", "true-detective", "gothic-fiction", "pallid-mask", "scp-foundation"],
       "summary": "コズミック・ホラー（Cosmic Horror）は、広大な宇宙における人間の存在論的矮小さと無意味さに起因する恐怖を核とする文学・芸術の様式。ラヴクラフトが理論化した宇宙的無関心主義を思想的基盤とし、ウィアード・フィクションの中核的サブジャンルとして文学・映画・ゲームに広く浸透している。",
       "expansion_status": "complete",
       "origin": "weird-fiction"
+    },
+    "fin-de-siecle": {
+      "id": "fin-de-siecle",
+      "title": "世紀末芸術",
+      "filename": "articles/fin-de-siecle.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["robert-w-chambers", "the-king-in-yellow", "weird-fiction", "gothic-fiction", "cosmic-horror", "hp-lovecraft", "cthulhu-mythos", "oscar-wilde", "symbolism", "carcosa"],
+      "linked_from": ["robert-w-chambers"],
+      "summary": "世紀末芸術（フィン・ド・シエクル）とは、19世紀末のヨーロッパを中心に花開いた芸術・文学・思想の総称。象徴主義、退廃主義、唯美主義を主要な潮流とし、チェンバーズの『黄衣の王』の退廃的世界観に直接的な影響を与えた。",
+      "expansion_status": "complete",
+      "origin": "robert-w-chambers"
+    },
+    "devils-dictionary": {
+      "id": "devils-dictionary",
+      "title": "悪魔の辞典",
+      "filename": "articles/devils-dictionary.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["ambrose-bierce", "robert-w-chambers", "the-king-in-yellow", "american-satire"],
+      "linked_from": ["ambrose-bierce"],
+      "summary": "『悪魔の辞典』（The Devil's Dictionary, 1906/1911）は、アンブローズ・ビアスが四半世紀にわたり新聞コラムとして連載し書籍化した風刺辞典。辞書形式を借りて人間社会のあらゆる制度・慣習を毒舌で再定義するアメリカ風刺文学の最高傑作のひとつ。",
+      "expansion_status": "complete",
+      "origin": "ambrose-bierce"
+    },
+    "gothic-fiction": {
+      "id": "gothic-fiction",
+      "title": "ゴシック小説",
+      "filename": "articles/gothic-fiction.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["weird-fiction", "cosmic-horror", "hp-lovecraft", "ambrose-bierce", "robert-w-chambers", "the-king-in-yellow", "fin-de-siecle", "southern-gothic", "frankenstein"],
+      "linked_from": ["weird-fiction", "cosmic-horror"],
+      "summary": "ゴシック小説（Gothic Fiction）は、18世紀後半の英国に端を発する文学ジャンル。ウォルポール『オトラント城奇譚』（1764年）を嚆矢として、ラドクリフ、ルイス、シェリー、ストーカーらが発展させ、ポーやル・ファニュを経てウィアード・フィクションやコズミック・ホラーへと分岐した。",
+      "expansion_status": "complete",
+      "origin": "weird-fiction"
+    },
+    "pallid-mask": {
+      "id": "pallid-mask",
+      "title": "蒼白の仮面",
+      "filename": "articles/pallid-mask.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["the-king-in-yellow", "robert-w-chambers", "yellow-sign", "hastur", "carcosa", "cosmic-horror", "masquerade-motif"],
+      "linked_from": ["yellow-sign", "the-king-in-yellow"],
+      "summary": "「蒼白の仮面」（The Pallid Mask）は、チェンバーズの戯曲『黄衣の王』に登場する象徴的モチーフ。仮面舞踏会における「仮面などつけてはおらぬ」の台詞が体現する存在論的恐怖は、外見と本質の不可分性をめぐるコズミック・ホラーの核心を衝くものである。",
+      "expansion_status": "complete",
+      "origin": "yellow-sign"
+    },
+    "august-derleth": {
+      "id": "august-derleth",
+      "title": "オーガスト・ダーレス",
+      "filename": "articles/august-derleth.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["hastur", "cthulhu-mythos", "hp-lovecraft", "the-king-in-yellow", "robert-w-chambers", "necronomicon", "carcosa", "great-old-ones", "arkham-house"],
+      "linked_from": ["hastur", "cthulhu-mythos", "hp-lovecraft"],
+      "summary": "オーガスト・ウィリアム・ダーレス（1909-1971）は、アメリカの作家・編集者・出版人。ラヴクラフトの弟子としてアーカム・ハウス出版社を設立し、散逸の危機にあった師の作品を救済した。一方でクトゥルフ神話に元素体系と善悪二元論を導入し、ハスターを旧支配者として体系化するなど、神話の保存と改変の両面で決定的な役割を果たした。",
+      "expansion_status": "complete",
+      "origin": "hastur"
+    },
+    "scp-foundation": {
+      "id": "scp-foundation",
+      "title": "SCPファウンデーション",
+      "filename": "articles/scp-foundation.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": ["mimetic-hazard", "cthulhu-mythos", "hp-lovecraft", "the-king-in-yellow", "yellow-sign", "cosmic-horror", "necronomicon", "collaborative-fiction"],
+      "linked_from": ["mimetic-hazard"],
+      "summary": "SCPファウンデーション（SCP Foundation）は、2007年に英語圏のインターネット掲示板から生まれた共同創作型ホラーフィクション・プロジェクト。超常的存在やオブジェクトを収容する架空の秘密組織を舞台に、疑似科学的報告書の形式でコズミック・ホラーの伝統をインターネット時代に再構築した。",
+      "expansion_status": "complete",
+      "origin": "mimetic-hazard"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 13
+  "total_count": 19
 }

@@ -1,30 +1,6 @@
 {
   "queue": [
     {
-      "proposed_slug": "necronomicon",
-      "proposed_title": "ネクロノミコン",
-      "source_id": "yellow-sign",
-      "rationale": "ラヴクラフトが創造した架空の魔道書。黄衣の王と並ぶ「読むと狂気に陥る書物」の系譜における最重要作品。",
-      "interestingness_score": 0.88,
-      "status": "queued"
-    },
-    {
-      "proposed_slug": "cosmic-horror",
-      "proposed_title": "コズミック・ホラー",
-      "source_id": "weird-fiction",
-      "rationale": "ラヴクラフトが確立した宇宙的恐怖の概念。ウィアード・フィクションの中核的サブジャンル。",
-      "interestingness_score": 0.88,
-      "status": "queued"
-    },
-    {
-      "proposed_slug": "true-detective",
-      "proposed_title": "トゥルー・ディテクティブ",
-      "source_id": "carcosa",
-      "rationale": "HBOドラマ第1シーズン（2014年）がチェンバーズのモチーフを現代に移植。",
-      "interestingness_score": 0.85,
-      "status": "queued"
-    },
-    {
       "proposed_slug": "fin-de-siecle",
       "proposed_title": "世紀末芸術",
       "source_id": "robert-w-chambers",
@@ -68,7 +44,7 @@
       "proposed_slug": "august-derleth",
       "proposed_title": "オーガスト・ダーレス",
       "source_id": "hastur",
-      "rationale": "ラヴクラフト死後にクトゥルフ神話を体系化した人物。",
+      "rationale": "クトゥルフ神話を体系化した人物。",
       "interestingness_score": 0.82,
       "status": "queued"
     },
@@ -84,7 +60,7 @@
       "proposed_slug": "metafiction",
       "proposed_title": "メタフィクション",
       "source_id": "robert-w-chambers",
-      "rationale": "黄衣の王の「読めない書物」構造はメタフィクションの先駆的事例。",
+      "rationale": "黄衣の王の「読めない書物」構造の先駆。",
       "interestingness_score": 0.82,
       "status": "queued"
     },
@@ -92,7 +68,7 @@
       "proposed_slug": "new-weird",
       "proposed_title": "ニュー・ウィアード",
       "source_id": "weird-fiction",
-      "rationale": "21世紀のウィアード・フィクション再興運動。",
+      "rationale": "21世紀のウィアード・フィクション再興。",
       "interestingness_score": 0.82,
       "status": "queued"
     },
@@ -108,7 +84,7 @@
       "proposed_slug": "arkham",
       "proposed_title": "アーカム",
       "source_id": "hp-lovecraft",
-      "rationale": "ラヴクラフトが創造した架空の町。ミスカトニック大学の所在地。",
+      "rationale": "ラヴクラフトの架空の町。",
       "interestingness_score": 0.80,
       "status": "queued"
     },
@@ -124,16 +100,40 @@
       "proposed_slug": "american-civil-war-literature",
       "proposed_title": "南北戦争文学",
       "source_id": "ambrose-bierce",
-      "rationale": "ビアスの従軍体験がアメリカ文学のリアリズムを形成した系譜。",
+      "rationale": "ビアスの従軍体験とアメリカ文学。",
       "interestingness_score": 0.80,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "forbidden-books",
+      "proposed_title": "禁断の書物",
+      "source_id": "necronomicon",
+      "rationale": "架空の危険な書物の文学的系譜。",
+      "interestingness_score": 0.80,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "existential-horror",
+      "proposed_title": "実存的恐怖",
+      "source_id": "cosmic-horror",
+      "rationale": "コズミック・ホラーの哲学的基盤。",
+      "interestingness_score": 0.78,
       "status": "queued"
     },
     {
       "proposed_slug": "infohazard",
       "proposed_title": "情報ハザード",
       "source_id": "mimetic-hazard",
-      "rationale": "ニック・ボストロムが提唱した概念。知ること自体が危険な情報の分類。",
+      "rationale": "ボストロムの概念。知ること自体が危険な情報。",
       "interestingness_score": 0.78,
+      "status": "queued"
+    },
+    {
+      "proposed_slug": "southern-gothic",
+      "proposed_title": "サザン・ゴシック",
+      "source_id": "true-detective",
+      "rationale": "アメリカ南部のゴシック文学伝統。",
+      "interestingness_score": 0.75,
       "status": "queued"
     }
   ],
@@ -146,6 +146,9 @@
     {"proposed_slug": "yellow-sign", "status": "completed"},
     {"proposed_slug": "hp-lovecraft", "status": "completed"},
     {"proposed_slug": "cthulhu-mythos", "status": "completed"},
-    {"proposed_slug": "mimetic-hazard", "status": "completed"}
+    {"proposed_slug": "mimetic-hazard", "status": "completed"},
+    {"proposed_slug": "necronomicon", "status": "completed"},
+    {"proposed_slug": "cosmic-horror", "status": "completed"},
+    {"proposed_slug": "true-detective", "status": "completed"}
   ]
 }
