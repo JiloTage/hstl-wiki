@@ -1063,8 +1063,91 @@
       "summary": "正気度システム（Sanity System）とは、クトゥルフの呼び声TRPGにおいて導入された、キャラクターの精神的健全さを数値化し管理するゲームメカニクス。SAN値の概念はTRPG史上最も影響力のあるメカニクスのひとつとなった。",
       "expansion_status": "pending",
       "origin": "call-of-cthulhu-trpg"
+    },
+    "azathoth": {
+      "id": "azathoth",
+      "title": "アザトース",
+      "filename": "articles/azathoth.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "outer-gods",
+        "cthulhu-mythos",
+        "hp-lovecraft",
+        "nyarlathotep",
+        "cosmic-horror",
+        "necronomicon",
+        "great-old-ones",
+        "call-of-cthulhu-trpg",
+        "august-derleth",
+        "existential-horror"
+      ],
+      "linked_from": [
+        "outer-gods"
+      ],
+      "summary": "アザトース（Azathoth）は、クトゥルフ神話体系において外なる神々の頂点に位置する究極の存在。「盲目にして白痴の核心」と称され、宇宙の中心で蠢く原初の混沌として描かれる。宇宙的無関心主義の最も純粋な体現。",
+      "expansion_status": "pending",
+      "origin": "outer-gods"
+    },
+    "yog-sothoth": {
+      "id": "yog-sothoth",
+      "title": "ヨグ=ソトース",
+      "filename": "articles/yog-sothoth.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "outer-gods",
+        "cthulhu-mythos",
+        "hp-lovecraft",
+        "nyarlathotep",
+        "necronomicon",
+        "great-old-ones",
+        "cosmic-horror",
+        "miskatonic-university",
+        "call-of-cthulhu-trpg",
+        "august-derleth",
+        "forbidden-books",
+        "sanity-mechanics",
+        "the-king-in-yellow",
+        "mimetic-hazard",
+        "existential-horror"
+      ],
+      "linked_from": [
+        "outer-gods"
+      ],
+      "summary": "ヨグ=ソトース（Yog-Sothoth）は、外なる神々の一柱であり「門にして鍵」の異名で知られる超越的存在。時空間のあらゆる点に遍在し、次元の境界そのものを体現する。禁断の知識の源泉として認識論的恐怖の究極的表現。",
+      "expansion_status": "pending",
+      "origin": "outer-gods"
+    },
+    "death-of-the-author": {
+      "id": "death-of-the-author",
+      "title": "作者の死",
+      "filename": "articles/death-of-the-author.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "collaborative-fiction",
+        "metafiction",
+        "scp-foundation",
+        "the-king-in-yellow",
+        "house-of-leaves",
+        "hp-lovecraft",
+        "cthulhu-mythos",
+        "robert-w-chambers",
+        "forbidden-books",
+        "mimetic-hazard",
+        "yellow-sign",
+        "infohazard",
+        "cosmic-horror"
+      ],
+      "linked_from": [
+        "collaborative-fiction"
+      ],
+      "summary": "ロラン・バルトが1967年に発表した批評的宣言。テクストの意味を作者の意図に還元する近代的読解を否定し、意味の生成を読者に委ねるこの理論は、メタフィクション、共同創作、SCPの匿名的創作文化に至るまで決定的な影響を与えた。",
+      "expansion_status": "pending",
+      "origin": "collaborative-fiction"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 37
+  "total_count": 40
 }

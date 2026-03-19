@@ -258,6 +258,27 @@
       "url": "articles/sanity-mechanics.html",
       "summary": "クトゥルフの呼び声TRPGにおいて導入された、キャラクターの精神的健全さを数値化するゲームメカニクス。SAN値の概念はTRPG史上最も影響力のあるメカニクスのひとつ。",
       "is_root": false
+    },
+    {
+      "id": "azathoth",
+      "title": "アザトース",
+      "url": "articles/azathoth.html",
+      "summary": "外なる神々の頂点に位置する究極の存在。「盲目にして白痴の核心」と称され、宇宙的無関心主義の最も純粋な体現。",
+      "is_root": false
+    },
+    {
+      "id": "yog-sothoth",
+      "title": "ヨグ=ソトース",
+      "url": "articles/yog-sothoth.html",
+      "summary": "外なる神々の一柱。「門にして鍵」の異名で知られ、時空間のあらゆる点に遍在する超越的存在。禁断の知識の源泉。",
+      "is_root": false
+    },
+    {
+      "id": "death-of-the-author",
+      "title": "作者の死",
+      "url": "articles/death-of-the-author.html",
+      "summary": "ロラン・バルトの1967年の批評的宣言。テクストの意味を読者に委ねる理論は、共同創作やSCPの匿名的創作文化に決定的な影響を与えた。",
+      "is_root": false
     }
   ],
   "links": [
@@ -1421,6 +1442,47 @@
     {"source": "sanity-mechanics", "target": "infohazard"},
     {"source": "sanity-mechanics", "target": "existential-horror"},
     {"source": "sanity-mechanics", "target": "scp-foundation"},
-    {"source": "call-of-cthulhu-trpg", "target": "sanity-mechanics"}
+    {"source": "call-of-cthulhu-trpg", "target": "sanity-mechanics"},
+    {"source": "azathoth", "target": "outer-gods"},
+    {"source": "azathoth", "target": "cthulhu-mythos"},
+    {"source": "azathoth", "target": "hp-lovecraft"},
+    {"source": "azathoth", "target": "nyarlathotep"},
+    {"source": "azathoth", "target": "cosmic-horror"},
+    {"source": "azathoth", "target": "necronomicon"},
+    {"source": "azathoth", "target": "great-old-ones"},
+    {"source": "azathoth", "target": "call-of-cthulhu-trpg"},
+    {"source": "azathoth", "target": "august-derleth"},
+    {"source": "azathoth", "target": "existential-horror"},
+    {"source": "outer-gods", "target": "azathoth"},
+    {"source": "yog-sothoth", "target": "outer-gods"},
+    {"source": "yog-sothoth", "target": "cthulhu-mythos"},
+    {"source": "yog-sothoth", "target": "hp-lovecraft"},
+    {"source": "yog-sothoth", "target": "nyarlathotep"},
+    {"source": "yog-sothoth", "target": "necronomicon"},
+    {"source": "yog-sothoth", "target": "great-old-ones"},
+    {"source": "yog-sothoth", "target": "cosmic-horror"},
+    {"source": "yog-sothoth", "target": "miskatonic-university"},
+    {"source": "yog-sothoth", "target": "call-of-cthulhu-trpg"},
+    {"source": "yog-sothoth", "target": "august-derleth"},
+    {"source": "yog-sothoth", "target": "forbidden-books"},
+    {"source": "yog-sothoth", "target": "sanity-mechanics"},
+    {"source": "yog-sothoth", "target": "the-king-in-yellow"},
+    {"source": "yog-sothoth", "target": "mimetic-hazard"},
+    {"source": "yog-sothoth", "target": "existential-horror"},
+    {"source": "outer-gods", "target": "yog-sothoth"},
+    {"source": "death-of-the-author", "target": "collaborative-fiction"},
+    {"source": "death-of-the-author", "target": "metafiction"},
+    {"source": "death-of-the-author", "target": "scp-foundation"},
+    {"source": "death-of-the-author", "target": "the-king-in-yellow"},
+    {"source": "death-of-the-author", "target": "house-of-leaves"},
+    {"source": "death-of-the-author", "target": "hp-lovecraft"},
+    {"source": "death-of-the-author", "target": "cthulhu-mythos"},
+    {"source": "death-of-the-author", "target": "robert-w-chambers"},
+    {"source": "death-of-the-author", "target": "forbidden-books"},
+    {"source": "death-of-the-author", "target": "mimetic-hazard"},
+    {"source": "death-of-the-author", "target": "yellow-sign"},
+    {"source": "death-of-the-author", "target": "infohazard"},
+    {"source": "death-of-the-author", "target": "cosmic-horror"},
+    {"source": "collaborative-fiction", "target": "death-of-the-author"}
   ]
 }
