@@ -217,6 +217,27 @@
       "summary": "マーク・Z・ダニエレフスキーの長編小説（2000年）。内部が外部より大きい家を多層的ナラティブで描き、タイポグラフィ・脚注の迷宮を駆使したエルゴード文学の極北。『黄衣の王』の「読むと狂気に陥る書物」の構造をポストモダン的に再構築した。",
       "is_root": false
     }
+    ,{
+      "id": "arkham-house",
+      "title": "アーカム・ハウス",
+      "url": "articles/arkham-house.html",
+      "summary": "1939年にダーレスとワンドレイが設立した小出版社。ラヴクラフト作品の書籍化とウィアード・フィクションの正典形成に決定的な役割を果たした。",
+      "is_root": false
+    },
+    {
+      "id": "miskatonic-university",
+      "title": "ミスカトニック大学",
+      "url": "articles/miskatonic-university.html",
+      "summary": "H・P・ラヴクラフトが創造した架空の大学。アーカムに所在し、ネクロノミコン所蔵の図書館と南極探検隊で知られる。学問的探究が宇宙的恐怖への扉を開く「知識と破滅の不可分性」を象徴する機関。",
+      "is_root": false
+    },
+    {
+      "id": "nyarlathotep",
+      "title": "ナイアーラトテップ",
+      "url": "articles/nyarlathotep.html",
+      "summary": "クトゥルフ神話において「這い寄る混沌」の異名を持ち、千の化身を通じて人間社会に直接介入する唯一の宇宙的存在。外なる神々の使者として知性と悪意をもって人間を破滅に導く。",
+      "is_root": false
+    }
   ],
   "links": [
     {
@@ -1222,6 +1243,114 @@
     {
       "source": "metafiction",
       "target": "house-of-leaves"
+    },
+    {
+      "source": "arkham-house",
+      "target": "august-derleth"
+    },
+    {
+      "source": "arkham-house",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "arkham-house",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "arkham-house",
+      "target": "weird-fiction"
+    },
+    {
+      "source": "arkham-house",
+      "target": "necronomicon"
+    },
+    {
+      "source": "arkham-house",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "arkham-house",
+      "target": "arkham"
+    },
+    {
+      "source": "august-derleth",
+      "target": "arkham-house"
+    },
+    {
+      "source": "miskatonic-university",
+      "target": "arkham"
+    },
+    {
+      "source": "miskatonic-university",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "miskatonic-university",
+      "target": "necronomicon"
+    },
+    {
+      "source": "miskatonic-university",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "miskatonic-university",
+      "target": "great-old-ones"
+    },
+    {
+      "source": "miskatonic-university",
+      "target": "forbidden-books"
+    },
+    {
+      "source": "miskatonic-university",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "miskatonic-university",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "arkham",
+      "target": "miskatonic-university"
+    },
+    {
+      "source": "nyarlathotep",
+      "target": "great-old-ones"
+    },
+    {
+      "source": "nyarlathotep",
+      "target": "cthulhu-mythos"
+    },
+    {
+      "source": "nyarlathotep",
+      "target": "hp-lovecraft"
+    },
+    {
+      "source": "nyarlathotep",
+      "target": "hastur"
+    },
+    {
+      "source": "nyarlathotep",
+      "target": "the-king-in-yellow"
+    },
+    {
+      "source": "nyarlathotep",
+      "target": "necronomicon"
+    },
+    {
+      "source": "nyarlathotep",
+      "target": "call-of-cthulhu-trpg"
+    },
+    {
+      "source": "nyarlathotep",
+      "target": "cosmic-horror"
+    },
+    {
+      "source": "nyarlathotep",
+      "target": "august-derleth"
+    },
+    {
+      "source": "great-old-ones",
+      "target": "nyarlathotep"
     }
   ]
 }

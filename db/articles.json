@@ -37,7 +37,8 @@
         "fictional-cities",
         "southern-gothic",
         "american-civil-war-literature",
-        "house-of-leaves"
+        "house-of-leaves",
+        "nyarlathotep"
       ],
       "summary": "ロバート・W・チェンバーズの連作短編集に登場する架空の戯曲。読む者を狂気に陥れるとされ、コズミック・ホラー文学の源流のひとつとなった。",
       "expansion_status": "done",
@@ -114,7 +115,8 @@
         "cosmic-horror",
         "pallid-mask",
         "great-old-ones",
-        "american-civil-war-literature"
+        "american-civil-war-literature",
+        "nyarlathotep"
       ],
       "summary": "アンブローズ・ビアスの短編に端を発し、チェンバーズ、ラヴクラフト、ダーレスらによって変容を重ねた多義的な名称。牧神から宇宙的恐怖の神格へと、一世紀以上にわたり意味を増殖させ続けている。",
       "expansion_status": "complete",
@@ -319,7 +321,8 @@
         "forbidden-books",
         "great-old-ones",
         "fictional-cities",
-        "southern-gothic"
+        "southern-gothic",
+        "nyarlathotep"
       ],
       "summary": "ハワード・フィリップス・ラヴクラフト（1890-1937）は、アメリカの怪奇小説家。コズミック・ホラーの概念を確立し、クトゥルフ神話体系を創造した。20世紀怪奇文学最大の巨人。",
       "expansion_status": "complete",
@@ -359,7 +362,8 @@
         "cosmic-horror",
         "scp-foundation",
         "forbidden-books",
-        "great-old-ones"
+        "great-old-ones",
+        "nyarlathotep"
       ],
       "summary": "H・P・ラヴクラフトの作品群を核として複数の作家が共同で構築した架空の神話体系。ダーレスによる体系化を経て、TRPGやメディア展開を通じて世界的な文化現象となった。チェンバーズのハスターやカルコサを取り込みながら拡張された共有世界。",
       "expansion_status": "complete",
@@ -391,7 +395,8 @@
         "metafiction",
         "forbidden-books",
         "great-old-ones",
-        "house-of-leaves"
+        "house-of-leaves",
+        "nyarlathotep"
       ],
       "summary": "H・P・ラヴクラフトが創造した架空の魔道書。「狂えるアラブ人」アブドゥル・アルハズレッドが著したとされ、クトゥルフ神話作品群において禁断の知識の象徴として機能する。チェンバーズの『黄衣の王』と構造的に共鳴する「読むこと自体が危険な書物」の頂点。",
       "expansion_status": "complete",
@@ -450,7 +455,8 @@
         "scp-foundation",
         "great-old-ones",
         "southern-gothic",
-        "house-of-leaves"
+        "house-of-leaves",
+        "nyarlathotep"
       ],
       "summary": "コズミック・ホラー（Cosmic Horror）は、広大な宇宙における人間の存在論的矮小さと無意味さに起因する恐怖を核とする文学・芸術の様式。ラヴクラフトが理論化した宇宙的無関心主義を思想的基盤とし、ウィアード・フィクションの中核的サブジャンルとして文学・映画・ゲームに広く浸透している。",
       "expansion_status": "complete",
@@ -573,7 +579,8 @@
         "hastur",
         "cthulhu-mythos",
         "hp-lovecraft",
-        "great-old-ones"
+        "great-old-ones",
+        "nyarlathotep"
       ],
       "summary": "オーガスト・ウィリアム・ダーレス（1909-1971）は、アメリカの作家・編集者・出版人。ラヴクラフトの弟子としてアーカム・ハウス出版社を設立し、散逸の危機にあった師の作品を救済した。一方でクトゥルフ神話に元素体系と善悪二元論を導入し、ハスターを旧支配者として体系化するなど、神話の保存と改変の両面で決定的な役割を果たした。",
       "expansion_status": "complete",
@@ -622,7 +629,8 @@
       ],
       "linked_from": [
         "cthulhu-mythos",
-        "great-old-ones"
+        "great-old-ones",
+        "nyarlathotep"
       ],
       "summary": "『クトゥルフの呼び声』（Call of Cthulhu）は、1981年にケイオシアム社から発売されたテーブルトークRPG。サンディ・ピーターセンがデザインし、正気度（SAN値）システムの導入によりホラーTRPGというジャンルを確立した。日本では独自の受容と発展を遂げ、クトゥルフ神話の最大の伝播媒体となっている。",
       "expansion_status": "complete",
@@ -870,6 +878,28 @@
       "expansion_status": "complete",
       "origin": "metafiction"
     },
+    "arkham-house": {
+      "id": "arkham-house",
+      "title": "アーカム・ハウス",
+      "filename": "articles/arkham-house.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "august-derleth",
+        "hp-lovecraft",
+        "cthulhu-mythos",
+        "weird-fiction",
+        "necronomicon",
+        "the-king-in-yellow",
+        "arkham"
+      ],
+      "linked_from": [
+        "august-derleth"
+      ],
+      "summary": "アーカム・ハウス（Arkham House）は、1939年にオーガスト・ダーレスとドナルド・ワンドレイによって設立された小出版社。ラヴクラフトの散逸の危機にあった作品群を書籍化し、ウィアード・フィクションの正典形成に決定的な役割を果たした「ジャンル文学の殿堂」。",
+      "expansion_status": "complete",
+      "origin": "august-derleth"
+    },
     "infohazard": {
       "id": "infohazard",
       "title": "情報ハザード",
@@ -891,8 +921,57 @@
       "summary": "情報ハザード（Information Hazard）とは、真実の情報であっても、その流通・取得・理解が何らかの主体に害を与えうるという概念。哲学者ニック・ボストロムが2011年に体系化し、データ・ハザード、知識ハザード、認知ハザードなど複数の類型に分類した。フィクションにおける禁断の知識からAI安全性研究まで、現代技術倫理の核心的テーマ。",
       "expansion_status": "complete",
       "origin": "mimetic-hazard"
+    },
+    "miskatonic-university": {
+      "id": "miskatonic-university",
+      "title": "ミスカトニック大学",
+      "filename": "articles/miskatonic-university.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "arkham",
+        "hp-lovecraft",
+        "necronomicon",
+        "cthulhu-mythos",
+        "great-old-ones",
+        "forbidden-books",
+        "cosmic-horror",
+        "the-king-in-yellow"
+      ],
+      "linked_from": [
+        "arkham",
+        "necronomicon"
+      ],
+      "summary": "ミスカトニック大学（Miskatonic University）は、H・P・ラヴクラフトが創造した架空の大学。マサチューセッツ州アーカムに所在し、ネクロノミコンをはじめとする禁断の書物を所蔵する図書館と、『狂気の山脈にて』の南極探検隊で知られる。学問的探究が宇宙的恐怖への扉を開くという構造を体現し、クトゥルフ神話における「知識と破滅の不可分性」を象徴する機関。",
+      "expansion_status": "complete",
+      "origin": "arkham"
+    },
+    "nyarlathotep": {
+      "id": "nyarlathotep",
+      "title": "ナイアーラトテップ",
+      "filename": "articles/nyarlathotep.html",
+      "created_at": "2026-03-19T00:00:00+09:00",
+      "updated_at": "2026-03-19T00:00:00+09:00",
+      "links_to": [
+        "great-old-ones",
+        "cthulhu-mythos",
+        "hp-lovecraft",
+        "hastur",
+        "the-king-in-yellow",
+        "necronomicon",
+        "call-of-cthulhu-trpg",
+        "cosmic-horror",
+        "august-derleth"
+      ],
+      "linked_from": [
+        "great-old-ones",
+        "cthulhu-mythos"
+      ],
+      "summary": "ナイアーラトテップ（Nyarlathotep）は、クトゥルフ神話において「這い寄る混沌」の異名を持ち、千の化身を通じて人間社会に直接介入する唯一の宇宙的存在。ラヴクラフトが1920年の散文詩で創造し、外なる神々の使者として知性と悪意をもって人間を破滅に導く。TRPGにおいてはNPC化可能な唯一の神格として最も汎用性の高い存在である。",
+      "expansion_status": "complete",
+      "origin": "great-old-ones"
     }
   },
   "root_id": "the-king-in-yellow",
-  "total_count": 31
+  "total_count": 34
 }
